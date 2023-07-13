@@ -1,0 +1,91 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+## import library
+```{r}
+install.packages("ape")
+```
+
+```{r}
+install.packages("dplyr")
+```
+
+
+```{r}
+library(ape)
+library(dplyr)
+library(reshape2)
+```
+
+## Example of document
+```{r}
+data(gopher.D)
+
+print(gopher.D)
+```
+
+```{r}
+lice.D
+```
+
+
+```{r}
+data(lice.D)
+data(HP.links)
+print(HP.links)
+```
+```{r}
+parasite_matrix <- matrix(runif(9), nrow = 3)
+print(parasite_matrix)
+```
+
+```{r}
+res <- parafit(gopher.D, lice.D, HP.links, nperm=99, test.links=TRUE)
+res
+```
+```{r}
+parafit(host_matrix, parasite_matrix, host_parasite_matrix, nperm = 999, test.links = TRUE, seed = 123,
+        correction="none", silent = FALSE)
+```
+
+## with Our data
+
+```{r}
+df <- read.csv("batD.csv", sep =' ',header=FALSE)
+# Remove columns where all values are NA
+batD <- df %>% 
+  select(where(~!all(is.na(.))))
+batD
+```
+
+```{r}
+df2 <- read.csv("virusD.csv", sep =' ',header=FALSE)
+# Remove columns where all values are NA
+virusD <- df2 %>% 
+  select(where(~!all(is.na(.))))
+virusD
+```
+
+
+```{r}
+link <- read.csv("link.csv",header=TRUE,row.names = 1)
+link
+```
+
+```{r}
+link_m <- as.matrix(link)
+link_m
+```
+
+
+```{r}
+parafit(batD, virusD, link, nperm = 999, test.links = TRUE, seed = 123,
+        correction="cailliez", silent = FALSE)
+```
+
+
+
+
+
+

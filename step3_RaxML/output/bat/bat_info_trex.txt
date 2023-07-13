@@ -1,0 +1,66 @@
+
+You are using a proportion of Invariable sites estimate, although I don't
+like it. The likelihood epsilon "-f e" will be automatically lowered to 0.001
+to avoid unfavorable effects caused by simultaneous optimization of alpha and P-Invar
+
+
+This is RAxML version 7.2.6 released by Alexandros Stamatakis in February 2010.
+
+With greatly appreciated code contributions by:
+Andre Aberer (TUM)
+Simon Berger (TUM)
+John Cazes (TACC)
+Michael Ott (TUM)
+Nick Pattengale (UNM)
+Wayne Pfeiffer (SDSC)
+
+
+Alignment has 482 distinct alignment patterns
+
+Found 0 invariant alignment patterns that correspond to 0 columns 
+Proportion of gaps and completely undetermined characters in this alignment: 0.04%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA+P-Invar model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA+P-Invar Model parameters will be estimated up to an accuracy of 0.0010000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 482
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC -m GTRGAMMAI -f d -s inputRaxML.phy -n trex 
+
+
+Inference[0]: Time 15.059745 GAMMA+P-Invar-based likelihood -8160.212557, best rearrangement setting 5
+alpha[0]: 1.659203 invar[0]: 0.501653 rates[0] ac ag at cg ct gt: 1.002176 3.757869 0.364769 0.000017 5.366058 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -8150.998147 tree written to file /tmp/29ovk2hm4koutkndnnecv1g4i7_3_01_00_34/RAxML_result.trex
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -8150.998147 .... 
+
+Final GAMMA-based Score of best tree -8150.998147
+
+Program execution info written to /tmp/29ovk2hm4koutkndnnecv1g4i7_3_01_00_34/RAxML_info.trex
+Best-scoring ML tree written to: /tmp/29ovk2hm4koutkndnnecv1g4i7_3_01_00_34/RAxML_bestTree.trex
+
+Overall execution time: 28.745541 secs or 0.007985 hours or 0.000333 days
+
