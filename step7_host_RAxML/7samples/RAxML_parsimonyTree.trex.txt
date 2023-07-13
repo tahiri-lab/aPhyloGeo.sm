@@ -1,0 +1,1 @@
+(((HM134917.1_Rhinolophus_sinicus,KP972690.1_Rhinolophus_affinis),(ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis)),(ON640726.1_Miniopterus_magnater,AB085735.1_Miniopterus_fuliginosus),MZ936290.1_Rhinolophus_blasii);

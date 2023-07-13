@@ -1,0 +1,193 @@
+
+You are using a proportion of Invariable sites estimate, although I don't
+like it. The likelihood epsilon "-f e" will be automatically lowered to 0.001
+to avoid unfavorable effects caused by simultaneous optimization of alpha and P-Invar
+
+
+IMPORTANT WARNING: Sequences GU190215-MZ936290 and NC_014470-MZ936290 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ412043-KX261916 and DQ648857-KX261916 are exactly identical
+
+
+IMPORTANT WARNING: Sequences KJ473795-AB085735 and KJ473796-AB085735 are exactly identical
+
+
+IMPORTANT WARNING: Sequences KJ473795-AB085735 and KJ473797-AB085735 are exactly identical
+
+
+IMPORTANT WARNING: Sequences KJ473795-AB085735 and KJ473798-AB085735 are exactly identical
+
+
+IMPORTANT WARNING: Sequences KJ473795-AB085735 and KJ473799-AB085735 are exactly identical
+
+
+IMPORTANT WARNING: Sequences KJ473795-AB085735 and KJ473800-AB085735 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and DQ084199-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and DQ084200-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and FJ588686-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and GQ153539-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and GQ153540-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and GQ153541-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and GQ153542-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and GQ153543-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and GQ153544-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and GQ153545-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and GQ153546-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and GQ153547-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and GQ153548-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KC881005-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KF367457-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KJ473814-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KJ473815-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KJ473816-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KT444582-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KY770858-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KY770859-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KY417143-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KY417144-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KY417146-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KY417147-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KY417148-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KY417149-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KY417150-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KY417151-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KY417152-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and MG772933-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and MG772934-HM134917 are exactly identical
+
+
+IMPORTANT WARNING: Sequences DQ022305-HM134917 and KC881006-HM134917 are exactly identical
+
+IMPORTANT WARNING
+Found 40 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file inputRaxML.phy.reduced
+
+
+This is RAxML version 7.2.6 released by Alexandros Stamatakis in February 2010.
+
+With greatly appreciated code contributions by:
+Andre Aberer (TUM)
+Simon Berger (TUM)
+John Cazes (TACC)
+Michael Ott (TUM)
+Nick Pattengale (UNM)
+Wayne Pfeiffer (SDSC)
+
+
+Alignment has 171 distinct alignment patterns
+
+Found 0 invariant alignment patterns that correspond to 0 columns 
+Proportion of gaps and completely undetermined characters in this alignment: 0.03%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA+P-Invar model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA+P-Invar Model parameters will be estimated up to an accuracy of 0.0010000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 171
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC -m GTRGAMMAI -f d -s inputRaxML.phy -n trex 
+
+
+Inference[0]: Time 6.144661 GAMMA+P-Invar-based likelihood -3840.119031, best rearrangement setting 5
+alpha[0]: 9.217061 invar[0]: 0.620781 rates[0] ac ag at cg ct gt: 0.383274 4.231876 0.164056 0.000017 4.097932 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3831.932187 tree written to file /tmp/44bj71h3qb2m412gv20toj64s4_7_01_02_50/RAxML_result.trex
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3831.932187 .... 
+
+Final GAMMA-based Score of best tree -3831.932186
+
+Program execution info written to /tmp/44bj71h3qb2m412gv20toj64s4_7_01_02_50/RAxML_info.trex
+Best-scoring ML tree written to: /tmp/44bj71h3qb2m412gv20toj64s4_7_01_02_50/RAxML_bestTree.trex
+
+Overall execution time: 19.351015 secs or 0.005375 hours or 0.000224 days
+

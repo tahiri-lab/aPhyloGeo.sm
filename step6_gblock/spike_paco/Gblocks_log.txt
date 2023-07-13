@@ -1,0 +1,8 @@
+
+47 sequences and 1600 positions in the first alignment file:
+input.fasta
+
+input.fasta
+Original alignment: 1600 positions
+Gblocks alignment:  809 positions (50 %) in 23 selected block(s)
+
