@@ -1,0 +1,7 @@
+/step1_*
+/step2*
+/step6*
+/step8_relabel/*.fastas
+/step10_pipeline/host_alignment
+test*
+try*
