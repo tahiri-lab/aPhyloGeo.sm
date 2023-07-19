@@ -1,0 +1,4 @@
+Building DAG of jobs...
+WildcardError in line 71 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Wildcards in input files cannot be determined from output files:
+'position'

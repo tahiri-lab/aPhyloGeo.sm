@@ -1,0 +1,281 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(ggplot2)
+library(phangorn)
+library(dplyr)
+library(ggtree)
+library(treeio)
+library(tidyverse)
+library(ggraph)
+library(patchwork)
+```
+
+
+```{r}
+# Load tree Bat
+tree_bat<-read.newick("bat_besttree_withConfident.nwk",
+                  node.label = "support")
+#tree_bat <- read.tree('bat_besttree_withConfident.nwk')
+#tree_bat <- midpoint(tree_bat)
+
+tree_bat@data$support1<-ifelse(tree_bat@data$support<75,NA,tree_bat@data$support)
+
+t_bat <-ggtree(tree_bat)  + geom_tiplab(size = 3,  face = "bold", align = TRUE) + theme_tree2() + xlim(NA,3.5) + geom_text(aes(label=support1),hjust=-0.5,size = 3,face = "bold")
+t_bat
+
+```
+
+```{r}
+# Load tree Virus
+tree_virus<-read.newick("V_Best_tree_with_confidence.nwk",
+                  node.label = "support")
+#tree_virus <- read.tree('V_Best_tree_with_confidence.nwk')
+#tree_virus <- midpoint(tree_virus)
+
+tree_virus@data$support2<-ifelse(tree_virus@data$support<75,NA,tree_virus@data$support)
+
+t_v <-ggtree(tree_virus) + geom_tiplab(size = 3, hjust = 1, face = "bold", align = TRUE) + scale_x_reverse(limits = c(2, -0.5)) + ylim(NA,47)  + theme_tree2()  + geom_text(aes(label=support2),hjust=-0.3,size = 3,face = "bold", nudge_y = 0.5,  nudge_x = -0.01) 
+
+t_v 
+```
+
+
+
+
+
+## for saving
+```{r}
+ggtree(tree_virus) + geom_tiplab(size = 3, hjust = 1, face = "bold", align = TRUE) + scale_x_reverse(limits = c(2, -0.5)) + ylim(NA,47)  + theme_tree2()  + geom_text(aes(label=support2),hjust=-0.3,size = 3,face = "bold") + ggsave("V_tree.png", width = 12, height = 10, units = "in")
+```
+
+## Plot two phylogenetic trees face-to-face with links between the tips
+1. Read the Newick files and create tree objects:
+Read the two Newick files and create tree objects for each tree.
+
+```{r}
+
+tree_bat <- read.newick("bat_besttree_withConfident.nwk")
+tree_virus <- read.newick("V_Best_tree_with_confidence.nwk")
+```
+
+2. Prepare data for links between the trees
+
+```{r}
+df_link <- read.csv("association_69.csv", sep =',',header=TRUE)
+df_link
+
+```
+
+
+```{r}
+tree_virus$tip.label
+```
+
+```{r}
+tree_bat$tip.label
+```
+
+
+
+```{r}
+# Create the tree plot for tree1
+#tree_bat@data$support1<-ifelse(tree_bat@data$support<75,NA,tree_bat@data$support)
+
+plot_tree_bat <- ggtree(tree_bat) +
+  geom_tiplab(size = 3, hjust = -0.01, face = "bold", align = TRUE) +
+  theme_tree2()  + xlim(NA,2.5) + 
+  #geom_text(aes(label=support1),hjust=-0.5,size = 3,face = "bold") +
+  theme(legend.position = "none")
+plot_tree_bat
+
+```
+
+
+```{r}
+#tree_virus@data$support2<-ifelse(tree_virus@data$support<75,NA,tree_virus@data$support)
+
+plot_tree_virus2 <- ggtree(tree_virus) +
+  geom_tiplab(size = 3, hjust = 1, face = "bold", align = TRUE) + scale_x_reverse(limits = c(2.5, NA)) + ylim(NA,47)  +
+  theme_tree2() + 
+  #geom_text(aes(label=support2),hjust=-0.3,size = 3,face = "bold", nudge_y = 0.5,  nudge_x = -0.01) +
+  theme(legend.position = "none")
+
+plot_tree_virus2
+```
+
+
+```{r}
+# Create the sequence of values for the breaks
+x_breaks <- seq(3.0, -1, by = -0.5)
+
+# Plot the tree with the custom x-axis breaks
+plot_tree_virus <- ggtree(tree_virus) +
+  geom_tiplab(size = 3, hjust = 1, face = "bold", align = TRUE) +
+  scale_x_reverse(breaks = x_breaks, labels = x_breaks, limits = c(2.5, -1)) +
+  ylim(NA, 47) +
+  theme_tree2() +
+  #geom_text(aes(label = support2), hjust = -0.3, size = 3, face = "bold", nudge_y = 0.5, nudge_x = -0.01) +
+  theme(legend.position = "none")
+
+plot_tree_virus
+```
+
+
+
+
+```{r}
+# Create the plot with links between the tips
+combined_plot <- plot_tree_bat +
+  plot_tree_virus 
+  #geom_segment(data = df_link, aes(x = Host, xend = Virus, y = Host, yend = Virus), color = "blue", alpha = 0.5)
+ 
+combined_plot
+```
+
+
+
+```{r}
+# Save the combined plot
+ggsave("combined_trees.png", combined_plot, width = 20, height = 12, units = "in")
+```
+
+
+# Try
+```{r}
+link <- cbind(df_link$Host, df_link$Virus)
+link
+```
+
+```{r}
+library(ape)
+library(phytools)
+```
+
+```{r}
+tree_bat <- read.newick("bat_besttree_withConfident.nwk")
+tree_virus <- read.newick("V_Best_tree_with_confidence.nwk")
+```
+
+```{r}
+tree_bat$tip.label
+```
+
+```{r}
+tree_virus$tip.label
+```
+
+
+
+```{r}
+cophyloplot(tree_bat, tree_virus, assoc = link,
+            length.line = 4, space = 28, gap = 3)
+```
+
+```{r}
+# Create the tree plot for tree_bat
+plot_tree_bat <- ggtree(tree_bat) +
+  geom_tiplab(size = 3, hjust = 1, face = "bold", align = TRUE) +
+  theme_tree2() +
+  theme(legend.position = "none")
+
+# Create the tree plot for tree_virus
+plot_tree_virus <- ggtree(tree_virus) +
+  geom_tiplab(size = 3, hjust = 1, face = "bold", align = TRUE) +
+  theme_tree2() +
+  theme(legend.position = "none")
+
+# Combine the tree plots and add links between the nodes with support values
+combined_plot <- plot_tree_bat +
+  plot_tree_virus +
+  geom_segment(data = df_link, aes(x = Host, xend = Virus, y = Host, yend = Virus),
+               color = "blue", alpha = 0.5)
+#ggsave("cophyloplot_with_support.png", combined_plot, width = 12, height = 8, units = "in")
+```
+
+
+
+
+
+
+#---------------
+
+
+
+```{r}
+# Combine the tree plots and add links between the tips
+combined_plot <- plot_tree_bat / plot_tree_virus +
+  plot_annotation(tag_levels = "a") +
+  plot_layout(guides = "collect")
+```
+
+```{r}
+combined_plot 
+```
+
+#-------------------------
+
+
+
+## demo for test 1
+
+```{r}
+d_bat <- t_bat$data
+d_bat
+```
+
+```{r}
+d_v <- t_v$data
+d_v
+```
+
+```{r}
+d_bat$tree <- 't_bat'
+d_v$tree <- 't_v'
+
+d_v$x <- max(d_v$x) - d_v$x + max(d_bat$x) +  max(d_bat$x)*0.7
+pp <- t_bat + geom_tree(data=d_v)
+pp
+```
+
+
+
+
+
+
+## demo for test 2
+
+```{r}
+#two random trees
+tree1 <- rtree(40)
+tree2 <- rtree(20)
+tree1
+tree2
+```
+
+```{r}
+tree2$tip.label
+```
+
+```{r}
+association <- cbind(tree2$tip.label, tree2$tip.label)
+association
+```
+
+```{r}
+cophyloplot(tree1, tree2, assoc = association,
+            length.line = 4, space = 28, gap = 3)
+```
+
+
+
+
+```{r}
+sessionInfo()
+```
+
+
+

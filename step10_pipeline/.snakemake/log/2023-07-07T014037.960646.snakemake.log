@@ -1,0 +1,4 @@
+FileNotFoundError in line 38 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_slidingWindows/Snakefile:
+[Errno 2] No such file or directory: 'config/1aln_spike_withID.fa'
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_slidingWindows/Snakefile", line 67, in <module>
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_slidingWindows/Snakefile", line 38, in slidingWindow

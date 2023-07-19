@@ -1,0 +1,171 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count    min threads    max threads
+---------------  -------  -------------  -------------
+all                    1              1              1
+sliding_windows       72              1              1
+total                 73              1              1
+
+Select jobs to execute...
+
+[Fri Jul  7 02:01:36 2023]
+rule sliding_windows:
+    output: results/windows/window_position_290_390.fa
+    jobid: 30
+    reason: Missing output files: results/windows/window_position_290_390.fa
+    wildcards: position=290_390
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:01:36 2023]
+rule sliding_windows:
+    output: results/windows/window_position_570_670.fa
+    jobid: 58
+    reason: Missing output files: results/windows/window_position_570_670.fa
+    wildcards: position=570_670
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:01:36 2023]
+rule sliding_windows:
+    output: results/windows/window_position_430_530.fa
+    jobid: 44
+    reason: Missing output files: results/windows/window_position_430_530.fa
+    wildcards: position=430_530
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:01:36 2023]
+rule sliding_windows:
+    output: results/windows/window_position_150_250.fa
+    jobid: 16
+    reason: Missing output files: results/windows/window_position_150_250.fa
+    wildcards: position=150_250
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:01:36 2023]
+rule sliding_windows:
+    output: results/windows/window_position_10_110.fa
+    jobid: 2
+    reason: Missing output files: results/windows/window_position_10_110.fa
+    wildcards: position=10_110
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+
+[Fri Jul  7 02:01:36 2023]
+rule sliding_windows:
+    output: results/windows/window_position_710_809.fa
+    jobid: 72
+    reason: Missing output files: results/windows/window_position_710_809.fa
+    wildcards: position=710_809
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+
+[Fri Jul  7 02:01:36 2023]
+rule sliding_windows:
+    output: results/windows/window_position_90_190.fa
+    jobid: 10
+    reason: Missing output files: results/windows/window_position_90_190.fa
+    wildcards: position=90_190
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+
+[Fri Jul  7 02:01:36 2023]
+rule sliding_windows:
+    output: results/windows/window_position_230_330.fa
+    jobid: 24
+    reason: Missing output files: results/windows/window_position_230_330.fa
+    wildcards: position=230_330
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:01:36 2023]
+Error in rule sliding_windows:
+    jobid: 30
+    output: results/windows/window_position_290_390.fa
+
+[Fri Jul  7 02:01:36 2023]
+Error in rule sliding_windows:
+    jobid: 44
+    output: results/windows/window_position_430_530.fa
+
+[Fri Jul  7 02:01:36 2023]
+Error in rule sliding_windows:
+    jobid: 16
+    output: results/windows/window_position_150_250.fa
+
+[Fri Jul  7 02:01:36 2023]
+Error in rule sliding_windows:
+    jobid: 58
+    output: results/windows/window_position_570_670.fa
+
+[Fri Jul  7 02:01:36 2023]
+Error in rule sliding_windows:
+    jobid: 2
+    output: results/windows/window_position_10_110.fa
+
+[Fri Jul  7 02:01:36 2023]
+Error in rule sliding_windows:
+    jobid: 72
+    output: results/windows/window_position_710_809.fa
+
+RuleException:
+WorkflowError in line 81 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Failed to open source file /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py'
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 81, in __rule_sliding_windows
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+RuleException:
+WorkflowError in line 81 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Failed to open source file /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py'
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 81, in __rule_sliding_windows
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+RuleException:
+WorkflowError in line 81 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Failed to open source file /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py'
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 81, in __rule_sliding_windows
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+RuleException:
+WorkflowError in line 81 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Failed to open source file /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py'
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 81, in __rule_sliding_windows
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+[Fri Jul  7 02:01:36 2023]
+Error in rule sliding_windows:
+    jobid: 10
+    output: results/windows/window_position_90_190.fa
+
+RuleException:
+WorkflowError in line 81 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Failed to open source file /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py'
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 81, in __rule_sliding_windows
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+[Fri Jul  7 02:01:36 2023]
+Error in rule sliding_windows:
+    jobid: 24
+    output: results/windows/window_position_230_330.fa
+
+RuleException:
+WorkflowError in line 81 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Failed to open source file /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py'
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 81, in __rule_sliding_windows
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+RuleException:
+WorkflowError in line 81 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Failed to open source file /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py'
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 81, in __rule_sliding_windows
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+RuleException:
+WorkflowError in line 81 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Failed to open source file /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/../scripts/slidingWindows.py'
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 81, in __rule_sliding_windows
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-07-07T020135.057499.snakemake.log

@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in line 97 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Missing input files for rule rf_distance:
+    output: results/rf/0_100.rf_ete
+    wildcards: position=0_100
+    affected files:
+        results/refTree/hostTree.newick

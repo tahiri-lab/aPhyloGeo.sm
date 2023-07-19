@@ -1,0 +1,40 @@
+Building DAG of jobs...
+IncompleteFilesException:
+The files below seem to be incomplete. If you are sure that certain files are not incomplete, mark them as complete with
+
+    snakemake --cleanup-metadata <filenames>
+
+To re-generate the files rerun your command with the --rerun-incomplete flag.
+Incomplete files:
+results/RAxML/250_350.raxml.bestModel
+results/RAxML/250_350.raxml.bestTree
+results/RAxML/250_350.raxml.bootstraps
+results/RAxML/250_350.raxml.log
+results/RAxML/250_350.raxml.mlTrees
+results/RAxML/250_350.raxml.rba
+results/RAxML/250_350.raxml.startTree
+results/RAxML/250_350.raxml.support
+results/RAxML/390_490.raxml.bestModel
+results/RAxML/390_490.raxml.bestTree
+results/RAxML/390_490.raxml.bootstraps
+results/RAxML/390_490.raxml.log
+results/RAxML/390_490.raxml.mlTrees
+results/RAxML/390_490.raxml.rba
+results/RAxML/390_490.raxml.startTree
+results/RAxML/390_490.raxml.support
+results/RAxML/3210_3310.raxml.bestModel
+results/RAxML/3210_3310.raxml.bestTree
+results/RAxML/3210_3310.raxml.bootstraps
+results/RAxML/3210_3310.raxml.log
+results/RAxML/3210_3310.raxml.mlTrees
+results/RAxML/3210_3310.raxml.rba
+results/RAxML/3210_3310.raxml.startTree
+results/RAxML/3210_3310.raxml.support
+results/RAxML/4840_4940.raxml.bestModel
+results/RAxML/4840_4940.raxml.bestTree
+results/RAxML/4840_4940.raxml.bootstraps
+results/RAxML/4840_4940.raxml.log
+results/RAxML/4840_4940.raxml.mlTrees
+results/RAxML/4840_4940.raxml.rba
+results/RAxML/4840_4940.raxml.startTree
+results/RAxML/4840_4940.raxml.support

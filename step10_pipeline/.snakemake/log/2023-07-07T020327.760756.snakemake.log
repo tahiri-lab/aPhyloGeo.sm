@@ -1,0 +1,934 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count    min threads    max threads
+---------------  -------  -------------  -------------
+all                    1              1              1
+sliding_windows       72              1              1
+total                 73              1              1
+
+Select jobs to execute...
+
+[Fri Jul  7 02:03:29 2023]
+rule sliding_windows:
+    output: results/windows/window_position_290_390.fa
+    jobid: 30
+    reason: Missing output files: results/windows/window_position_290_390.fa
+    wildcards: position=290_390
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:29 2023]
+rule sliding_windows:
+    output: results/windows/window_position_10_110.fa
+    jobid: 2
+    reason: Missing output files: results/windows/window_position_10_110.fa
+    wildcards: position=10_110
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:29 2023]
+rule sliding_windows:
+    output: results/windows/window_position_150_250.fa
+    jobid: 16
+    reason: Missing output files: results/windows/window_position_150_250.fa
+    wildcards: position=150_250
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:29 2023]
+rule sliding_windows:
+    output: results/windows/window_position_430_530.fa
+    jobid: 44
+    reason: Missing output files: results/windows/window_position_430_530.fa
+    wildcards: position=430_530
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:29 2023]
+rule sliding_windows:
+    output: results/windows/window_position_570_670.fa
+    jobid: 58
+    reason: Missing output files: results/windows/window_position_570_670.fa
+    wildcards: position=570_670
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:29 2023]
+rule sliding_windows:
+    output: results/windows/window_position_710_809.fa
+    jobid: 72
+    reason: Missing output files: results/windows/window_position_710_809.fa
+    wildcards: position=710_809
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:29 2023]
+rule sliding_windows:
+    output: results/windows/window_position_90_190.fa
+    jobid: 10
+    reason: Missing output files: results/windows/window_position_90_190.fa
+    wildcards: position=90_190
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:29 2023]
+rule sliding_windows:
+    output: results/windows/window_position_500_600.fa
+    jobid: 51
+    reason: Missing output files: results/windows/window_position_500_600.fa
+    wildcards: position=500_600
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:31 2023]
+Finished job 51.
+1 of 73 steps (1%) done
+[Fri Jul  7 02:03:31 2023]
+Finished job 72.
+2 of 73 steps (3%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:31 2023]
+rule sliding_windows:
+    output: results/windows/window_position_370_470.fa
+    jobid: 38
+    reason: Missing output files: results/windows/window_position_370_470.fa
+    wildcards: position=370_470
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:31 2023]
+rule sliding_windows:
+    output: results/windows/window_position_650_750.fa
+    jobid: 66
+    reason: Missing output files: results/windows/window_position_650_750.fa
+    wildcards: position=650_750
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:31 2023]
+Finished job 10.
+3 of 73 steps (4%) done
+[Fri Jul  7 02:03:31 2023]
+Finished job 2.
+4 of 73 steps (5%) done
+[Fri Jul  7 02:03:31 2023]
+Finished job 30.
+5 of 73 steps (7%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:31 2023]
+rule sliding_windows:
+    output: results/windows/window_position_230_330.fa
+    jobid: 24
+    reason: Missing output files: results/windows/window_position_230_330.fa
+    wildcards: position=230_330
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:31 2023]
+rule sliding_windows:
+    output: results/windows/window_position_510_610.fa
+    jobid: 52
+    reason: Missing output files: results/windows/window_position_510_610.fa
+    wildcards: position=510_610
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:31 2023]
+rule sliding_windows:
+    output: results/windows/window_position_160_260.fa
+    jobid: 17
+    reason: Missing output files: results/windows/window_position_160_260.fa
+    wildcards: position=160_260
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:31 2023]
+Finished job 58.
+6 of 73 steps (8%) done
+[Fri Jul  7 02:03:31 2023]
+Finished job 16.
+7 of 73 steps (10%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:31 2023]
+rule sliding_windows:
+    output: results/windows/window_position_300_400.fa
+    jobid: 31
+    reason: Missing output files: results/windows/window_position_300_400.fa
+    wildcards: position=300_400
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:31 2023]
+rule sliding_windows:
+    output: results/windows/window_position_440_540.fa
+    jobid: 45
+    reason: Missing output files: results/windows/window_position_440_540.fa
+    wildcards: position=440_540
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:31 2023]
+Finished job 44.
+8 of 73 steps (11%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:31 2023]
+rule sliding_windows:
+    output: results/windows/window_position_580_680.fa
+    jobid: 59
+    reason: Missing output files: results/windows/window_position_580_680.fa
+    wildcards: position=580_680
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+Select jobs to execute...
+[Fri Jul  7 02:03:32 2023]
+Finished job 38.
+9 of 73 steps (12%) done
+
+[Fri Jul  7 02:03:32 2023]
+rule sliding_windows:
+    output: results/windows/window_position_20_120.fa
+    jobid: 3
+    reason: Missing output files: results/windows/window_position_20_120.fa
+    wildcards: position=20_120
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:32 2023]
+Finished job 24.
+10 of 73 steps (14%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:32 2023]
+rule sliding_windows:
+    output: results/windows/window_position_240_340.fa
+    jobid: 25
+    reason: Missing output files: results/windows/window_position_240_340.fa
+    wildcards: position=240_340
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:32 2023]
+Finished job 52.
+11 of 73 steps (15%) done
+[Fri Jul  7 02:03:32 2023]
+Finished job 17.
+12 of 73 steps (16%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:32 2023]
+rule sliding_windows:
+    output: results/windows/window_position_100_200.fa
+    jobid: 11
+    reason: Missing output files: results/windows/window_position_100_200.fa
+    wildcards: position=100_200
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:32 2023]
+rule sliding_windows:
+    output: results/windows/window_position_520_620.fa
+    jobid: 53
+    reason: Missing output files: results/windows/window_position_520_620.fa
+    wildcards: position=520_620
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+Select jobs to execute...
+[Fri Jul  7 02:03:32 2023]
+Finished job 59.
+13 of 73 steps (18%) done
+
+[Fri Jul  7 02:03:32 2023]
+rule sliding_windows:
+    output: results/windows/window_position_660_760.fa
+    jobid: 67
+    reason: Missing output files: results/windows/window_position_660_760.fa
+    wildcards: position=660_760
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:32 2023]
+Finished job 31.
+14 of 73 steps (19%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:32 2023]
+rule sliding_windows:
+    output: results/windows/window_position_380_480.fa
+    jobid: 39
+    reason: Missing output files: results/windows/window_position_380_480.fa
+    wildcards: position=380_480
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:32 2023]
+Finished job 66.
+15 of 73 steps (21%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:32 2023]
+rule sliding_windows:
+    output: results/windows/window_position_170_270.fa
+    jobid: 18
+    reason: Missing output files: results/windows/window_position_170_270.fa
+    wildcards: position=170_270
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:32 2023]
+Finished job 45.
+16 of 73 steps (22%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:32 2023]
+rule sliding_windows:
+    output: results/windows/window_position_310_410.fa
+    jobid: 32
+    reason: Missing output files: results/windows/window_position_310_410.fa
+    wildcards: position=310_410
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:34 2023]
+Finished job 3.
+17 of 73 steps (23%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:34 2023]
+rule sliding_windows:
+    output: results/windows/window_position_450_550.fa
+    jobid: 46
+    reason: Missing output files: results/windows/window_position_450_550.fa
+    wildcards: position=450_550
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:34 2023]
+Finished job 39.
+18 of 73 steps (25%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:34 2023]
+rule sliding_windows:
+    output: results/windows/window_position_590_690.fa
+    jobid: 60
+    reason: Missing output files: results/windows/window_position_590_690.fa
+    wildcards: position=590_690
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:34 2023]
+Finished job 67.
+19 of 73 steps (26%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:34 2023]
+rule sliding_windows:
+    output: results/windows/window_position_30_130.fa
+    jobid: 4
+    reason: Missing output files: results/windows/window_position_30_130.fa
+    wildcards: position=30_130
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:34 2023]
+Finished job 25.
+20 of 73 steps (27%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:34 2023]
+rule sliding_windows:
+    output: results/windows/window_position_670_770.fa
+    jobid: 68
+    reason: Missing output files: results/windows/window_position_670_770.fa
+    wildcards: position=670_770
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:34 2023]
+Finished job 53.
+21 of 73 steps (29%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:34 2023]
+rule sliding_windows:
+    output: results/windows/window_position_530_630.fa
+    jobid: 54
+    reason: Missing output files: results/windows/window_position_530_630.fa
+    wildcards: position=530_630
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:34 2023]
+Finished job 11.
+22 of 73 steps (30%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:34 2023]
+rule sliding_windows:
+    output: results/windows/window_position_390_490.fa
+    jobid: 40
+    reason: Missing output files: results/windows/window_position_390_490.fa
+    wildcards: position=390_490
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:34 2023]
+Finished job 32.
+23 of 73 steps (32%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:34 2023]
+rule sliding_windows:
+    output: results/windows/window_position_250_350.fa
+    jobid: 26
+    reason: Missing output files: results/windows/window_position_250_350.fa
+    wildcards: position=250_350
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:34 2023]
+Finished job 18.
+24 of 73 steps (33%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:34 2023]
+rule sliding_windows:
+    output: results/windows/window_position_110_210.fa
+    jobid: 12
+    reason: Missing output files: results/windows/window_position_110_210.fa
+    wildcards: position=110_210
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:35 2023]
+Finished job 46.
+25 of 73 steps (34%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:35 2023]
+rule sliding_windows:
+    output: results/windows/window_position_600_700.fa
+    jobid: 61
+    reason: Missing output files: results/windows/window_position_600_700.fa
+    wildcards: position=600_700
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:35 2023]
+Finished job 4.
+26 of 73 steps (36%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:35 2023]
+rule sliding_windows:
+    output: results/windows/window_position_180_280.fa
+    jobid: 19
+    reason: Missing output files: results/windows/window_position_180_280.fa
+    wildcards: position=180_280
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:35 2023]
+Finished job 68.
+27 of 73 steps (37%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:35 2023]
+rule sliding_windows:
+    output: results/windows/window_position_40_140.fa
+    jobid: 5
+    reason: Missing output files: results/windows/window_position_40_140.fa
+    wildcards: position=40_140
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:35 2023]
+Finished job 60.
+28 of 73 steps (38%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:35 2023]
+rule sliding_windows:
+    output: results/windows/window_position_360_460.fa
+    jobid: 37
+    reason: Missing output files: results/windows/window_position_360_460.fa
+    wildcards: position=360_460
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:35 2023]
+Finished job 54.
+29 of 73 steps (40%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:35 2023]
+rule sliding_windows:
+    output: results/windows/window_position_460_560.fa
+    jobid: 47
+    reason: Missing output files: results/windows/window_position_460_560.fa
+    wildcards: position=460_560
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:35 2023]
+Finished job 40.
+30 of 73 steps (41%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:35 2023]
+rule sliding_windows:
+    output: results/windows/window_position_320_420.fa
+    jobid: 33
+    reason: Missing output files: results/windows/window_position_320_420.fa
+    wildcards: position=320_420
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:35 2023]
+Finished job 26.
+31 of 73 steps (42%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:35 2023]
+rule sliding_windows:
+    output: results/windows/window_position_120_220.fa
+    jobid: 13
+    reason: Missing output files: results/windows/window_position_120_220.fa
+    wildcards: position=120_220
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:36 2023]
+Finished job 12.
+32 of 73 steps (44%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:36 2023]
+rule sliding_windows:
+    output: results/windows/window_position_260_360.fa
+    jobid: 27
+    reason: Missing output files: results/windows/window_position_260_360.fa
+    wildcards: position=260_360
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:37 2023]
+Finished job 19.
+33 of 73 steps (45%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:37 2023]
+rule sliding_windows:
+    output: results/windows/window_position_400_500.fa
+    jobid: 41
+    reason: Missing output files: results/windows/window_position_400_500.fa
+    wildcards: position=400_500
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:37 2023]
+Finished job 37.
+34 of 73 steps (47%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:37 2023]
+rule sliding_windows:
+    output: results/windows/window_position_540_640.fa
+    jobid: 55
+    reason: Missing output files: results/windows/window_position_540_640.fa
+    wildcards: position=540_640
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:37 2023]
+Finished job 33.
+35 of 73 steps (48%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:37 2023]
+rule sliding_windows:
+    output: results/windows/window_position_680_780.fa
+    jobid: 69
+    reason: Missing output files: results/windows/window_position_680_780.fa
+    wildcards: position=680_780
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:37 2023]
+Finished job 61.
+36 of 73 steps (49%) done
+[Fri Jul  7 02:03:37 2023]
+Finished job 5.
+37 of 73 steps (51%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:37 2023]
+rule sliding_windows:
+    output: results/windows/window_position_50_150.fa
+    jobid: 6
+    reason: Missing output files: results/windows/window_position_50_150.fa
+    wildcards: position=50_150
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:37 2023]
+rule sliding_windows:
+    output: results/windows/window_position_610_710.fa
+    jobid: 62
+    reason: Missing output files: results/windows/window_position_610_710.fa
+    wildcards: position=610_710
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+Select jobs to execute...
+[Fri Jul  7 02:03:37 2023]
+Finished job 13.
+38 of 73 steps (52%) done
+
+[Fri Jul  7 02:03:37 2023]
+rule sliding_windows:
+    output: results/windows/window_position_190_290.fa
+    jobid: 20
+    reason: Missing output files: results/windows/window_position_190_290.fa
+    wildcards: position=190_290
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:37 2023]
+Finished job 47.
+39 of 73 steps (53%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:37 2023]
+rule sliding_windows:
+    output: results/windows/window_position_330_430.fa
+    jobid: 34
+    reason: Missing output files: results/windows/window_position_330_430.fa
+    wildcards: position=330_430
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:37 2023]
+Finished job 27.
+40 of 73 steps (55%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:37 2023]
+rule sliding_windows:
+    output: results/windows/window_position_470_570.fa
+    jobid: 48
+    reason: Missing output files: results/windows/window_position_470_570.fa
+    wildcards: position=470_570
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:38 2023]
+Finished job 41.
+41 of 73 steps (56%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:38 2023]
+rule sliding_windows:
+    output: results/windows/window_position_220_320.fa
+    jobid: 23
+    reason: Missing output files: results/windows/window_position_220_320.fa
+    wildcards: position=220_320
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:38 2023]
+Finished job 55.
+42 of 73 steps (58%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:38 2023]
+rule sliding_windows:
+    output: results/windows/window_position_130_230.fa
+    jobid: 14
+    reason: Missing output files: results/windows/window_position_130_230.fa
+    wildcards: position=130_230
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:38 2023]
+Finished job 6.
+43 of 73 steps (59%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:38 2023]
+rule sliding_windows:
+    output: results/windows/window_position_270_370.fa
+    jobid: 28
+    reason: Missing output files: results/windows/window_position_270_370.fa
+    wildcards: position=270_370
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:38 2023]
+Finished job 62.
+44 of 73 steps (60%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:38 2023]
+rule sliding_windows:
+    output: results/windows/window_position_410_510.fa
+    jobid: 42
+    reason: Missing output files: results/windows/window_position_410_510.fa
+    wildcards: position=410_510
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:38 2023]
+Finished job 69.
+45 of 73 steps (62%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:38 2023]
+rule sliding_windows:
+    output: results/windows/window_position_550_650.fa
+    jobid: 56
+    reason: Missing output files: results/windows/window_position_550_650.fa
+    wildcards: position=550_650
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:38 2023]
+Finished job 34.
+46 of 73 steps (63%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:38 2023]
+rule sliding_windows:
+    output: results/windows/window_position_690_790.fa
+    jobid: 70
+    reason: Missing output files: results/windows/window_position_690_790.fa
+    wildcards: position=690_790
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:38 2023]
+Finished job 20.
+47 of 73 steps (64%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:38 2023]
+rule sliding_windows:
+    output: results/windows/window_position_480_580.fa
+    jobid: 49
+    reason: Missing output files: results/windows/window_position_480_580.fa
+    wildcards: position=480_580
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:39 2023]
+Finished job 48.
+48 of 73 steps (66%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:39 2023]
+rule sliding_windows:
+    output: results/windows/window_position_0_100.fa
+    jobid: 1
+    reason: Missing output files: results/windows/window_position_0_100.fa
+    wildcards: position=0_100
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:39 2023]
+Finished job 23.
+49 of 73 steps (67%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:39 2023]
+rule sliding_windows:
+    output: results/windows/window_position_140_240.fa
+    jobid: 15
+    reason: Missing output files: results/windows/window_position_140_240.fa
+    wildcards: position=140_240
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:39 2023]
+Finished job 14.
+50 of 73 steps (68%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:39 2023]
+rule sliding_windows:
+    output: results/windows/window_position_280_380.fa
+    jobid: 29
+    reason: Missing output files: results/windows/window_position_280_380.fa
+    wildcards: position=280_380
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:39 2023]
+Finished job 56.
+51 of 73 steps (70%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:39 2023]
+rule sliding_windows:
+    output: results/windows/window_position_420_520.fa
+    jobid: 43
+    reason: Missing output files: results/windows/window_position_420_520.fa
+    wildcards: position=420_520
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:39 2023]
+Finished job 42.
+52 of 73 steps (71%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:39 2023]
+rule sliding_windows:
+    output: results/windows/window_position_560_660.fa
+    jobid: 57
+    reason: Missing output files: results/windows/window_position_560_660.fa
+    wildcards: position=560_660
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:39 2023]
+Finished job 28.
+53 of 73 steps (73%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:39 2023]
+rule sliding_windows:
+    output: results/windows/window_position_700_800.fa
+    jobid: 71
+    reason: Missing output files: results/windows/window_position_700_800.fa
+    wildcards: position=700_800
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:40 2023]
+Finished job 49.
+54 of 73 steps (74%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:40 2023]
+rule sliding_windows:
+    output: results/windows/window_position_80_180.fa
+    jobid: 9
+    reason: Missing output files: results/windows/window_position_80_180.fa
+    wildcards: position=80_180
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:40 2023]
+Finished job 70.
+55 of 73 steps (75%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:40 2023]
+rule sliding_windows:
+    output: results/windows/window_position_340_440.fa
+    jobid: 35
+    reason: Missing output files: results/windows/window_position_340_440.fa
+    wildcards: position=340_440
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:40 2023]
+Finished job 1.
+56 of 73 steps (77%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:40 2023]
+rule sliding_windows:
+    output: results/windows/window_position_70_170.fa
+    jobid: 8
+    reason: Missing output files: results/windows/window_position_70_170.fa
+    wildcards: position=70_170
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:41 2023]
+Finished job 15.
+57 of 73 steps (78%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:41 2023]
+rule sliding_windows:
+    output: results/windows/window_position_210_310.fa
+    jobid: 22
+    reason: Missing output files: results/windows/window_position_210_310.fa
+    wildcards: position=210_310
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:41 2023]
+Finished job 43.
+58 of 73 steps (79%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:41 2023]
+rule sliding_windows:
+    output: results/windows/window_position_350_450.fa
+    jobid: 36
+    reason: Missing output files: results/windows/window_position_350_450.fa
+    wildcards: position=350_450
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:41 2023]
+Finished job 71.
+59 of 73 steps (81%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:41 2023]
+rule sliding_windows:
+    output: results/windows/window_position_490_590.fa
+    jobid: 50
+    reason: Missing output files: results/windows/window_position_490_590.fa
+    wildcards: position=490_590
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:41 2023]
+Finished job 57.
+60 of 73 steps (82%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:41 2023]
+rule sliding_windows:
+    output: results/windows/window_position_630_730.fa
+    jobid: 64
+    reason: Missing output files: results/windows/window_position_630_730.fa
+    wildcards: position=630_730
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:41 2023]
+Finished job 29.
+61 of 73 steps (84%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:41 2023]
+rule sliding_windows:
+    output: results/windows/window_position_200_300.fa
+    jobid: 21
+    reason: Missing output files: results/windows/window_position_200_300.fa
+    wildcards: position=200_300
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:41 2023]
+Finished job 9.
+62 of 73 steps (85%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:41 2023]
+rule sliding_windows:
+    output: results/windows/window_position_620_720.fa
+    jobid: 63
+    reason: Missing output files: results/windows/window_position_620_720.fa
+    wildcards: position=620_720
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:41 2023]
+Finished job 35.
+63 of 73 steps (86%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:41 2023]
+rule sliding_windows:
+    output: results/windows/window_position_60_160.fa
+    jobid: 7
+    reason: Missing output files: results/windows/window_position_60_160.fa
+    wildcards: position=60_160
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:42 2023]
+Finished job 8.
+64 of 73 steps (88%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:42 2023]
+rule sliding_windows:
+    output: results/windows/window_position_640_740.fa
+    jobid: 65
+    reason: Missing output files: results/windows/window_position_640_740.fa
+    wildcards: position=640_740
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:42 2023]
+Finished job 50.
+65 of 73 steps (89%) done
+[Fri Jul  7 02:03:42 2023]
+Finished job 64.
+66 of 73 steps (90%) done
+[Fri Jul  7 02:03:42 2023]
+Finished job 22.
+67 of 73 steps (92%) done
+[Fri Jul  7 02:03:42 2023]
+Finished job 36.
+68 of 73 steps (93%) done
+[Fri Jul  7 02:03:42 2023]
+Finished job 21.
+69 of 73 steps (95%) done
+[Fri Jul  7 02:03:42 2023]
+Finished job 63.
+70 of 73 steps (96%) done
+[Fri Jul  7 02:03:42 2023]
+Finished job 7.
+71 of 73 steps (97%) done
+[Fri Jul  7 02:03:43 2023]
+Finished job 65.
+72 of 73 steps (99%) done
+Select jobs to execute...
+
+[Fri Jul  7 02:03:43 2023]
+localrule all:
+    input: results/windows/window_position_0_100.fa, results/windows/window_position_10_110.fa, results/windows/window_position_20_120.fa, results/windows/window_position_30_130.fa, results/windows/window_position_40_140.fa, results/windows/window_position_50_150.fa, results/windows/window_position_60_160.fa, results/windows/window_position_70_170.fa, results/windows/window_position_80_180.fa, results/windows/window_position_90_190.fa, results/windows/window_position_100_200.fa, results/windows/window_position_110_210.fa, results/windows/window_position_120_220.fa, results/windows/window_position_130_230.fa, results/windows/window_position_140_240.fa, results/windows/window_position_150_250.fa, results/windows/window_position_160_260.fa, results/windows/window_position_170_270.fa, results/windows/window_position_180_280.fa, results/windows/window_position_190_290.fa, results/windows/window_position_200_300.fa, results/windows/window_position_210_310.fa, results/windows/window_position_220_320.fa, results/windows/window_position_230_330.fa, results/windows/window_position_240_340.fa, results/windows/window_position_250_350.fa, results/windows/window_position_260_360.fa, results/windows/window_position_270_370.fa, results/windows/window_position_280_380.fa, results/windows/window_position_290_390.fa, results/windows/window_position_300_400.fa, results/windows/window_position_310_410.fa, results/windows/window_position_320_420.fa, results/windows/window_position_330_430.fa, results/windows/window_position_340_440.fa, results/windows/window_position_350_450.fa, results/windows/window_position_360_460.fa, results/windows/window_position_370_470.fa, results/windows/window_position_380_480.fa, results/windows/window_position_390_490.fa, results/windows/window_position_400_500.fa, results/windows/window_position_410_510.fa, results/windows/window_position_420_520.fa, results/windows/window_position_430_530.fa, results/windows/window_position_440_540.fa, results/windows/window_position_450_550.fa, results/windows/window_position_460_560.fa, results/windows/window_position_470_570.fa, results/windows/window_position_480_580.fa, results/windows/window_position_490_590.fa, results/windows/window_position_500_600.fa, results/windows/window_position_510_610.fa, results/windows/window_position_520_620.fa, results/windows/window_position_530_630.fa, results/windows/window_position_540_640.fa, results/windows/window_position_550_650.fa, results/windows/window_position_560_660.fa, results/windows/window_position_570_670.fa, results/windows/window_position_580_680.fa, results/windows/window_position_590_690.fa, results/windows/window_position_600_700.fa, results/windows/window_position_610_710.fa, results/windows/window_position_620_720.fa, results/windows/window_position_630_730.fa, results/windows/window_position_640_740.fa, results/windows/window_position_650_750.fa, results/windows/window_position_660_760.fa, results/windows/window_position_670_770.fa, results/windows/window_position_680_780.fa, results/windows/window_position_690_790.fa, results/windows/window_position_700_800.fa, results/windows/window_position_710_809.fa
+    jobid: 0
+    reason: Input files updated by another job: results/windows/window_position_220_320.fa, results/windows/window_position_200_300.fa, results/windows/window_position_350_450.fa, results/windows/window_position_550_650.fa, results/windows/window_position_330_430.fa, results/windows/window_position_530_630.fa, results/windows/window_position_650_750.fa, results/windows/window_position_680_780.fa, results/windows/window_position_80_180.fa, results/windows/window_position_360_460.fa, results/windows/window_position_290_390.fa, results/windows/window_position_630_730.fa, results/windows/window_position_180_280.fa, results/windows/window_position_90_190.fa, results/windows/window_position_370_470.fa, results/windows/window_position_60_160.fa, results/windows/window_position_210_310.fa, results/windows/window_position_600_700.fa, results/windows/window_position_0_100.fa, results/windows/window_position_590_690.fa, results/windows/window_position_700_800.fa, results/windows/window_position_480_580.fa, results/windows/window_position_300_400.fa, results/windows/window_position_410_510.fa, results/windows/window_position_470_570.fa, results/windows/window_position_170_270.fa, results/windows/window_position_640_740.fa, results/windows/window_position_190_290.fa, results/windows/window_position_10_110.fa, results/windows/window_position_110_210.fa, results/windows/window_position_30_130.fa, results/windows/window_position_430_530.fa, results/windows/window_position_40_140.fa, results/windows/window_position_250_350.fa, results/windows/window_position_510_610.fa, results/windows/window_position_70_170.fa, results/windows/window_position_450_550.fa, results/windows/window_position_570_670.fa, results/windows/window_position_420_520.fa, results/windows/window_position_690_790.fa, results/windows/window_position_100_200.fa, results/windows/window_position_460_560.fa, results/windows/window_position_120_220.fa, results/windows/window_position_20_120.fa, results/windows/window_position_270_370.fa, results/windows/window_position_260_360.fa, results/windows/window_position_500_600.fa, results/windows/window_position_580_680.fa, results/windows/window_position_610_710.fa, results/windows/window_position_660_760.fa, results/windows/window_position_280_380.fa, results/windows/window_position_440_540.fa, results/windows/window_position_670_770.fa, results/windows/window_position_230_330.fa, results/windows/window_position_560_660.fa, results/windows/window_position_240_340.fa, results/windows/window_position_380_480.fa, results/windows/window_position_320_420.fa, results/windows/window_position_50_150.fa, results/windows/window_position_390_490.fa, results/windows/window_position_140_240.fa, results/windows/window_position_130_230.fa, results/windows/window_position_160_260.fa, results/windows/window_position_310_410.fa, results/windows/window_position_150_250.fa, results/windows/window_position_490_590.fa, results/windows/window_position_520_620.fa, results/windows/window_position_400_500.fa, results/windows/window_position_540_640.fa, results/windows/window_position_620_720.fa, results/windows/window_position_710_809.fa, results/windows/window_position_340_440.fa
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Fri Jul  7 02:03:43 2023]
+Finished job 0.
+73 of 73 steps (100%) done
+Complete log: .snakemake/log/2023-07-07T020327.760756.snakemake.log

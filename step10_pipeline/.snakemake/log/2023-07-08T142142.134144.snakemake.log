@@ -1,0 +1,184 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count    min threads    max threads
+-----------  -------  -------------  -------------
+all                1              1              1
+rf_distance       72              1              1
+total             73              1              1
+
+Select jobs to execute...
+
+[Sat Jul  8 14:21:44 2023]
+rule rf_distance:
+    input: results/RAxML/190_290.raxml.bestTree
+    output: results/rf/190_290.rf_ete
+    jobid: 58
+    reason: Missing output files: results/rf/190_290.rf_ete
+    wildcards: position=190_290
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:21:44 2023]
+rule rf_distance:
+    input: results/RAxML/330_430.raxml.bestTree
+    output: results/rf/330_430.rf_ete
+    jobid: 100
+    reason: Missing output files: results/rf/330_430.rf_ete
+    wildcards: position=330_430
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:21:44 2023]
+rule rf_distance:
+    input: results/RAxML/610_710.raxml.bestTree
+    output: results/rf/610_710.rf_ete
+    jobid: 184
+    reason: Missing output files: results/rf/610_710.rf_ete
+    wildcards: position=610_710
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:21:44 2023]
+rule rf_distance:
+    input: results/RAxML/50_150.raxml.bestTree
+    output: results/rf/50_150.rf_ete
+    jobid: 16
+    reason: Missing output files: results/rf/50_150.rf_ete
+    wildcards: position=50_150
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:21:44 2023]
+rule rf_distance:
+    input: results/RAxML/470_570.raxml.bestTree
+    output: results/rf/470_570.rf_ete
+    jobid: 142
+    reason: Missing output files: results/rf/470_570.rf_ete
+    wildcards: position=470_570
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:21:44 2023]
+rule rf_distance:
+    input: results/RAxML/30_130.raxml.bestTree
+    output: results/rf/30_130.rf_ete
+    jobid: 10
+    reason: Missing output files: results/rf/30_130.rf_ete
+    wildcards: position=30_130
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:21:44 2023]
+rule rf_distance:
+    input: results/RAxML/170_270.raxml.bestTree
+    output: results/rf/170_270.rf_ete
+    jobid: 52
+    reason: Missing output files: results/rf/170_270.rf_ete
+    wildcards: position=170_270
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:21:44 2023]
+rule rf_distance:
+    input: results/RAxML/310_410.raxml.bestTree
+    output: results/rf/310_410.rf_ete
+    jobid: 94
+    reason: Missing output files: results/rf/310_410.rf_ete
+    wildcards: position=310_410
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:21:46 2023]
+Error in rule rf_distance:
+    jobid: 16
+    output: results/rf/50_150.rf_ete
+
+[Sat Jul  8 14:21:46 2023]
+Error in rule rf_distance:
+    jobid: 52
+    output: results/rf/170_270.rf_ete
+
+RuleException:
+CalledProcessError in line 104 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Command 'set -euo pipefail;  /Users/wanlin/opt/anaconda3/bin/python3 /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/.snakemake/scripts/tmpphqqqktx.RFCal.py' returned non-zero exit status 1.
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 104, in __rule_rf_distance
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+RuleException:
+CalledProcessError in line 104 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Command 'set -euo pipefail;  /Users/wanlin/opt/anaconda3/bin/python3 /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/.snakemake/scripts/tmp2638r1vk.RFCal.py' returned non-zero exit status 1.
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 104, in __rule_rf_distance
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+Removing output files of failed job rf_distance since they might be corrupted:
+results/rf/170_270.rf_ete
+[Sat Jul  8 14:21:46 2023]
+Error in rule rf_distance:
+    jobid: 10
+    output: results/rf/30_130.rf_ete
+
+Removing output files of failed job rf_distance since they might be corrupted:
+results/rf/50_150.rf_ete
+[Sat Jul  8 14:21:46 2023]
+Error in rule rf_distance:
+    jobid: 184
+    output: results/rf/610_710.rf_ete
+
+[Sat Jul  8 14:21:46 2023]
+Error in rule rf_distance:
+    jobid: 58
+    output: results/rf/190_290.rf_ete
+
+RuleException:
+CalledProcessError in line 104 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Command 'set -euo pipefail;  /Users/wanlin/opt/anaconda3/bin/python3 /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/.snakemake/scripts/tmp1l3nw703.RFCal.py' returned non-zero exit status 1.
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 104, in __rule_rf_distance
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+Removing output files of failed job rf_distance since they might be corrupted:
+results/rf/30_130.rf_ete
+[Sat Jul  8 14:21:46 2023]
+Error in rule rf_distance:
+    jobid: 100
+    output: results/rf/330_430.rf_ete
+
+[Sat Jul  8 14:21:46 2023]
+Error in rule rf_distance:
+    jobid: 94
+    output: results/rf/310_410.rf_ete
+
+RuleException:
+CalledProcessError in line 104 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Command 'set -euo pipefail;  /Users/wanlin/opt/anaconda3/bin/python3 /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/.snakemake/scripts/tmpcy9718ud.RFCal.py' returned non-zero exit status 1.
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 104, in __rule_rf_distance
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+RuleException:
+CalledProcessError in line 104 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Command 'set -euo pipefail;  /Users/wanlin/opt/anaconda3/bin/python3 /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/.snakemake/scripts/tmpvz5q3oak.RFCal.py' returned non-zero exit status 1.
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 104, in __rule_rf_distance
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+Removing output files of failed job rf_distance since they might be corrupted:
+results/rf/610_710.rf_ete
+RuleException:
+CalledProcessError in line 104 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Command 'set -euo pipefail;  /Users/wanlin/opt/anaconda3/bin/python3 /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/.snakemake/scripts/tmpp58amdu3.RFCal.py' returned non-zero exit status 1.
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 104, in __rule_rf_distance
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+Removing output files of failed job rf_distance since they might be corrupted:
+results/rf/190_290.rf_ete
+[Sat Jul  8 14:21:46 2023]
+Error in rule rf_distance:
+    jobid: 142
+    output: results/rf/470_570.rf_ete
+
+Removing output files of failed job rf_distance since they might be corrupted:
+results/rf/330_430.rf_ete
+RuleException:
+CalledProcessError in line 104 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Command 'set -euo pipefail;  /Users/wanlin/opt/anaconda3/bin/python3 /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/.snakemake/scripts/tmp3hwjqv4i.RFCal.py' returned non-zero exit status 1.
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 104, in __rule_rf_distance
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+Removing output files of failed job rf_distance since they might be corrupted:
+results/rf/310_410.rf_ete
+RuleException:
+CalledProcessError in line 104 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Command 'set -euo pipefail;  /Users/wanlin/opt/anaconda3/bin/python3 /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/.snakemake/scripts/tmp7cj0lhk1.RFCal.py' returned non-zero exit status 1.
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile", line 104, in __rule_rf_distance
+  File "/Users/wanlin/opt/anaconda3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+Removing output files of failed job rf_distance since they might be corrupted:
+results/rf/470_570.rf_ete
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-07-08T142142.134144.snakemake.log

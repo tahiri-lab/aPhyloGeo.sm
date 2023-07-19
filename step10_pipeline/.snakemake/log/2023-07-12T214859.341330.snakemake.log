@@ -1,0 +1,131 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count    min threads    max threads
+---------------  -------  -------------  -------------
+all                    1              1              1
+rf_distance          305              1              1
+runRaxML             305              1              1
+sliding_windows      297              1              1
+total                908              1              1
+
+Select jobs to execute...
+
+[Wed Jul 12 21:49:05 2023]
+rule runRaxML:
+    input: results/windows/window_position_5030_5130.fa
+    output: results/RAxML/5030_5130.raxml.bestModel, results/RAxML/5030_5130.raxml.bestTree, results/RAxML/5030_5130.raxml.bootstraps, results/RAxML/5030_5130.raxml.log, results/RAxML/5030_5130.raxml.mlTrees, results/RAxML/5030_5130.raxml.rba, results/RAxML/5030_5130.raxml.startTree, results/RAxML/5030_5130.raxml.support
+    jobid: 1511
+    reason: Forced execution
+    wildcards: position=5030_5130
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Wed Jul 12 21:49:05 2023]
+rule runRaxML:
+    input: results/windows/window_position_5310_5410.fa
+    output: results/RAxML/5310_5410.raxml.bestModel, results/RAxML/5310_5410.raxml.bestTree, results/RAxML/5310_5410.raxml.bootstraps, results/RAxML/5310_5410.raxml.log, results/RAxML/5310_5410.raxml.mlTrees, results/RAxML/5310_5410.raxml.rba, results/RAxML/5310_5410.raxml.startTree, results/RAxML/5310_5410.raxml.support
+    jobid: 1595
+    reason: Forced execution
+    wildcards: position=5310_5410
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Wed Jul 12 21:49:05 2023]
+rule runRaxML:
+    input: results/windows/window_position_650_750.fa
+    output: results/RAxML/650_750.raxml.bestModel, results/RAxML/650_750.raxml.bestTree, results/RAxML/650_750.raxml.bootstraps, results/RAxML/650_750.raxml.log, results/RAxML/650_750.raxml.mlTrees, results/RAxML/650_750.raxml.rba, results/RAxML/650_750.raxml.startTree, results/RAxML/650_750.raxml.support
+    jobid: 197
+    reason: Forced execution
+    wildcards: position=650_750
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Wed Jul 12 21:49:05 2023]
+rule runRaxML:
+    input: results/windows/window_position_4610_4710.fa
+    output: results/RAxML/4610_4710.raxml.bestModel, results/RAxML/4610_4710.raxml.bestTree, results/RAxML/4610_4710.raxml.bootstraps, results/RAxML/4610_4710.raxml.log, results/RAxML/4610_4710.raxml.mlTrees, results/RAxML/4610_4710.raxml.rba, results/RAxML/4610_4710.raxml.startTree, results/RAxML/4610_4710.raxml.support
+    jobid: 1385
+    reason: Forced execution
+    wildcards: position=4610_4710
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Wed Jul 12 21:49:05 2023]
+rule runRaxML:
+    input: results/windows/window_position_1490_1590.fa
+    output: results/RAxML/1490_1590.raxml.bestModel, results/RAxML/1490_1590.raxml.bestTree, results/RAxML/1490_1590.raxml.bootstraps, results/RAxML/1490_1590.raxml.log, results/RAxML/1490_1590.raxml.mlTrees, results/RAxML/1490_1590.raxml.rba, results/RAxML/1490_1590.raxml.startTree, results/RAxML/1490_1590.raxml.support
+    jobid: 449
+    reason: Forced execution
+    wildcards: position=1490_1590
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Wed Jul 12 21:49:05 2023]
+rule runRaxML:
+    input: results/windows/window_position_2980_3080.fa
+    output: results/RAxML/2980_3080.raxml.bestModel, results/RAxML/2980_3080.raxml.bestTree, results/RAxML/2980_3080.raxml.bootstraps, results/RAxML/2980_3080.raxml.log, results/RAxML/2980_3080.raxml.mlTrees, results/RAxML/2980_3080.raxml.rba, results/RAxML/2980_3080.raxml.startTree, results/RAxML/2980_3080.raxml.support
+    jobid: 896
+    reason: Forced execution
+    wildcards: position=2980_3080
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Wed Jul 12 21:49:05 2023]
+rule runRaxML:
+    input: results/windows/window_position_5050_5150.fa
+    output: results/RAxML/5050_5150.raxml.bestModel, results/RAxML/5050_5150.raxml.bestTree, results/RAxML/5050_5150.raxml.bootstraps, results/RAxML/5050_5150.raxml.log, results/RAxML/5050_5150.raxml.mlTrees, results/RAxML/5050_5150.raxml.rba, results/RAxML/5050_5150.raxml.startTree, results/RAxML/5050_5150.raxml.support
+    jobid: 1517
+    reason: Forced execution
+    wildcards: position=5050_5150
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Wed Jul 12 21:49:05 2023]
+rule runRaxML:
+    input: results/windows/window_position_3000_3100.fa
+    output: results/RAxML/3000_3100.raxml.bestModel, results/RAxML/3000_3100.raxml.bestTree, results/RAxML/3000_3100.raxml.bootstraps, results/RAxML/3000_3100.raxml.log, results/RAxML/3000_3100.raxml.mlTrees, results/RAxML/3000_3100.raxml.rba, results/RAxML/3000_3100.raxml.startTree, results/RAxML/3000_3100.raxml.support
+    jobid: 902
+    reason: Forced execution
+    wildcards: position=3000_3100
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 84 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Job Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+results/RAxML/650_750.raxml.startTree completed successfully, but some output files are missing. 197
+Removing output files of failed job runRaxML since they might be corrupted:
+results/RAxML/650_750.raxml.bestModel, results/RAxML/650_750.raxml.bestTree, results/RAxML/650_750.raxml.bootstraps, results/RAxML/650_750.raxml.log, results/RAxML/650_750.raxml.mlTrees, results/RAxML/650_750.raxml.rba, results/RAxML/650_750.raxml.support
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 84 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Job Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+results/RAxML/5310_5410.raxml.startTree completed successfully, but some output files are missing. 1595
+Removing output files of failed job runRaxML since they might be corrupted:
+results/RAxML/5310_5410.raxml.bestModel, results/RAxML/5310_5410.raxml.bestTree, results/RAxML/5310_5410.raxml.bootstraps, results/RAxML/5310_5410.raxml.log, results/RAxML/5310_5410.raxml.mlTrees, results/RAxML/5310_5410.raxml.rba, results/RAxML/5310_5410.raxml.support
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 84 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Job Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+results/RAxML/4610_4710.raxml.startTree completed successfully, but some output files are missing. 1385
+Removing output files of failed job runRaxML since they might be corrupted:
+results/RAxML/4610_4710.raxml.bestModel, results/RAxML/4610_4710.raxml.bestTree, results/RAxML/4610_4710.raxml.bootstraps, results/RAxML/4610_4710.raxml.log, results/RAxML/4610_4710.raxml.mlTrees, results/RAxML/4610_4710.raxml.rba, results/RAxML/4610_4710.raxml.support
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 84 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Job Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+results/RAxML/2980_3080.raxml.startTree completed successfully, but some output files are missing. 896
+Removing output files of failed job runRaxML since they might be corrupted:
+results/RAxML/2980_3080.raxml.bestModel, results/RAxML/2980_3080.raxml.bestTree, results/RAxML/2980_3080.raxml.bootstraps, results/RAxML/2980_3080.raxml.log, results/RAxML/2980_3080.raxml.mlTrees, results/RAxML/2980_3080.raxml.rba, results/RAxML/2980_3080.raxml.support
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 84 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Job Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+results/RAxML/1490_1590.raxml.startTree completed successfully, but some output files are missing. 449
+Removing output files of failed job runRaxML since they might be corrupted:
+results/RAxML/1490_1590.raxml.bestModel, results/RAxML/1490_1590.raxml.bestTree, results/RAxML/1490_1590.raxml.bootstraps, results/RAxML/1490_1590.raxml.log, results/RAxML/1490_1590.raxml.mlTrees, results/RAxML/1490_1590.raxml.rba, results/RAxML/1490_1590.raxml.support
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 84 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Job Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+results/RAxML/3000_3100.raxml.startTree completed successfully, but some output files are missing. 902
+Removing output files of failed job runRaxML since they might be corrupted:
+results/RAxML/3000_3100.raxml.bestModel, results/RAxML/3000_3100.raxml.bestTree, results/RAxML/3000_3100.raxml.bootstraps, results/RAxML/3000_3100.raxml.log, results/RAxML/3000_3100.raxml.mlTrees, results/RAxML/3000_3100.raxml.rba, results/RAxML/3000_3100.raxml.support
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 84 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_pipeline/Snakefile:
+Job Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+results/RAxML/5030_5130.raxml.startTree completed successfully, but some output files are missing. 1511
+Removing output files of failed job runRaxML since they might be corrupted:
+results/RAxML/5030_5130.raxml.bestModel, results/RAxML/5030_5130.raxml.bestTree, results/RAxML/5030_5130.raxml.bootstraps, results/RAxML/5030_5130.raxml.log, results/RAxML/5030_5130.raxml.mlTrees, results/RAxML/5030_5130.raxml.rba, results/RAxML/5030_5130.raxml.support
+Terminating processes on user request, this might take some time.
+Complete log: .snakemake/log/2023-07-12T214859.341330.snakemake.log

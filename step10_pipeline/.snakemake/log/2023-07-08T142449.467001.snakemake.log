@@ -1,0 +1,1010 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count    min threads    max threads
+-----------  -------  -------------  -------------
+all                1              1              1
+rf_distance       72              1              1
+total             73              1              1
+
+Select jobs to execute...
+
+[Sat Jul  8 14:24:50 2023]
+rule rf_distance:
+    input: results/RAxML/330_430.raxml.bestTree
+    output: results/rf/330_430.rf_ete
+    jobid: 100
+    reason: Missing output files: results/rf/330_430.rf_ete
+    wildcards: position=330_430
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:50 2023]
+rule rf_distance:
+    input: results/RAxML/610_710.raxml.bestTree
+    output: results/rf/610_710.rf_ete
+    jobid: 184
+    reason: Missing output files: results/rf/610_710.rf_ete
+    wildcards: position=610_710
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:50 2023]
+rule rf_distance:
+    input: results/RAxML/470_570.raxml.bestTree
+    output: results/rf/470_570.rf_ete
+    jobid: 142
+    reason: Missing output files: results/rf/470_570.rf_ete
+    wildcards: position=470_570
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:50 2023]
+rule rf_distance:
+    input: results/RAxML/190_290.raxml.bestTree
+    output: results/rf/190_290.rf_ete
+    jobid: 58
+    reason: Missing output files: results/rf/190_290.rf_ete
+    wildcards: position=190_290
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:50 2023]
+rule rf_distance:
+    input: results/RAxML/50_150.raxml.bestTree
+    output: results/rf/50_150.rf_ete
+    jobid: 16
+    reason: Missing output files: results/rf/50_150.rf_ete
+    wildcards: position=50_150
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:50 2023]
+rule rf_distance:
+    input: results/RAxML/30_130.raxml.bestTree
+    output: results/rf/30_130.rf_ete
+    jobid: 10
+    reason: Missing output files: results/rf/30_130.rf_ete
+    wildcards: position=30_130
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:50 2023]
+rule rf_distance:
+    input: results/RAxML/170_270.raxml.bestTree
+    output: results/rf/170_270.rf_ete
+    jobid: 52
+    reason: Missing output files: results/rf/170_270.rf_ete
+    wildcards: position=170_270
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:50 2023]
+rule rf_distance:
+    input: results/RAxML/310_410.raxml.bestTree
+    output: results/rf/310_410.rf_ete
+    jobid: 94
+    reason: Missing output files: results/rf/310_410.rf_ete
+    wildcards: position=310_410
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:52 2023]
+Finished job 142.
+1 of 73 steps (1%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:52 2023]
+rule rf_distance:
+    input: results/RAxML/590_690.raxml.bestTree
+    output: results/rf/590_690.rf_ete
+    jobid: 178
+    reason: Missing output files: results/rf/590_690.rf_ete
+    wildcards: position=590_690
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:52 2023]
+Finished job 58.
+2 of 73 steps (3%) done
+[Sat Jul  8 14:24:52 2023]
+Finished job 52.
+3 of 73 steps (4%) done
+[Sat Jul  8 14:24:52 2023]
+Finished job 184.
+4 of 73 steps (5%) done
+[Sat Jul  8 14:24:52 2023]
+Finished job 10.
+5 of 73 steps (7%) done
+[Sat Jul  8 14:24:52 2023]
+Finished job 100.
+6 of 73 steps (8%) done
+[Sat Jul  8 14:24:52 2023]
+Finished job 16.
+7 of 73 steps (10%) done
+[Sat Jul  8 14:24:52 2023]
+Finished job 94.
+8 of 73 steps (11%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:52 2023]
+rule rf_distance:
+    input: results/RAxML/450_550.raxml.bestTree
+    output: results/rf/450_550.rf_ete
+    jobid: 136
+    reason: Missing output files: results/rf/450_550.rf_ete
+    wildcards: position=450_550
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:52 2023]
+rule rf_distance:
+    input: results/RAxML/100_200.raxml.bestTree
+    output: results/rf/100_200.rf_ete
+    jobid: 31
+    reason: Missing output files: results/rf/100_200.rf_ete
+    wildcards: position=100_200
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+
+[Sat Jul  8 14:24:52 2023]
+rule rf_distance:
+    input: results/RAxML/240_340.raxml.bestTree
+    output: results/rf/240_340.rf_ete
+    jobid: 73
+    reason: Missing output files: results/rf/240_340.rf_ete
+    wildcards: position=240_340
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:52 2023]
+rule rf_distance:
+    input: results/RAxML/520_620.raxml.bestTree
+    output: results/rf/520_620.rf_ete
+    jobid: 157
+    reason: Missing output files: results/rf/520_620.rf_ete
+    wildcards: position=520_620
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+
+[Sat Jul  8 14:24:52 2023]
+rule rf_distance:
+    input: results/RAxML/380_480.raxml.bestTree
+    output: results/rf/380_480.rf_ete
+    jobid: 115
+    reason: Missing output files: results/rf/380_480.rf_ete
+    wildcards: position=380_480
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+
+[Sat Jul  8 14:24:52 2023]
+rule rf_distance:
+    input: results/RAxML/660_760.raxml.bestTree
+    output: results/rf/660_760.rf_ete
+    jobid: 199
+    reason: Missing output files: results/rf/660_760.rf_ete
+    wildcards: position=660_760
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+
+[Sat Jul  8 14:24:52 2023]
+rule rf_distance:
+    input: results/RAxML/80_180.raxml.bestTree
+    output: results/rf/80_180.rf_ete
+    jobid: 25
+    reason: Missing output files: results/rf/80_180.rf_ete
+    wildcards: position=80_180
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+Select jobs to execute...
+[Sat Jul  8 14:24:54 2023]
+Finished job 31.
+9 of 73 steps (12%) done
+
+[Sat Jul  8 14:24:54 2023]
+rule rf_distance:
+    input: results/RAxML/640_740.raxml.bestTree
+    output: results/rf/640_740.rf_ete
+    jobid: 193
+    reason: Missing output files: results/rf/640_740.rf_ete
+    wildcards: position=640_740
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:54 2023]
+Finished job 157.
+10 of 73 steps (14%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:54 2023]
+rule rf_distance:
+    input: results/RAxML/220_320.raxml.bestTree
+    output: results/rf/220_320.rf_ete
+    jobid: 67
+    reason: Missing output files: results/rf/220_320.rf_ete
+    wildcards: position=220_320
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:54 2023]
+Finished job 178.
+11 of 73 steps (15%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:54 2023]
+rule rf_distance:
+    input: results/RAxML/500_600.raxml.bestTree
+    output: results/rf/500_600.rf_ete
+    jobid: 151
+    reason: Missing output files: results/rf/500_600.rf_ete
+    wildcards: position=500_600
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:54 2023]
+Finished job 136.
+12 of 73 steps (16%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:54 2023]
+rule rf_distance:
+    input: results/RAxML/360_460.raxml.bestTree
+    output: results/rf/360_460.rf_ete
+    jobid: 109
+    reason: Missing output files: results/rf/360_460.rf_ete
+    wildcards: position=360_460
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:54 2023]
+Finished job 73.
+13 of 73 steps (18%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:54 2023]
+rule rf_distance:
+    input: results/RAxML/150_250.raxml.bestTree
+    output: results/rf/150_250.rf_ete
+    jobid: 46
+    reason: Missing output files: results/rf/150_250.rf_ete
+    wildcards: position=150_250
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:54 2023]
+Finished job 25.
+14 of 73 steps (19%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:54 2023]
+rule rf_distance:
+    input: results/RAxML/290_390.raxml.bestTree
+    output: results/rf/290_390.rf_ete
+    jobid: 88
+    reason: Missing output files: results/rf/290_390.rf_ete
+    wildcards: position=290_390
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:54 2023]
+Finished job 115.
+15 of 73 steps (21%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:54 2023]
+rule rf_distance:
+    input: results/RAxML/430_530.raxml.bestTree
+    output: results/rf/430_530.rf_ete
+    jobid: 130
+    reason: Missing output files: results/rf/430_530.rf_ete
+    wildcards: position=430_530
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:54 2023]
+Finished job 199.
+16 of 73 steps (22%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:54 2023]
+rule rf_distance:
+    input: results/RAxML/570_670.raxml.bestTree
+    output: results/rf/570_670.rf_ete
+    jobid: 172
+    reason: Missing output files: results/rf/570_670.rf_ete
+    wildcards: position=570_670
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:56 2023]
+Finished job 151.
+17 of 73 steps (23%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:56 2023]
+rule rf_distance:
+    input: results/RAxML/710_809.raxml.bestTree
+    output: results/rf/710_809.rf_ete
+    jobid: 214
+    reason: Missing output files: results/rf/710_809.rf_ete
+    wildcards: position=710_809
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:56 2023]
+Finished job 67.
+18 of 73 steps (25%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:56 2023]
+rule rf_distance:
+    input: results/RAxML/10_110.raxml.bestTree
+    output: results/rf/10_110.rf_ete
+    jobid: 4
+    reason: Missing output files: results/rf/10_110.rf_ete
+    wildcards: position=10_110
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:56 2023]
+Finished job 193.
+19 of 73 steps (26%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:56 2023]
+rule rf_distance:
+    input: results/RAxML/120_220.raxml.bestTree
+    output: results/rf/120_220.rf_ete
+    jobid: 37
+    reason: Missing output files: results/rf/120_220.rf_ete
+    wildcards: position=120_220
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:56 2023]
+Finished job 46.
+20 of 73 steps (27%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:56 2023]
+rule rf_distance:
+    input: results/RAxML/690_790.raxml.bestTree
+    output: results/rf/690_790.rf_ete
+    jobid: 208
+    reason: Missing output files: results/rf/690_790.rf_ete
+    wildcards: position=690_790
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:56 2023]
+Finished job 109.
+21 of 73 steps (29%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:56 2023]
+rule rf_distance:
+    input: results/RAxML/270_370.raxml.bestTree
+    output: results/rf/270_370.rf_ete
+    jobid: 82
+    reason: Missing output files: results/rf/270_370.rf_ete
+    wildcards: position=270_370
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:56 2023]
+Finished job 88.
+22 of 73 steps (30%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:56 2023]
+rule rf_distance:
+    input: results/RAxML/410_510.raxml.bestTree
+    output: results/rf/410_510.rf_ete
+    jobid: 124
+    reason: Missing output files: results/rf/410_510.rf_ete
+    wildcards: position=410_510
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:56 2023]
+Finished job 130.
+23 of 73 steps (32%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:56 2023]
+rule rf_distance:
+    input: results/RAxML/550_650.raxml.bestTree
+    output: results/rf/550_650.rf_ete
+    jobid: 166
+    reason: Missing output files: results/rf/550_650.rf_ete
+    wildcards: position=550_650
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:56 2023]
+Finished job 172.
+24 of 73 steps (33%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:56 2023]
+rule rf_distance:
+    input: results/RAxML/130_230.raxml.bestTree
+    output: results/rf/130_230.rf_ete
+    jobid: 40
+    reason: Missing output files: results/rf/130_230.rf_ete
+    wildcards: position=130_230
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:58 2023]
+Finished job 214.
+25 of 73 steps (34%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:58 2023]
+rule rf_distance:
+    input: results/RAxML/260_360.raxml.bestTree
+    output: results/rf/260_360.rf_ete
+    jobid: 79
+    reason: Missing output files: results/rf/260_360.rf_ete
+    wildcards: position=260_360
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:58 2023]
+Finished job 4.
+26 of 73 steps (36%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:58 2023]
+rule rf_distance:
+    input: results/RAxML/620_720.raxml.bestTree
+    output: results/rf/620_720.rf_ete
+    jobid: 187
+    reason: Missing output files: results/rf/620_720.rf_ete
+    wildcards: position=620_720
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:58 2023]
+Finished job 37.
+27 of 73 steps (37%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:58 2023]
+rule rf_distance:
+    input: results/RAxML/200_300.raxml.bestTree
+    output: results/rf/200_300.rf_ete
+    jobid: 61
+    reason: Missing output files: results/rf/200_300.rf_ete
+    wildcards: position=200_300
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:58 2023]
+Finished job 208.
+28 of 73 steps (38%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:58 2023]
+rule rf_distance:
+    input: results/RAxML/60_160.raxml.bestTree
+    output: results/rf/60_160.rf_ete
+    jobid: 19
+    reason: Missing output files: results/rf/60_160.rf_ete
+    wildcards: position=60_160
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:58 2023]
+Finished job 124.
+29 of 73 steps (40%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:58 2023]
+rule rf_distance:
+    input: results/RAxML/480_580.raxml.bestTree
+    output: results/rf/480_580.rf_ete
+    jobid: 145
+    reason: Missing output files: results/rf/480_580.rf_ete
+    wildcards: position=480_580
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:58 2023]
+Finished job 82.
+30 of 73 steps (41%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:58 2023]
+rule rf_distance:
+    input: results/RAxML/340_440.raxml.bestTree
+    output: results/rf/340_440.rf_ete
+    jobid: 103
+    reason: Missing output files: results/rf/340_440.rf_ete
+    wildcards: position=340_440
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:58 2023]
+Finished job 166.
+31 of 73 steps (42%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:58 2023]
+rule rf_distance:
+    input: results/RAxML/400_500.raxml.bestTree
+    output: results/rf/400_500.rf_ete
+    jobid: 121
+    reason: Missing output files: results/rf/400_500.rf_ete
+    wildcards: position=400_500
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:58 2023]
+Finished job 40.
+32 of 73 steps (44%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:58 2023]
+rule rf_distance:
+    input: results/RAxML/180_280.raxml.bestTree
+    output: results/rf/180_280.rf_ete
+    jobid: 55
+    reason: Missing output files: results/rf/180_280.rf_ete
+    wildcards: position=180_280
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:59 2023]
+Finished job 79.
+33 of 73 steps (45%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:59 2023]
+rule rf_distance:
+    input: results/RAxML/320_420.raxml.bestTree
+    output: results/rf/320_420.rf_ete
+    jobid: 97
+    reason: Missing output files: results/rf/320_420.rf_ete
+    wildcards: position=320_420
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:24:59 2023]
+Finished job 187.
+34 of 73 steps (47%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:24:59 2023]
+rule rf_distance:
+    input: results/RAxML/460_560.raxml.bestTree
+    output: results/rf/460_560.rf_ete
+    jobid: 139
+    reason: Missing output files: results/rf/460_560.rf_ete
+    wildcards: position=460_560
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:00 2023]
+Finished job 19.
+35 of 73 steps (48%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:00 2023]
+rule rf_distance:
+    input: results/RAxML/600_700.raxml.bestTree
+    output: results/rf/600_700.rf_ete
+    jobid: 181
+    reason: Missing output files: results/rf/600_700.rf_ete
+    wildcards: position=600_700
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:00 2023]
+Finished job 61.
+36 of 73 steps (49%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:00 2023]
+rule rf_distance:
+    input: results/RAxML/40_140.raxml.bestTree
+    output: results/rf/40_140.rf_ete
+    jobid: 13
+    reason: Missing output files: results/rf/40_140.rf_ete
+    wildcards: position=40_140
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:00 2023]
+Finished job 145.
+37 of 73 steps (51%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:00 2023]
+rule rf_distance:
+    input: results/RAxML/110_210.raxml.bestTree
+    output: results/rf/110_210.rf_ete
+    jobid: 34
+    reason: Missing output files: results/rf/110_210.rf_ete
+    wildcards: position=110_210
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:00 2023]
+Finished job 103.
+38 of 73 steps (52%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:00 2023]
+rule rf_distance:
+    input: results/RAxML/250_350.raxml.bestTree
+    output: results/rf/250_350.rf_ete
+    jobid: 76
+    reason: Missing output files: results/rf/250_350.rf_ete
+    wildcards: position=250_350
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:00 2023]
+Finished job 121.
+39 of 73 steps (53%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:00 2023]
+rule rf_distance:
+    input: results/RAxML/390_490.raxml.bestTree
+    output: results/rf/390_490.rf_ete
+    jobid: 118
+    reason: Missing output files: results/rf/390_490.rf_ete
+    wildcards: position=390_490
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:00 2023]
+Finished job 55.
+40 of 73 steps (55%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:00 2023]
+rule rf_distance:
+    input: results/RAxML/530_630.raxml.bestTree
+    output: results/rf/530_630.rf_ete
+    jobid: 160
+    reason: Missing output files: results/rf/530_630.rf_ete
+    wildcards: position=530_630
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:01 2023]
+Finished job 97.
+41 of 73 steps (56%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:01 2023]
+rule rf_distance:
+    input: results/RAxML/670_770.raxml.bestTree
+    output: results/rf/670_770.rf_ete
+    jobid: 202
+    reason: Missing output files: results/rf/670_770.rf_ete
+    wildcards: position=670_770
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:01 2023]
+Finished job 139.
+42 of 73 steps (58%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:01 2023]
+rule rf_distance:
+    input: results/RAxML/90_190.raxml.bestTree
+    output: results/rf/90_190.rf_ete
+    jobid: 28
+    reason: Missing output files: results/rf/90_190.rf_ete
+    wildcards: position=90_190
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:01 2023]
+Finished job 181.
+43 of 73 steps (59%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:01 2023]
+rule rf_distance:
+    input: results/RAxML/230_330.raxml.bestTree
+    output: results/rf/230_330.rf_ete
+    jobid: 70
+    reason: Missing output files: results/rf/230_330.rf_ete
+    wildcards: position=230_330
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:01 2023]
+Finished job 13.
+44 of 73 steps (60%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:01 2023]
+rule rf_distance:
+    input: results/RAxML/370_470.raxml.bestTree
+    output: results/rf/370_470.rf_ete
+    jobid: 112
+    reason: Missing output files: results/rf/370_470.rf_ete
+    wildcards: position=370_470
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:01 2023]
+Finished job 34.
+45 of 73 steps (62%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:02 2023]
+rule rf_distance:
+    input: results/RAxML/510_610.raxml.bestTree
+    output: results/rf/510_610.rf_ete
+    jobid: 154
+    reason: Missing output files: results/rf/510_610.rf_ete
+    wildcards: position=510_610
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:02 2023]
+Finished job 118.
+46 of 73 steps (63%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:02 2023]
+rule rf_distance:
+    input: results/RAxML/650_750.raxml.bestTree
+    output: results/rf/650_750.rf_ete
+    jobid: 196
+    reason: Missing output files: results/rf/650_750.rf_ete
+    wildcards: position=650_750
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:02 2023]
+Finished job 76.
+47 of 73 steps (64%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:02 2023]
+rule rf_distance:
+    input: results/RAxML/160_260.raxml.bestTree
+    output: results/rf/160_260.rf_ete
+    jobid: 49
+    reason: Missing output files: results/rf/160_260.rf_ete
+    wildcards: position=160_260
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:02 2023]
+Finished job 160.
+48 of 73 steps (66%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:02 2023]
+rule rf_distance:
+    input: results/RAxML/20_120.raxml.bestTree
+    output: results/rf/20_120.rf_ete
+    jobid: 7
+    reason: Missing output files: results/rf/20_120.rf_ete
+    wildcards: position=20_120
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:03 2023]
+Finished job 202.
+49 of 73 steps (67%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:03 2023]
+rule rf_distance:
+    input: results/RAxML/0_100.raxml.bestTree
+    output: results/rf/0_100.rf_ete
+    jobid: 1
+    reason: Missing output files: results/rf/0_100.rf_ete
+    wildcards: position=0_100
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:03 2023]
+Finished job 70.
+50 of 73 steps (68%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:03 2023]
+rule rf_distance:
+    input: results/RAxML/140_240.raxml.bestTree
+    output: results/rf/140_240.rf_ete
+    jobid: 43
+    reason: Missing output files: results/rf/140_240.rf_ete
+    wildcards: position=140_240
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:03 2023]
+Finished job 28.
+51 of 73 steps (70%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:03 2023]
+rule rf_distance:
+    input: results/RAxML/280_380.raxml.bestTree
+    output: results/rf/280_380.rf_ete
+    jobid: 85
+    reason: Missing output files: results/rf/280_380.rf_ete
+    wildcards: position=280_380
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:03 2023]
+Finished job 112.
+52 of 73 steps (71%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:03 2023]
+rule rf_distance:
+    input: results/RAxML/420_520.raxml.bestTree
+    output: results/rf/420_520.rf_ete
+    jobid: 127
+    reason: Missing output files: results/rf/420_520.rf_ete
+    wildcards: position=420_520
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:03 2023]
+Finished job 196.
+53 of 73 steps (73%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:03 2023]
+rule rf_distance:
+    input: results/RAxML/560_660.raxml.bestTree
+    output: results/rf/560_660.rf_ete
+    jobid: 169
+    reason: Missing output files: results/rf/560_660.rf_ete
+    wildcards: position=560_660
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:03 2023]
+Finished job 154.
+54 of 73 steps (74%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:03 2023]
+rule rf_distance:
+    input: results/RAxML/700_800.raxml.bestTree
+    output: results/rf/700_800.rf_ete
+    jobid: 211
+    reason: Missing output files: results/rf/700_800.rf_ete
+    wildcards: position=700_800
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:03 2023]
+Finished job 49.
+55 of 73 steps (75%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:03 2023]
+rule rf_distance:
+    input: results/RAxML/70_170.raxml.bestTree
+    output: results/rf/70_170.rf_ete
+    jobid: 22
+    reason: Missing output files: results/rf/70_170.rf_ete
+    wildcards: position=70_170
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:04 2023]
+Finished job 7.
+56 of 73 steps (77%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:04 2023]
+rule rf_distance:
+    input: results/RAxML/210_310.raxml.bestTree
+    output: results/rf/210_310.rf_ete
+    jobid: 64
+    reason: Missing output files: results/rf/210_310.rf_ete
+    wildcards: position=210_310
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:05 2023]
+Finished job 1.
+57 of 73 steps (78%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:05 2023]
+rule rf_distance:
+    input: results/RAxML/350_450.raxml.bestTree
+    output: results/rf/350_450.rf_ete
+    jobid: 106
+    reason: Missing output files: results/rf/350_450.rf_ete
+    wildcards: position=350_450
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:05 2023]
+Finished job 85.
+58 of 73 steps (79%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:05 2023]
+rule rf_distance:
+    input: results/RAxML/490_590.raxml.bestTree
+    output: results/rf/490_590.rf_ete
+    jobid: 148
+    reason: Missing output files: results/rf/490_590.rf_ete
+    wildcards: position=490_590
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:05 2023]
+Finished job 43.
+59 of 73 steps (81%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:05 2023]
+rule rf_distance:
+    input: results/RAxML/630_730.raxml.bestTree
+    output: results/rf/630_730.rf_ete
+    jobid: 190
+    reason: Missing output files: results/rf/630_730.rf_ete
+    wildcards: position=630_730
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:05 2023]
+Finished job 127.
+60 of 73 steps (82%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:05 2023]
+rule rf_distance:
+    input: results/RAxML/300_400.raxml.bestTree
+    output: results/rf/300_400.rf_ete
+    jobid: 91
+    reason: Missing output files: results/rf/300_400.rf_ete
+    wildcards: position=300_400
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:05 2023]
+Finished job 169.
+61 of 73 steps (84%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:05 2023]
+rule rf_distance:
+    input: results/RAxML/580_680.raxml.bestTree
+    output: results/rf/580_680.rf_ete
+    jobid: 175
+    reason: Missing output files: results/rf/580_680.rf_ete
+    wildcards: position=580_680
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:05 2023]
+Finished job 211.
+62 of 73 steps (85%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:05 2023]
+rule rf_distance:
+    input: results/RAxML/440_540.raxml.bestTree
+    output: results/rf/440_540.rf_ete
+    jobid: 133
+    reason: Missing output files: results/rf/440_540.rf_ete
+    wildcards: position=440_540
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:05 2023]
+Finished job 22.
+63 of 73 steps (86%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:05 2023]
+rule rf_distance:
+    input: results/RAxML/540_640.raxml.bestTree
+    output: results/rf/540_640.rf_ete
+    jobid: 163
+    reason: Missing output files: results/rf/540_640.rf_ete
+    wildcards: position=540_640
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:05 2023]
+Finished job 64.
+64 of 73 steps (88%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:05 2023]
+rule rf_distance:
+    input: results/RAxML/680_780.raxml.bestTree
+    output: results/rf/680_780.rf_ete
+    jobid: 205
+    reason: Missing output files: results/rf/680_780.rf_ete
+    wildcards: position=680_780
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:06 2023]
+Finished job 106.
+65 of 73 steps (89%) done
+[Sat Jul  8 14:25:06 2023]
+Finished job 148.
+66 of 73 steps (90%) done
+[Sat Jul  8 14:25:06 2023]
+Finished job 190.
+67 of 73 steps (92%) done
+[Sat Jul  8 14:25:06 2023]
+Finished job 91.
+68 of 73 steps (93%) done
+[Sat Jul  8 14:25:07 2023]
+Finished job 175.
+69 of 73 steps (95%) done
+[Sat Jul  8 14:25:07 2023]
+Finished job 133.
+70 of 73 steps (96%) done
+[Sat Jul  8 14:25:07 2023]
+Finished job 163.
+71 of 73 steps (97%) done
+[Sat Jul  8 14:25:07 2023]
+Finished job 205.
+72 of 73 steps (99%) done
+Select jobs to execute...
+
+[Sat Jul  8 14:25:07 2023]
+localrule all:
+    input: results/rf/0_100.rf_ete, results/rf/10_110.rf_ete, results/rf/20_120.rf_ete, results/rf/30_130.rf_ete, results/rf/40_140.rf_ete, results/rf/50_150.rf_ete, results/rf/60_160.rf_ete, results/rf/70_170.rf_ete, results/rf/80_180.rf_ete, results/rf/90_190.rf_ete, results/rf/100_200.rf_ete, results/rf/110_210.rf_ete, results/rf/120_220.rf_ete, results/rf/130_230.rf_ete, results/rf/140_240.rf_ete, results/rf/150_250.rf_ete, results/rf/160_260.rf_ete, results/rf/170_270.rf_ete, results/rf/180_280.rf_ete, results/rf/190_290.rf_ete, results/rf/200_300.rf_ete, results/rf/210_310.rf_ete, results/rf/220_320.rf_ete, results/rf/230_330.rf_ete, results/rf/240_340.rf_ete, results/rf/250_350.rf_ete, results/rf/260_360.rf_ete, results/rf/270_370.rf_ete, results/rf/280_380.rf_ete, results/rf/290_390.rf_ete, results/rf/300_400.rf_ete, results/rf/310_410.rf_ete, results/rf/320_420.rf_ete, results/rf/330_430.rf_ete, results/rf/340_440.rf_ete, results/rf/350_450.rf_ete, results/rf/360_460.rf_ete, results/rf/370_470.rf_ete, results/rf/380_480.rf_ete, results/rf/390_490.rf_ete, results/rf/400_500.rf_ete, results/rf/410_510.rf_ete, results/rf/420_520.rf_ete, results/rf/430_530.rf_ete, results/rf/440_540.rf_ete, results/rf/450_550.rf_ete, results/rf/460_560.rf_ete, results/rf/470_570.rf_ete, results/rf/480_580.rf_ete, results/rf/490_590.rf_ete, results/rf/500_600.rf_ete, results/rf/510_610.rf_ete, results/rf/520_620.rf_ete, results/rf/530_630.rf_ete, results/rf/540_640.rf_ete, results/rf/550_650.rf_ete, results/rf/560_660.rf_ete, results/rf/570_670.rf_ete, results/rf/580_680.rf_ete, results/rf/590_690.rf_ete, results/rf/600_700.rf_ete, results/rf/610_710.rf_ete, results/rf/620_720.rf_ete, results/rf/630_730.rf_ete, results/rf/640_740.rf_ete, results/rf/650_750.rf_ete, results/rf/660_760.rf_ete, results/rf/670_770.rf_ete, results/rf/680_780.rf_ete, results/rf/690_790.rf_ete, results/rf/700_800.rf_ete, results/rf/710_809.rf_ete
+    jobid: 0
+    reason: Input files updated by another job: results/rf/650_750.rf_ete, results/rf/60_160.rf_ete, results/rf/350_450.rf_ete, results/rf/0_100.rf_ete, results/rf/170_270.rf_ete, results/rf/410_510.rf_ete, results/rf/10_110.rf_ete, results/rf/520_620.rf_ete, results/rf/270_370.rf_ete, results/rf/470_570.rf_ete, results/rf/510_610.rf_ete, results/rf/400_500.rf_ete, results/rf/280_380.rf_ete, results/rf/540_640.rf_ete, results/rf/260_360.rf_ete, results/rf/490_590.rf_ete, results/rf/500_600.rf_ete, results/rf/660_760.rf_ete, results/rf/630_730.rf_ete, results/rf/220_320.rf_ete, results/rf/100_200.rf_ete, results/rf/360_460.rf_ete, results/rf/120_220.rf_ete, results/rf/420_520.rf_ete, results/rf/620_720.rf_ete, results/rf/450_550.rf_ete, results/rf/380_480.rf_ete, results/rf/580_680.rf_ete, results/rf/480_580.rf_ete, results/rf/20_120.rf_ete, results/rf/330_430.rf_ete, results/rf/310_410.rf_ete, results/rf/50_150.rf_ete, results/rf/140_240.rf_ete, results/rf/40_140.rf_ete, results/rf/340_440.rf_ete, results/rf/640_740.rf_ete, results/rf/290_390.rf_ete, results/rf/200_300.rf_ete, results/rf/160_260.rf_ete, results/rf/560_660.rf_ete, results/rf/70_170.rf_ete, results/rf/180_280.rf_ete, results/rf/300_400.rf_ete, results/rf/370_470.rf_ete, results/rf/390_490.rf_ete, results/rf/130_230.rf_ete, results/rf/600_700.rf_ete, results/rf/320_420.rf_ete, results/rf/460_560.rf_ete, results/rf/690_790.rf_ete, results/rf/110_210.rf_ete, results/rf/150_250.rf_ete, results/rf/80_180.rf_ete, results/rf/240_340.rf_ete, results/rf/210_310.rf_ete, results/rf/190_290.rf_ete, results/rf/430_530.rf_ete, results/rf/90_190.rf_ete, results/rf/670_770.rf_ete, results/rf/550_650.rf_ete, results/rf/30_130.rf_ete, results/rf/230_330.rf_ete, results/rf/610_710.rf_ete, results/rf/250_350.rf_ete, results/rf/680_780.rf_ete, results/rf/710_809.rf_ete, results/rf/440_540.rf_ete, results/rf/570_670.rf_ete, results/rf/700_800.rf_ete, results/rf/530_630.rf_ete, results/rf/590_690.rf_ete
+    resources: tmpdir=/var/folders/jm/5k15km0505vdkj2xt4zkphy40000gn/T
+
+[Sat Jul  8 14:25:07 2023]
+Finished job 0.
+73 of 73 steps (100%) done
+Complete log: .snakemake/log/2023-07-08T142449.467001.snakemake.log

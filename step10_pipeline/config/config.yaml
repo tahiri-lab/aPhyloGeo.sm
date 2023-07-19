@@ -1,0 +1,5 @@
+params:
+  step_size: 10
+  window_size: 100
+  seq_file: config/1aln_orf1ab_withID.fasta
+  

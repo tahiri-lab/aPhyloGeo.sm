@@ -1,0 +1,3 @@
+KeyError in line 28 of /Users/wanlin/Documents/GitHub/bat_coronavirus/step10_slidingWindows/Snakefile:
+'geo_file'
+  File "/Users/wanlin/Documents/GitHub/bat_coronavirus/step10_slidingWindows/Snakefile", line 28, in <module>
