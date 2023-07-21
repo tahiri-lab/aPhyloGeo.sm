@@ -56,7 +56,7 @@ def downFromNCBI(db_type, accession_list, file_name):
 # print('-----------------------------------------------------------------')
 # orf1ab_ParaFit_f = "orf1ab_ParaFit.fasta"
 # spike_ParaFit_f = "spike_ParaFit.fasta"
-# downFromNCBI("protein", orf1ab_ParaFit, orf1ab_ParaFit_f)
+downFromNCBI("protein", orf1ab_ParaFit, orf1ab_ParaFit_f)
 # downFromNCBI("protein", spike_ParaFit, spike_ParaFit_f)
 
 # print("===================================================================================================")
