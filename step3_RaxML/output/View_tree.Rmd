@@ -1,0 +1,61 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+ 
+
+```{r}
+library(ggplot2)
+library(phangorn)
+library(dplyr)
+library(ggtree)
+library(treeio)
+library(tidyverse)
+library(ggraph)
+library(patchwork)
+```
+
+## Bat
+```{r}
+# Load tree Bat
+tree_bat<-read.newick("bat/bat_besttree_withConfident.txt",
+                  node.label = "support")
+#tree_bat <- read.tree('bat_besttree_withConfident.nwk')
+#tree_bat <- midpoint(tree_bat)
+
+tree_bat@data$support1<-ifelse(tree_bat@data$support<75,NA,tree_bat@data$support)
+
+t_bat <-ggtree(tree_bat)  + geom_tiplab(size = 3,  face = "bold", align = TRUE) +  xlim(NA,2.5) + geom_text(aes(label=support1),hjust=-0.5,size = 3,face = "bold") 
+
+t_bat
+```
+## Saving Tree
+```{r}
+ggtree(tree_bat)  + geom_tiplab(size = 3,  face = "bold", align = TRUE) +  xlim(NA,2.5) + geom_text(aes(label=support1),hjust=-0.5,size = 3,face = "bold") + ggsave("Bat_PhyloTree.png", width = 12, height = 10, units = "in")
+```
+
+## Virus
+```{r}
+# Load tree Virus
+tree_virus<-read.newick("virus/Best tree with confidence values.txt",
+                  node.label = "support")
+
+
+tree_virus@data$support2<-ifelse(tree_virus@data$support<75,NA,tree_virus@data$support)
+
+t_v <-ggtree(tree_virus) + geom_tiplab(size = 3, hjust = -0.5, face = "bold", align = TRUE) + xlim(NA,6)  + ylim(NA,47)  + theme_tree2()  + geom_text(aes(label=support2), hjust=0.3,size = 3,face = "bold", nudge_y = 0.5,  nudge_x = 0.01) 
+
+t_v 
+```
+
+```{r}
+ggtree(tree_virus) + geom_tiplab(size = 3, hjust = -0.5, face = "bold", align = TRUE) + xlim(NA,4.5)  + ylim(NA,47)  + theme_tree2()  + geom_text(aes(label=support2), hjust=0.3,size = 3,face = "bold", nudge_y = 0.0,  nudge_x = 0.05) + ggsave("Virus_PhyloTree.png", width = 12, height = 15, units = "in")
+```
+
+```{r}
+
+```
+
+
+

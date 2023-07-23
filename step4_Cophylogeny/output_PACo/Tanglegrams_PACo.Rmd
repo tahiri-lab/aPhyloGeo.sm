@@ -29,6 +29,14 @@ t_bat
 
 ```
 
+## Ignore branch length
+```{r}
+ggtree(tree_bat,branch.length="none")  + geom_tiplab(size = 3,  face = "bold", align = TRUE) + xlim(NA,23.5) + geom_text(aes(label=support1),hjust=-0.5,size = 3,face = "bold") + ggsave("Bat_tree.png", width = 12, height = 10, units = "in")
+
+```
+
+
+
 ```{r}
 # Load tree Virus
 tree_virus<-read.newick("V_Best_tree_with_confidence.nwk",
@@ -38,18 +46,27 @@ tree_virus<-read.newick("V_Best_tree_with_confidence.nwk",
 
 tree_virus@data$support2<-ifelse(tree_virus@data$support<75,NA,tree_virus@data$support)
 
-t_v <-ggtree(tree_virus) + geom_tiplab(size = 3, hjust = 1, face = "bold", align = TRUE) + scale_x_reverse(limits = c(2, -0.5)) + ylim(NA,47)  + theme_tree2()  + geom_text(aes(label=support2),hjust=-0.3,size = 3,face = "bold", nudge_y = 0.5,  nudge_x = -0.01) 
+t_v <-ggtree(tree_virus) + geom_tiplab(size = 3, hjust = 1, face = "bold", align = TRUE) + scale_x_reverse(limits = c(2, -0.5)) + ylim(NA,70)  + theme_tree2()  + geom_text(aes(label=support2),hjust=-0.3,size = 3,face = "bold", nudge_y = 0.5,  nudge_x = -0.01) 
 
 t_v 
 ```
 
+## Ignore branch length
+```{r}
+ggtree(tree_virus,branch.length="none") + geom_tiplab(size = 3,  hjust = 1.05,face = "bold", align = TRUE) + scale_x_reverse(limits = c(25, -0.5))  + theme_tree2()  + geom_text(aes(label=support2),hjust=-0.3,size = 3,face = "bold", nudge_y = 0.5,  nudge_x = -0.01) 
+```
 
+```{r}
+ggtree(tree_virus,branch.length="none") + geom_tiplab(size = 3,  hjust = -0.05,face = "bold", align = TRUE) + xlim(NA,25) + geom_text(aes(label=support2),hjust=-0.5,size = 2,face = "bold") + ggsave("V_tree.png", width = 12, height = 10, units = "in")
+  
+  
+```
 
 
 
 ## for saving
 ```{r}
-ggtree(tree_virus) + geom_tiplab(size = 3, hjust = 1, face = "bold", align = TRUE) + scale_x_reverse(limits = c(2, -0.5)) + ylim(NA,47)  + theme_tree2()  + geom_text(aes(label=support2),hjust=-0.3,size = 3,face = "bold") + ggsave("V_tree.png", width = 12, height = 10, units = "in")
+ggtree(tree_virus) + geom_tiplab(size = 3, hjust = 1, face = "bold", align = TRUE) + scale_x_reverse(limits = c(2, -0.5)) + ylim(NA,69)  + theme_tree2()  + geom_text(aes(label=support2),hjust=-0.3,size = 3,face = "bold") + ggsave("V_tree.png", width = 12, height = 10, units = "in")
 ```
 
 ## Plot two phylogenetic trees face-to-face with links between the tips
@@ -96,16 +113,38 @@ plot_tree_bat
 
 
 ```{r}
+# Create the tree plot for tree1
+#tree_bat@data$support1<-ifelse(tree_bat@data$support<75,NA,tree_bat@data$support)
+
+plot_tree_bat <- ggtree(tree_bat,branch.length="none")  + geom_tiplab(size = 3,  face = "bold", align = TRUE) + xlim(NA,23.5) + geom_text(aes(label=support1),hjust=-0.5,size = 3,face = "bold") +
+  theme(legend.position = "none")
+plot_tree_bat
+
+
+```
+
+
+
+```{r}
 #tree_virus@data$support2<-ifelse(tree_virus@data$support<75,NA,tree_virus@data$support)
 
 plot_tree_virus2 <- ggtree(tree_virus) +
-  geom_tiplab(size = 3, hjust = 1, face = "bold", align = TRUE) + scale_x_reverse(limits = c(2.5, NA)) + ylim(NA,47)  +
+  geom_tiplab(size = 3, hjust = 1, face = "bold", align = TRUE) + scale_x_reverse(limits = c(2.5, NA))  +
   theme_tree2() + 
   #geom_text(aes(label=support2),hjust=-0.3,size = 3,face = "bold", nudge_y = 0.5,  nudge_x = -0.01) +
   theme(legend.position = "none")
 
 plot_tree_virus2
 ```
+
+```{r}
+plot_tree_virus <- ggtree(tree_virus,branch.length="none") + geom_tiplab(size = 3,  hjust = 1.05,face = "bold", align = TRUE) + scale_x_reverse(limits = c(25, -0.5))  + geom_text(aes(label=support2),hjust=-0.3,size = 3,face = "bold", nudge_y = 0.5,  nudge_x = -0.01) +
+  theme(legend.position = "none")
+
+plot_tree_virus
+```
+
+
 
 
 ```{r}
