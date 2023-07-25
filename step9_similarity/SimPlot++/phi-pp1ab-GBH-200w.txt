@@ -1,0 +1,931 @@
+Reading sequence file stored/consensus_output.fasta
+Allocating space for 7 taxa and 5601 sites.
+Alignment looks like a valid Protein alignment
+PHI is calculated with w as 200
+
+Checking for recombination using a window size of 1000 and a step size of 10
+
+Checking for recombination at 500 between 0 and 1000
+PHI (Normal):           9.40e-01
+Checking for recombination at 510 between 10 and 1010
+PHI (Normal):           9.47e-01
+Checking for recombination at 520 between 20 and 1020
+PHI (Normal):           9.53e-01
+Checking for recombination at 530 between 30 and 1030
+PHI (Normal):           9.46e-01
+Checking for recombination at 540 between 40 and 1040
+PHI (Normal):           9.55e-01
+Checking for recombination at 550 between 50 and 1050
+PHI (Normal):           9.46e-01
+Checking for recombination at 560 between 60 and 1060
+PHI (Normal):           9.35e-01
+Checking for recombination at 570 between 70 and 1070
+PHI (Normal):           9.26e-01
+Checking for recombination at 580 between 80 and 1080
+PHI (Normal):           9.18e-01
+Checking for recombination at 590 between 90 and 1090
+PHI (Normal):           9.16e-01
+Checking for recombination at 600 between 100 and 1100
+PHI (Normal):           8.67e-01
+Checking for recombination at 610 between 110 and 1110
+PHI (Normal):           8.81e-01
+Checking for recombination at 620 between 120 and 1120
+PHI (Normal):           8.54e-01
+Checking for recombination at 630 between 130 and 1130
+PHI (Normal):           8.28e-01
+Checking for recombination at 640 between 140 and 1140
+PHI (Normal):           8.76e-01
+Checking for recombination at 650 between 150 and 1150
+PHI (Normal):           8.96e-01
+Checking for recombination at 660 between 160 and 1160
+PHI (Normal):           8.88e-01
+Checking for recombination at 670 between 170 and 1170
+PHI (Normal):           8.80e-01
+Checking for recombination at 680 between 180 and 1180
+PHI (Normal):           9.57e-01
+Checking for recombination at 690 between 190 and 1190
+PHI (Normal):           9.11e-01
+Checking for recombination at 700 between 200 and 1200
+PHI (Normal):           8.77e-01
+Checking for recombination at 710 between 210 and 1210
+PHI (Normal):           8.66e-01
+Checking for recombination at 720 between 220 and 1220
+PHI (Normal):           8.34e-01
+Checking for recombination at 730 between 230 and 1230
+PHI (Normal):           7.86e-01
+Checking for recombination at 740 between 240 and 1240
+PHI (Normal):           7.45e-01
+Checking for recombination at 750 between 250 and 1250
+PHI (Normal):           4.38e-01
+Checking for recombination at 760 between 260 and 1260
+PHI (Normal):           3.43e-01
+Checking for recombination at 770 between 270 and 1270
+PHI (Normal):           2.57e-01
+Checking for recombination at 780 between 280 and 1280
+PHI (Normal):           1.78e-01
+Checking for recombination at 790 between 290 and 1290
+PHI (Normal):           1.48e-01
+Checking for recombination at 800 between 300 and 1300
+PHI (Normal):           4.21e-02
+Checking for recombination at 810 between 310 and 1310
+PHI (Normal):           1.66e-02
+Checking for recombination at 820 between 320 and 1320
+PHI (Normal):           1.06e-02
+Checking for recombination at 830 between 330 and 1330
+PHI (Normal):           3.32e-02
+Checking for recombination at 840 between 340 and 1340
+PHI (Normal):           2.78e-02
+Checking for recombination at 850 between 350 and 1350
+PHI (Normal):           2.12e-02
+Checking for recombination at 860 between 360 and 1360
+PHI (Normal):           1.81e-02
+Checking for recombination at 870 between 370 and 1370
+PHI (Normal):           1.34e-02
+Checking for recombination at 880 between 380 and 1380
+PHI (Normal):           5.54e-03
+Checking for recombination at 890 between 390 and 1390
+PHI (Normal):           3.46e-02
+Checking for recombination at 900 between 400 and 1400
+PHI (Normal):           2.66e-01
+Checking for recombination at 910 between 410 and 1410
+PHI (Normal):           2.68e-01
+Checking for recombination at 920 between 420 and 1420
+PHI (Normal):           2.06e-01
+Checking for recombination at 930 between 430 and 1430
+PHI (Normal):           2.15e-01
+Checking for recombination at 940 between 440 and 1440
+PHI (Normal):           1.74e-01
+Checking for recombination at 950 between 450 and 1450
+PHI (Normal):           1.14e-01
+Checking for recombination at 960 between 460 and 1460
+PHI (Normal):           2.05e-01
+Checking for recombination at 970 between 470 and 1470
+PHI (Normal):           1.15e-01
+Checking for recombination at 980 between 480 and 1480
+PHI (Normal):           6.33e-02
+Checking for recombination at 990 between 490 and 1490
+PHI (Normal):           1.31e-01
+Checking for recombination at 1000 between 500 and 1500
+PHI (Normal):           6.19e-02
+Checking for recombination at 1010 between 510 and 1510
+PHI (Normal):           2.97e-02
+Checking for recombination at 1020 between 520 and 1520
+PHI (Normal):           1.50e-02
+Checking for recombination at 1030 between 530 and 1530
+PHI (Normal):           2.21e-03
+Checking for recombination at 1040 between 540 and 1540
+PHI (Normal):           7.60e-03
+Checking for recombination at 1050 between 550 and 1550
+PHI (Normal):           4.38e-04
+Checking for recombination at 1060 between 560 and 1560
+PHI (Normal):           1.07e-04
+Checking for recombination at 1070 between 570 and 1570
+PHI (Normal):           2.40e-05
+Checking for recombination at 1080 between 580 and 1580
+PHI (Normal):           1.70e-04
+Checking for recombination at 1090 between 590 and 1590
+PHI (Normal):           6.35e-05
+Checking for recombination at 1100 between 600 and 1600
+PHI (Normal):           8.32e-04
+Checking for recombination at 1110 between 610 and 1610
+PHI (Normal):           6.15e-02
+Checking for recombination at 1120 between 620 and 1620
+PHI (Normal):           4.49e-02
+Checking for recombination at 1130 between 630 and 1630
+PHI (Normal):           2.27e-01
+Checking for recombination at 1140 between 640 and 1640
+PHI (Normal):           1.89e-01
+Checking for recombination at 1150 between 650 and 1650
+PHI (Normal):           1.41e-01
+Checking for recombination at 1160 between 660 and 1660
+PHI (Normal):           1.30e-01
+Checking for recombination at 1170 between 670 and 1670
+PHI (Normal):           1.14e-01
+Checking for recombination at 1180 between 680 and 1680
+PHI (Normal):           9.72e-02
+Checking for recombination at 1190 between 690 and 1690
+PHI (Normal):           7.52e-02
+Checking for recombination at 1200 between 700 and 1700
+PHI (Normal):           5.70e-02
+Checking for recombination at 1210 between 710 and 1710
+PHI (Normal):           2.13e-01
+Checking for recombination at 1220 between 720 and 1720
+PHI (Normal):           3.32e-02
+Checking for recombination at 1230 between 730 and 1730
+PHI (Normal):           3.57e-02
+Checking for recombination at 1240 between 740 and 1740
+PHI (Normal):           3.96e-02
+Checking for recombination at 1250 between 750 and 1750
+PHI (Normal):           4.53e-02
+Checking for recombination at 1260 between 760 and 1760
+PHI (Normal):           4.70e-02
+Checking for recombination at 1270 between 770 and 1770
+PHI (Normal):           1.54e-02
+Checking for recombination at 1280 between 780 and 1780
+PHI (Normal):           1.40e-02
+Checking for recombination at 1290 between 790 and 1790
+PHI (Normal):           7.45e-02
+Checking for recombination at 1300 between 800 and 1800
+PHI (Normal):           3.58e-01
+Checking for recombination at 1310 between 810 and 1810
+PHI (Normal):           4.40e-01
+Checking for recombination at 1320 between 820 and 1820
+PHI (Normal):           4.86e-01
+Checking for recombination at 1330 between 830 and 1830
+PHI (Normal):           4.82e-01
+Checking for recombination at 1340 between 840 and 1840
+PHI (Normal):           2.39e-01
+Checking for recombination at 1350 between 850 and 1850
+PHI (Normal):           8.21e-02
+Checking for recombination at 1360 between 860 and 1860
+PHI (Normal):           1.35e-01
+Checking for recombination at 1370 between 870 and 1870
+PHI (Normal):           1.39e-01
+Checking for recombination at 1380 between 880 and 1880
+PHI (Normal):           1.90e-01
+Checking for recombination at 1390 between 890 and 1890
+PHI (Normal):           2.58e-01
+Checking for recombination at 1400 between 900 and 1900
+PHI (Normal):           2.68e-01
+Checking for recombination at 1410 between 910 and 1910
+PHI (Normal):           3.27e-01
+Checking for recombination at 1420 between 920 and 1920
+PHI (Normal):           3.70e-01
+Checking for recombination at 1430 between 930 and 1930
+PHI (Normal):           4.01e-01
+Checking for recombination at 1440 between 940 and 1940
+PHI (Normal):           4.06e-01
+Checking for recombination at 1450 between 950 and 1950
+PHI (Normal):           4.49e-01
+Checking for recombination at 1460 between 960 and 1960
+PHI (Normal):           4.76e-01
+Checking for recombination at 1470 between 970 and 1970
+PHI (Normal):           5.15e-01
+Checking for recombination at 1480 between 980 and 1980
+PHI (Normal):           5.15e-01
+Checking for recombination at 1490 between 990 and 1990
+PHI (Normal):           5.25e-01
+Checking for recombination at 1500 between 1000 and 2000
+PHI (Normal):           8.77e-01
+Checking for recombination at 1510 between 1010 and 2010
+PHI (Normal):           9.04e-01
+Checking for recombination at 1520 between 1020 and 2020
+PHI (Normal):           9.13e-01
+Checking for recombination at 1530 between 1030 and 2030
+PHI (Normal):           9.24e-01
+Checking for recombination at 1540 between 1040 and 2040
+PHI (Normal):           9.23e-01
+Checking for recombination at 1550 between 1050 and 2050
+PHI (Normal):           9.27e-01
+Checking for recombination at 1560 between 1060 and 2060
+PHI (Normal):           9.36e-01
+Checking for recombination at 1570 between 1070 and 2070
+PHI (Normal):           9.22e-01
+Checking for recombination at 1580 between 1080 and 2080
+PHI (Normal):           9.02e-01
+Checking for recombination at 1590 between 1090 and 2090
+PHI (Normal):           8.85e-01
+Checking for recombination at 1600 between 1100 and 2100
+PHI (Normal):           8.81e-01
+Checking for recombination at 1610 between 1110 and 2110
+PHI (Normal):           8.54e-01
+Checking for recombination at 1620 between 1120 and 2120
+PHI (Normal):           8.42e-01
+Checking for recombination at 1630 between 1130 and 2130
+PHI (Normal):           8.28e-01
+Checking for recombination at 1640 between 1140 and 2140
+PHI (Normal):           7.68e-01
+Checking for recombination at 1650 between 1150 and 2150
+PHI (Normal):           6.96e-01
+Checking for recombination at 1660 between 1160 and 2160
+PHI (Normal):           6.29e-01
+Checking for recombination at 1670 between 1170 and 2170
+PHI (Normal):           5.76e-01
+Checking for recombination at 1680 between 1180 and 2180
+PHI (Normal):           5.09e-01
+Checking for recombination at 1690 between 1190 and 2190
+PHI (Normal):           4.68e-01
+Checking for recombination at 1700 between 1200 and 2200
+PHI (Normal):           4.07e-01
+Checking for recombination at 1710 between 1210 and 2210
+PHI (Normal):           3.40e-01
+Checking for recombination at 1720 between 1220 and 2220
+PHI (Normal):           2.94e-01
+Checking for recombination at 1730 between 1230 and 2230
+PHI (Normal):           9.98e-02
+Checking for recombination at 1740 between 1240 and 2240
+PHI (Normal):           9.27e-02
+Checking for recombination at 1750 between 1250 and 2250
+PHI (Normal):           3.01e-01
+Checking for recombination at 1760 between 1260 and 2260
+PHI (Normal):           9.93e-02
+Checking for recombination at 1770 between 1270 and 2270
+PHI (Normal):           1.24e-01
+Checking for recombination at 1780 between 1280 and 2280
+PHI (Normal):           1.50e-01
+Checking for recombination at 1790 between 1290 and 2290
+PHI (Normal):           1.61e-01
+Checking for recombination at 1800 between 1300 and 2300
+PHI (Normal):           5.17e-01
+Checking for recombination at 1810 between 1310 and 2310
+PHI (Normal):           6.00e-01
+Checking for recombination at 1820 between 1320 and 2320
+PHI (Normal):           6.48e-01
+Checking for recombination at 1830 between 1330 and 2330
+PHI (Normal):           6.98e-01
+Checking for recombination at 1840 between 1340 and 2340
+PHI (Normal):           7.51e-01
+Checking for recombination at 1850 between 1350 and 2350
+PHI (Normal):           7.78e-01
+Checking for recombination at 1860 between 1360 and 2360
+PHI (Normal):           8.15e-01
+Checking for recombination at 1870 between 1370 and 2370
+PHI (Normal):           8.73e-01
+Checking for recombination at 1880 between 1380 and 2380
+PHI (Normal):           5.51e-01
+Checking for recombination at 1890 between 1390 and 2390
+PHI (Normal):           6.10e-01
+Checking for recombination at 1900 between 1400 and 2400
+PHI (Normal):           6.51e-01
+Checking for recombination at 1910 between 1410 and 2410
+PHI (Normal):           6.58e-01
+Checking for recombination at 1920 between 1420 and 2420
+PHI (Normal):           6.53e-01
+Checking for recombination at 1930 between 1430 and 2430
+PHI (Normal):           6.63e-01
+Checking for recombination at 1940 between 1440 and 2440
+PHI (Normal):           6.58e-01
+Checking for recombination at 1950 between 1450 and 2450
+PHI (Normal):           6.53e-01
+Checking for recombination at 1960 between 1460 and 2460
+PHI (Normal):           6.48e-01
+Checking for recombination at 1970 between 1470 and 2470
+PHI (Normal):           6.68e-01
+Checking for recombination at 1980 between 1480 and 2480
+PHI (Normal):           6.66e-01
+Checking for recombination at 1990 between 1490 and 2490
+PHI (Normal):           6.51e-01
+Checking for recombination at 2000 between 1500 and 2500
+PHI (Normal):           6.10e-01
+Checking for recombination at 2010 between 1510 and 2510
+PHI (Normal):           6.01e-01
+Checking for recombination at 2020 between 1520 and 2520
+PHI (Normal):           5.46e-01
+Checking for recombination at 2030 between 1530 and 2530
+PHI (Normal):           4.64e-01
+Checking for recombination at 2040 between 1540 and 2540
+PHI (Normal):           4.29e-01
+Checking for recombination at 2050 between 1550 and 2550
+PHI (Normal):           7.83e-01
+Checking for recombination at 2060 between 1560 and 2560
+PHI (Normal):           7.63e-01
+Checking for recombination at 2070 between 1570 and 2570
+PHI (Normal):           6.93e-01
+Checking for recombination at 2080 between 1580 and 2580
+PHI (Normal):           6.83e-01
+Checking for recombination at 2090 between 1590 and 2590
+PHI (Normal):           6.55e-01
+Checking for recombination at 2100 between 1600 and 2600
+PHI (Normal):           6.21e-01
+Checking for recombination at 2110 between 1610 and 2610
+PHI (Normal):           5.54e-01
+Checking for recombination at 2120 between 1620 and 2620
+PHI (Normal):           5.25e-01
+Checking for recombination at 2130 between 1630 and 2630
+PHI (Normal):           4.81e-01
+Checking for recombination at 2140 between 1640 and 2640
+PHI (Normal):           4.42e-01
+Checking for recombination at 2150 between 1650 and 2650
+PHI (Normal):           4.08e-01
+Checking for recombination at 2160 between 1660 and 2660
+PHI (Normal):           3.47e-01
+Checking for recombination at 2170 between 1670 and 2670
+PHI (Normal):           2.93e-01
+Checking for recombination at 2180 between 1680 and 2680
+PHI (Normal):           2.36e-01
+Checking for recombination at 2190 between 1690 and 2690
+PHI (Normal):           1.68e-01
+Checking for recombination at 2200 between 1700 and 2700
+PHI (Normal):           1.26e-01
+Checking for recombination at 2210 between 1710 and 2710
+PHI (Normal):           7.54e-02
+Checking for recombination at 2220 between 1720 and 2720
+PHI (Normal):           2.74e-01
+Checking for recombination at 2230 between 1730 and 2730
+PHI (Normal):           2.04e-01
+Checking for recombination at 2240 between 1740 and 2740
+PHI (Normal):           1.62e-01
+Checking for recombination at 2250 between 1750 and 2750
+PHI (Normal):           9.87e-02
+Checking for recombination at 2260 between 1760 and 2760
+PHI (Normal):           6.15e-02
+Checking for recombination at 2270 between 1770 and 2770
+PHI (Normal):           2.61e-01
+Checking for recombination at 2280 between 1780 and 2780
+PHI (Normal):           2.34e-01
+Checking for recombination at 2290 between 1790 and 2790
+PHI (Normal):           1.75e-01
+Checking for recombination at 2300 between 1800 and 2800
+PHI (Normal):           1.59e-02
+Checking for recombination at 2310 between 1810 and 2810
+PHI (Normal):           1.59e-02
+Checking for recombination at 2320 between 1820 and 2820
+PHI (Normal):           1.29e-02
+Checking for recombination at 2330 between 1830 and 2830
+PHI (Normal):           9.61e-03
+Checking for recombination at 2340 between 1840 and 2840
+PHI (Normal):           7.53e-02
+Checking for recombination at 2350 between 1850 and 2850
+PHI (Normal):           3.91e-01
+Checking for recombination at 2360 between 1860 and 2860
+PHI (Normal):           4.10e-01
+Checking for recombination at 2370 between 1870 and 2870
+PHI (Normal):           4.38e-01
+Checking for recombination at 2380 between 1880 and 2880
+PHI (Normal):           4.53e-01
+Checking for recombination at 2390 between 1890 and 2890
+PHI (Normal):           4.90e-01
+Checking for recombination at 2400 between 1900 and 2900
+PHI (Normal):           5.05e-01
+Checking for recombination at 2410 between 1910 and 2910
+PHI (Normal):           5.44e-01
+Checking for recombination at 2420 between 1920 and 2920
+PHI (Normal):           5.70e-01
+Checking for recombination at 2430 between 1930 and 2930
+PHI (Normal):           5.96e-01
+Checking for recombination at 2440 between 1940 and 2940
+PHI (Normal):           6.29e-01
+Checking for recombination at 2450 between 1950 and 2950
+PHI (Normal):           6.53e-01
+Checking for recombination at 2460 between 1960 and 2960
+PHI (Normal):           6.66e-01
+Checking for recombination at 2470 between 1970 and 2970
+PHI (Normal):           6.89e-01
+Checking for recombination at 2480 between 1980 and 2980
+PHI (Normal):           7.03e-01
+Checking for recombination at 2490 between 1990 and 2990
+PHI (Normal):           7.07e-01
+Checking for recombination at 2500 between 2000 and 3000
+PHI (Normal):           7.23e-01
+Checking for recombination at 2510 between 2010 and 3010
+PHI (Normal):           7.46e-01
+Checking for recombination at 2520 between 2020 and 3020
+PHI (Normal):           7.45e-01
+Checking for recombination at 2530 between 2030 and 3030
+PHI (Normal):           7.07e-01
+Checking for recombination at 2540 between 2040 and 3040
+PHI (Normal):           6.77e-01
+Checking for recombination at 2550 between 2050 and 3050
+PHI (Normal):           6.32e-01
+Checking for recombination at 2560 between 2060 and 3060
+PHI (Normal):           5.85e-01
+Checking for recombination at 2570 between 2070 and 3070
+PHI (Normal):           5.56e-01
+Checking for recombination at 2580 between 2080 and 3080
+PHI (Normal):           5.48e-01
+Checking for recombination at 2590 between 2090 and 3090
+PHI (Normal):           5.01e-01
+Checking for recombination at 2600 between 2100 and 3100
+PHI (Normal):           4.72e-01
+Checking for recombination at 2610 between 2110 and 3110
+PHI (Normal):           4.13e-01
+Checking for recombination at 2620 between 2120 and 3120
+PHI (Normal):           3.47e-01
+Checking for recombination at 2630 between 2130 and 3130
+PHI (Normal):           3.07e-01
+Checking for recombination at 2640 between 2140 and 3140
+PHI (Normal):           2.33e-01
+Checking for recombination at 2650 between 2150 and 3150
+PHI (Normal):           2.14e-01
+Checking for recombination at 2660 between 2160 and 3160
+PHI (Normal):           1.86e-01
+Checking for recombination at 2670 between 2170 and 3170
+PHI (Normal):           1.45e-01
+Checking for recombination at 2680 between 2180 and 3180
+PHI (Normal):           1.09e-01
+Checking for recombination at 2690 between 2190 and 3190
+PHI (Normal):           8.03e-02
+Checking for recombination at 2700 between 2200 and 3200
+PHI (Normal):           6.14e-02
+Checking for recombination at 2710 between 2210 and 3210
+PHI (Normal):           3.98e-02
+Checking for recombination at 2720 between 2220 and 3220
+PHI (Normal):           6.64e-05
+Checking for recombination at 2730 between 2230 and 3230
+PHI (Normal):           1.69e-03
+Checking for recombination at 2740 between 2240 and 3240
+PHI (Normal):           2.06e-03
+Checking for recombination at 2750 between 2250 and 3250
+PHI (Normal):           1.55e-03
+Checking for recombination at 2760 between 2260 and 3260
+PHI (Normal):           2.73e-02
+Checking for recombination at 2770 between 2270 and 3270
+PHI (Normal):           2.66e-02
+Checking for recombination at 2780 between 2280 and 3280
+PHI (Normal):           2.83e-02
+Checking for recombination at 2790 between 2290 and 3290
+PHI (Normal):           3.47e-02
+Checking for recombination at 2800 between 2300 and 3300
+PHI (Normal):           3.52e-02
+Checking for recombination at 2810 between 2310 and 3310
+PHI (Normal):           4.66e-02
+Checking for recombination at 2820 between 2320 and 3320
+PHI (Normal):           6.53e-02
+Checking for recombination at 2830 between 2330 and 3330
+PHI (Normal):           5.97e-02
+Checking for recombination at 2840 between 2340 and 3340
+PHI (Normal):           6.90e-02
+Checking for recombination at 2850 between 2350 and 3350
+PHI (Normal):           6.79e-02
+Checking for recombination at 2860 between 2360 and 3360
+PHI (Normal):           7.11e-02
+Checking for recombination at 2870 between 2370 and 3370
+PHI (Normal):           7.90e-02
+Checking for recombination at 2880 between 2380 and 3380
+PHI (Normal):           4.78e-01
+Checking for recombination at 2890 between 2390 and 3390
+PHI (Normal):           5.48e-01
+Checking for recombination at 2900 between 2400 and 3400
+PHI (Normal):           6.27e-01
+Checking for recombination at 2910 between 2410 and 3410
+PHI (Normal):           7.51e-01
+Checking for recombination at 2920 between 2420 and 3420
+PHI (Normal):           7.80e-01
+Checking for recombination at 2930 between 2430 and 3430
+PHI (Normal):           8.47e-01
+Checking for recombination at 2940 between 2440 and 3440
+PHI (Normal):           8.76e-01
+Checking for recombination at 2950 between 2450 and 3450
+PHI (Normal):           8.74e-01
+Checking for recombination at 2960 between 2460 and 3460
+PHI (Normal):           8.74e-01
+Checking for recombination at 2970 between 2470 and 3470
+PHI (Normal):           8.67e-01
+Checking for recombination at 2980 between 2480 and 3480
+PHI (Normal):           8.67e-01
+Checking for recombination at 2990 between 2490 and 3490
+PHI (Normal):           8.65e-01
+Checking for recombination at 3000 between 2500 and 3500
+PHI (Normal):           8.69e-01
+Checking for recombination at 3010 between 2510 and 3510
+PHI (Normal):           8.70e-01
+Checking for recombination at 3020 between 2520 and 3520
+PHI (Normal):           8.75e-01
+Checking for recombination at 3030 between 2530 and 3530
+PHI (Normal):           8.73e-01
+Checking for recombination at 3040 between 2540 and 3540
+PHI (Normal):           8.73e-01
+Checking for recombination at 3050 between 2550 and 3550
+PHI (Normal):           8.73e-01
+Checking for recombination at 3060 between 2560 and 3560
+PHI (Normal):           8.71e-01
+Checking for recombination at 3070 between 2570 and 3570
+PHI (Normal):           8.77e-01
+Checking for recombination at 3080 between 2580 and 3580
+PHI (Normal):           8.79e-01
+Checking for recombination at 3090 between 2590 and 3590
+PHI (Normal):           8.80e-01
+Checking for recombination at 3100 between 2600 and 3600
+PHI (Normal):           8.80e-01
+Checking for recombination at 3110 between 2610 and 3610
+PHI (Normal):           8.81e-01
+Checking for recombination at 3120 between 2620 and 3620
+PHI (Normal):           8.86e-01
+Checking for recombination at 3130 between 2630 and 3630
+PHI (Normal):           8.81e-01
+Checking for recombination at 3140 between 2640 and 3640
+PHI (Normal):           8.64e-01
+Checking for recombination at 3150 between 2650 and 3650
+PHI (Normal):           8.33e-01
+Checking for recombination at 3160 between 2660 and 3660
+PHI (Normal):           8.10e-01
+Checking for recombination at 3170 between 2670 and 3670
+PHI (Normal):           7.76e-01
+Checking for recombination at 3180 between 2680 and 3680
+PHI (Normal):           7.57e-01
+Checking for recombination at 3190 between 2690 and 3690
+PHI (Normal):           7.42e-01
+Checking for recombination at 3200 between 2700 and 3700
+PHI (Normal):           7.09e-01
+Checking for recombination at 3210 between 2710 and 3710
+PHI (Normal):           6.76e-01
+Checking for recombination at 3220 between 2720 and 3720
+PHI (Normal):           6.14e-01
+Checking for recombination at 3230 between 2730 and 3730
+PHI (Normal):           5.85e-01
+Checking for recombination at 3240 between 2740 and 3740
+PHI (Normal):           5.28e-01
+Checking for recombination at 3250 between 2750 and 3750
+PHI (Normal):           4.87e-01
+Checking for recombination at 3260 between 2760 and 3760
+PHI (Normal):           4.31e-01
+Checking for recombination at 3270 between 2770 and 3770
+PHI (Normal):           4.07e-01
+Checking for recombination at 3280 between 2780 and 3780
+PHI (Normal):           3.47e-01
+Checking for recombination at 3290 between 2790 and 3790
+PHI (Normal):           2.83e-01
+Checking for recombination at 3300 between 2800 and 3800
+PHI (Normal):           8.30e-01
+Checking for recombination at 3310 between 2810 and 3810
+PHI (Normal):           8.29e-01
+Checking for recombination at 3320 between 2820 and 3820
+PHI (Normal):           8.25e-01
+Checking for recombination at 3330 between 2830 and 3830
+PHI (Normal):           8.25e-01
+Checking for recombination at 3340 between 2840 and 3840
+PHI (Normal):           8.25e-01
+Checking for recombination at 3350 between 2850 and 3850
+PHI (Normal):           8.25e-01
+Checking for recombination at 3360 between 2860 and 3860
+PHI (Normal):           8.27e-01
+Checking for recombination at 3370 between 2870 and 3870
+PHI (Normal):           8.25e-01
+Checking for recombination at 3380 between 2880 and 3880
+PHI (Normal):           8.27e-01
+Checking for recombination at 3390 between 2890 and 3890
+PHI (Normal):           8.28e-01
+Checking for recombination at 3400 between 2900 and 3900
+PHI (Normal):           8.31e-01
+Checking for recombination at 3410 between 2910 and 3910
+PHI (Normal):           8.29e-01
+Checking for recombination at 3420 between 2920 and 3920
+PHI (Normal):           8.30e-01
+Checking for recombination at 3430 between 2930 and 3930
+PHI (Normal):           8.28e-01
+Checking for recombination at 3440 between 2940 and 3940
+PHI (Normal):           8.27e-01
+Checking for recombination at 3450 between 2950 and 3950
+PHI (Normal):           8.27e-01
+Checking for recombination at 3460 between 2960 and 3960
+PHI (Normal):           8.27e-01
+Checking for recombination at 3470 between 2970 and 3970
+PHI (Normal):           8.25e-01
+Checking for recombination at 3480 between 2980 and 3980
+PHI (Normal):           8.12e-01
+Checking for recombination at 3490 between 2990 and 3990
+PHI (Normal):           7.99e-01
+Checking for recombination at 3500 between 3000 and 4000
+PHI (Normal):           7.99e-01
+Checking for recombination at 3510 between 3010 and 4010
+PHI (Normal):           7.63e-01
+Checking for recombination at 3520 between 3020 and 4020
+PHI (Normal):           7.52e-01
+Checking for recombination at 3530 between 3030 and 4030
+PHI (Normal):           6.50e-01
+Checking for recombination at 3540 between 3040 and 4040
+PHI (Normal):           5.50e-01
+Checking for recombination at 3550 between 3050 and 4050
+PHI (Normal):           4.52e-01
+Checking for recombination at 3560 between 3060 and 4060
+PHI (Normal):           3.78e-01
+Checking for recombination at 3570 between 3070 and 4070
+PHI (Normal):           3.37e-01
+Checking for recombination at 3580 between 3080 and 4080
+PHI (Normal):           2.98e-01
+Checking for recombination at 3590 between 3090 and 4090
+PHI (Normal):           2.21e-01
+Checking for recombination at 3600 between 3100 and 4100
+PHI (Normal):           1.63e-01
+Checking for recombination at 3610 between 3110 and 4110
+PHI (Normal):           1.20e-01
+Checking for recombination at 3620 between 3120 and 4120
+PHI (Normal):           7.16e-02
+Checking for recombination at 3630 between 3130 and 4130
+PHI (Normal):           4.59e-02
+Checking for recombination at 3640 between 3140 and 4140
+PHI (Normal):           3.25e-02
+Checking for recombination at 3650 between 3150 and 4150
+PHI (Normal):           2.67e-02
+Checking for recombination at 3660 between 3160 and 4160
+PHI (Normal):           2.34e-02
+Checking for recombination at 3670 between 3170 and 4170
+PHI (Normal):           1.60e-02
+Checking for recombination at 3680 between 3180 and 4180
+PHI (Normal):           7.33e-03
+Checking for recombination at 3690 between 3190 and 4190
+PHI (Normal):           2.07e-03
+Checking for recombination at 3700 between 3200 and 4200
+PHI (Normal):           3.01e-04
+Checking for recombination at 3710 between 3210 and 4210
+PHI (Normal):           2.46e-04
+Checking for recombination at 3720 between 3220 and 4220
+PHI (Normal):           1.00e+00
+Checking for recombination at 3730 between 3230 and 4230
+PHI (Normal):           1.00e+00
+Checking for recombination at 3740 between 3240 and 4240
+PHI (Normal):           1.00e+00
+Checking for recombination at 3750 between 3250 and 4250
+PHI (Normal):           1.47e-01
+Checking for recombination at 3760 between 3260 and 4260
+PHI (Normal):           1.46e-01
+Checking for recombination at 3770 between 3270 and 4270
+PHI (Normal):           1.46e-01
+Checking for recombination at 3780 between 3280 and 4280
+PHI (Normal):           1.46e-01
+Checking for recombination at 3790 between 3290 and 4290
+PHI (Normal):           1.46e-01
+Checking for recombination at 3800 between 3300 and 4300
+PHI (Normal):           1.45e-01
+Checking for recombination at 3810 between 3310 and 4310
+PHI (Normal):           1.45e-01
+Checking for recombination at 3820 between 3320 and 4320
+PHI (Normal):           1.45e-01
+Checking for recombination at 3830 between 3330 and 4330
+PHI (Normal):           1.46e-01
+Checking for recombination at 3840 between 3340 and 4340
+PHI (Normal):           1.45e-01
+Checking for recombination at 3850 between 3350 and 4350
+PHI (Normal):           1.45e-01
+Checking for recombination at 3860 between 3360 and 4360
+PHI (Normal):           1.46e-01
+Checking for recombination at 3870 between 3370 and 4370
+PHI (Normal):           1.46e-01
+Checking for recombination at 3880 between 3380 and 4380
+PHI (Normal):           1.45e-01
+Checking for recombination at 3890 between 3390 and 4390
+PHI (Normal):           1.45e-01
+Checking for recombination at 3900 between 3400 and 4400
+PHI (Normal):           1.46e-01
+Checking for recombination at 3910 between 3410 and 4410
+PHI (Normal):           1.45e-01
+Checking for recombination at 3920 between 3420 and 4420
+PHI (Normal):           5.35e-03
+Checking for recombination at 3930 between 3430 and 4430
+PHI (Normal):           6.19e-03
+Checking for recombination at 3940 between 3440 and 4440
+PHI (Normal):           8.51e-03
+Checking for recombination at 3950 between 3450 and 4450
+PHI (Normal):           9.22e-03
+Checking for recombination at 3960 between 3460 and 4460
+PHI (Normal):           1.91e-02
+Checking for recombination at 3970 between 3470 and 4470
+PHI (Normal):           7.87e-04
+Checking for recombination at 3980 between 3480 and 4480
+PHI (Normal):           1.47e-03
+Checking for recombination at 3990 between 3490 and 4490
+PHI (Normal):           2.28e-03
+Checking for recombination at 4000 between 3500 and 4500
+PHI (Normal):           5.60e-03
+Checking for recombination at 4010 between 3510 and 4510
+PHI (Normal):           1.50e-02
+Checking for recombination at 4020 between 3520 and 4520
+PHI (Normal):           2.21e-02
+Checking for recombination at 4030 between 3530 and 4530
+PHI (Normal):           5.61e-02
+Checking for recombination at 4040 between 3540 and 4540
+PHI (Normal):           1.08e-01
+Checking for recombination at 4050 between 3550 and 4550
+PHI (Normal):           1.88e-01
+Checking for recombination at 4060 between 3560 and 4560
+PHI (Normal):           2.90e-01
+Checking for recombination at 4070 between 3570 and 4570
+PHI (Normal):           3.62e-01
+Checking for recombination at 4080 between 3580 and 4580
+PHI (Normal):           4.79e-01
+Checking for recombination at 4090 between 3590 and 4590
+PHI (Normal):           5.60e-01
+Checking for recombination at 4100 between 3600 and 4600
+PHI (Normal):           6.36e-01
+Checking for recombination at 4110 between 3610 and 4610
+PHI (Normal):           6.84e-01
+Checking for recombination at 4120 between 3620 and 4620
+PHI (Normal):           7.09e-01
+Checking for recombination at 4130 between 3630 and 4630
+PHI (Normal):           7.25e-01
+Checking for recombination at 4140 between 3640 and 4640
+PHI (Normal):           7.37e-01
+Checking for recombination at 4150 between 3650 and 4650
+PHI (Normal):           7.35e-01
+Checking for recombination at 4160 between 3660 and 4660
+PHI (Normal):           7.36e-01
+Checking for recombination at 4170 between 3670 and 4670
+PHI (Normal):           7.36e-01
+Checking for recombination at 4180 between 3680 and 4680
+PHI (Normal):           7.34e-01
+Checking for recombination at 4190 between 3690 and 4690
+PHI (Normal):           7.44e-01
+Checking for recombination at 4200 between 3700 and 4700
+PHI (Normal):           7.43e-01
+Checking for recombination at 4210 between 3710 and 4710
+PHI (Normal):           7.66e-01
+Checking for recombination at 4220 between 3720 and 4720
+PHI (Normal):           7.66e-01
+Checking for recombination at 4230 between 3730 and 4730
+PHI (Normal):           7.64e-01
+Checking for recombination at 4240 between 3740 and 4740
+PHI (Normal):           7.65e-01
+Checking for recombination at 4250 between 3750 and 4750
+PHI (Normal):           7.83e-01
+Checking for recombination at 4260 between 3760 and 4760
+PHI (Normal):           7.79e-01
+Checking for recombination at 4270 between 3770 and 4770
+PHI (Normal):           7.89e-01
+Checking for recombination at 4280 between 3780 and 4780
+PHI (Normal):           7.87e-01
+Checking for recombination at 4290 between 3790 and 4790
+PHI (Normal):           7.79e-01
+Checking for recombination at 4300 between 3800 and 4800
+PHI (Normal):           7.78e-01
+Checking for recombination at 4310 between 3810 and 4810
+PHI (Normal):           7.84e-01
+Checking for recombination at 4320 between 3820 and 4820
+PHI (Normal):           7.94e-01
+Checking for recombination at 4330 between 3830 and 4830
+PHI (Normal):           8.03e-01
+Checking for recombination at 4340 between 3840 and 4840
+PHI (Normal):           8.14e-01
+Checking for recombination at 4350 between 3850 and 4850
+PHI (Normal):           7.99e-01
+Checking for recombination at 4360 between 3860 and 4860
+PHI (Normal):           7.99e-01
+Checking for recombination at 4370 between 3870 and 4870
+PHI (Normal):           8.00e-01
+Checking for recombination at 4380 between 3880 and 4880
+PHI (Normal):           8.09e-01
+Checking for recombination at 4390 between 3890 and 4890
+PHI (Normal):           8.06e-01
+Checking for recombination at 4400 between 3900 and 4900
+PHI (Normal):           8.09e-01
+Checking for recombination at 4410 between 3910 and 4910
+PHI (Normal):           8.09e-01
+Checking for recombination at 4420 between 3920 and 4920
+PHI (Normal):           8.06e-01
+Checking for recombination at 4430 between 3930 and 4930
+PHI (Normal):           8.07e-01
+Checking for recombination at 4440 between 3940 and 4940
+PHI (Normal):           8.16e-01
+Checking for recombination at 4450 between 3950 and 4950
+PHI (Normal):           8.14e-01
+Checking for recombination at 4460 between 3960 and 4960
+PHI (Normal):           7.90e-01
+Checking for recombination at 4470 between 3970 and 4970
+PHI (Normal):           7.99e-01
+Checking for recombination at 4480 between 3980 and 4980
+PHI (Normal):           7.82e-01
+Checking for recombination at 4490 between 3990 and 4990
+PHI (Normal):           7.92e-01
+Checking for recombination at 4500 between 4000 and 5000
+PHI (Normal):           7.91e-01
+Checking for recombination at 4510 between 4010 and 5010
+PHI (Normal):           1.97e-01
+Checking for recombination at 4520 between 4020 and 5020
+PHI (Normal):           2.12e-01
+Checking for recombination at 4530 between 4030 and 5030
+PHI (Normal):           2.34e-01
+Checking for recombination at 4540 between 4040 and 5040
+PHI (Normal):           2.70e-01
+Checking for recombination at 4550 between 4050 and 5050
+PHI (Normal):           3.14e-01
+Checking for recombination at 4560 between 4060 and 5060
+PHI (Normal):           5.63e-02
+Checking for recombination at 4570 between 4070 and 5070
+PHI (Normal):           9.99e-02
+Checking for recombination at 4580 between 4080 and 5080
+PHI (Normal):           1.58e-01
+Checking for recombination at 4590 between 4090 and 5090
+PHI (Normal):           2.41e-01
+Checking for recombination at 4600 between 4100 and 5100
+PHI (Normal):           3.17e-01
+Checking for recombination at 4610 between 4110 and 5110
+PHI (Normal):           3.96e-01
+Checking for recombination at 4620 between 4120 and 5120
+PHI (Normal):           5.15e-01
+Checking for recombination at 4630 between 4130 and 5130
+PHI (Normal):           5.82e-01
+Checking for recombination at 4640 between 4140 and 5140
+PHI (Normal):           6.81e-01
+Checking for recombination at 4650 between 4150 and 5150
+PHI (Normal):           7.73e-01
+Checking for recombination at 4660 between 4160 and 5160
+PHI (Normal):           3.51e-01
+Checking for recombination at 4670 between 4170 and 5170
+PHI (Normal):           3.58e-01
+Checking for recombination at 4680 between 4180 and 5180
+PHI (Normal):           3.94e-01
+Checking for recombination at 4690 between 4190 and 5190
+PHI (Normal):           4.14e-01
+Checking for recombination at 4700 between 4200 and 5200
+PHI (Normal):           4.11e-01
+Checking for recombination at 4710 between 4210 and 5210
+PHI (Normal):           4.12e-01
+Checking for recombination at 4720 between 4220 and 5220
+PHI (Normal):           4.34e-01
+Checking for recombination at 4730 between 4230 and 5230
+PHI (Normal):           4.29e-01
+Checking for recombination at 4740 between 4240 and 5240
+PHI (Normal):           4.23e-01
+Checking for recombination at 4750 between 4250 and 5250
+PHI (Normal):           4.53e-01
+Checking for recombination at 4760 between 4260 and 5260
+PHI (Normal):           4.28e-01
+Checking for recombination at 4770 between 4270 and 5270
+PHI (Normal):           3.96e-01
+Checking for recombination at 4780 between 4280 and 5280
+PHI (Normal):           3.86e-01
+Checking for recombination at 4790 between 4290 and 5290
+PHI (Normal):           3.55e-01
+Checking for recombination at 4800 between 4300 and 5300
+PHI (Normal):           2.88e-01
+Checking for recombination at 4810 between 4310 and 5310
+PHI (Normal):           2.58e-01
+Checking for recombination at 4820 between 4320 and 5320
+PHI (Normal):           2.65e-01
+Checking for recombination at 4830 between 4330 and 5330
+PHI (Normal):           2.22e-01
+Checking for recombination at 4840 between 4340 and 5340
+PHI (Normal):           2.16e-01
+Checking for recombination at 4850 between 4350 and 5350
+PHI (Normal):           1.78e-01
+Checking for recombination at 4860 between 4360 and 5360
+PHI (Normal):           1.44e-01
+Checking for recombination at 4870 between 4370 and 5370
+PHI (Normal):           1.25e-01
+Checking for recombination at 4880 between 4380 and 5380
+PHI (Normal):           1.15e-01
+Checking for recombination at 4890 between 4390 and 5390
+PHI (Normal):           1.01e-01
+Checking for recombination at 4900 between 4400 and 5400
+PHI (Normal):           8.32e-02
+Checking for recombination at 4910 between 4410 and 5410
+PHI (Normal):           8.84e-02
+Checking for recombination at 4920 between 4420 and 5420
+PHI (Normal):           3.88e-01
+Checking for recombination at 4930 between 4430 and 5430
+PHI (Normal):           3.64e-01
+Checking for recombination at 4940 between 4440 and 5440
+PHI (Normal):           3.42e-01
+Checking for recombination at 4950 between 4450 and 5450
+PHI (Normal):           3.61e-01
+Checking for recombination at 4960 between 4460 and 5460
+PHI (Normal):           5.80e-02
+Checking for recombination at 4970 between 4470 and 5470
+PHI (Normal):           3.24e-01
+Checking for recombination at 4980 between 4480 and 5480
+PHI (Normal):           3.25e-01
+Checking for recombination at 4990 between 4490 and 5490
+PHI (Normal):           4.02e-01
+Checking for recombination at 5000 between 4500 and 5500
+PHI (Normal):           1.05e-01
+Checking for recombination at 5010 between 4510 and 5510
+PHI (Normal):           1.17e-01
+Checking for recombination at 5020 between 4520 and 5520
+PHI (Normal):           1.26e-01
+Checking for recombination at 5030 between 4530 and 5530
+PHI (Normal):           1.67e-01
+Checking for recombination at 5040 between 4540 and 5540
+PHI (Normal):           2.05e-01
+Checking for recombination at 5050 between 4550 and 5550
+PHI (Normal):           2.91e-01
+Checking for recombination at 5060 between 4560 and 5560
+PHI (Normal):           3.69e-01
+Checking for recombination at 5070 between 4570 and 5570
+PHI (Normal):           4.14e-01
+Checking for recombination at 5080 between 4580 and 5580
+PHI (Normal):           4.92e-01
+Checking for recombination at 5090 between 4590 and 5590
+PHI (Normal):           5.15e-01
+Checking for recombination at 5100 between 4600 and 5600
+PHI (Normal):           5.93e-01
+Number of tests performed is 461
+Analysis completed

@@ -1,0 +1,71 @@
+Reading sequence file stored/consensus_output.fasta
+Allocating space for 7 taxa and 809 sites.
+Alignment looks like a valid Protein alignment
+PHI is calculated with w as 150
+
+Checking for recombination using a window size of 500 and a step size of 10
+
+Checking for recombination at 250 between 0 and 500
+PHI (Normal):           9.06e-01
+Checking for recombination at 260 between 10 and 510
+PHI (Normal):           5.11e-01
+Checking for recombination at 270 between 20 and 520
+PHI (Normal):           5.29e-01
+Checking for recombination at 280 between 30 and 530
+PHI (Normal):           5.59e-01
+Checking for recombination at 290 between 40 and 540
+PHI (Normal):           5.71e-01
+Checking for recombination at 300 between 50 and 550
+PHI (Normal):           6.04e-01
+Checking for recombination at 310 between 60 and 560
+PHI (Normal):           6.08e-01
+Checking for recombination at 320 between 70 and 570
+PHI (Normal):           6.36e-01
+Checking for recombination at 330 between 80 and 580
+PHI (Normal):           6.69e-01
+Checking for recombination at 340 between 90 and 590
+PHI (Normal):           6.47e-01
+Checking for recombination at 350 between 100 and 600
+PHI (Normal):           6.45e-01
+Checking for recombination at 360 between 110 and 610
+PHI (Normal):           6.23e-01
+Checking for recombination at 370 between 120 and 620
+PHI (Normal):           6.67e-01
+Checking for recombination at 380 between 130 and 630
+PHI (Normal):           6.67e-01
+Checking for recombination at 390 between 140 and 640
+PHI (Normal):           6.10e-01
+Checking for recombination at 400 between 150 and 650
+PHI (Normal):           5.57e-01
+Checking for recombination at 410 between 160 and 660
+PHI (Normal):           4.51e-01
+Checking for recombination at 420 between 170 and 670
+PHI (Normal):           3.84e-01
+Checking for recombination at 430 between 180 and 680
+PHI (Normal):           2.95e-01
+Checking for recombination at 440 between 190 and 690
+PHI (Normal):           1.72e-01
+Checking for recombination at 450 between 200 and 700
+PHI (Normal):           1.12e-01
+Checking for recombination at 460 between 210 and 710
+PHI (Normal):           8.64e-02
+Checking for recombination at 470 between 220 and 720
+PHI (Normal):           2.74e-01
+Checking for recombination at 480 between 230 and 730
+PHI (Normal):           2.12e-01
+Checking for recombination at 490 between 240 and 740
+PHI (Normal):           1.90e-01
+Checking for recombination at 500 between 250 and 750
+PHI (Normal):           1.36e-01
+Checking for recombination at 510 between 260 and 760
+PHI (Normal):           9.00e-02
+Checking for recombination at 520 between 270 and 770
+PHI (Normal):           7.00e-01
+Checking for recombination at 530 between 280 and 780
+PHI (Normal):           6.95e-01
+Checking for recombination at 540 between 290 and 790
+PHI (Normal):           7.03e-01
+Checking for recombination at 550 between 300 and 800
+PHI (Normal):           7.49e-01
+Number of tests performed is 31
+Analysis completed
