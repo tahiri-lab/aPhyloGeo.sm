@@ -38,7 +38,7 @@ def fasta_to_phylip(fasta_file, phylip_file):
 # input_fa_virus = "./virusWholeGenome_alin_gblock.fasta"
 # output_phy_virus = "./virus_WholeGenome_alin_gblock.phylip"
 
-input_fa_virus = "./virusWholeGenome_alin_gblock.fasta"
-output_phy_virus = "./virus_WholeGenome_alin_gblock.phylip"
+input_fa_virus = "./1aln_orf1ab_withID.fasta"
+output_phy_virus = "./1aln_orf1ab_withID.phylip"
 
 fasta_to_phylip(input_fa_virus, output_phy_virus)
