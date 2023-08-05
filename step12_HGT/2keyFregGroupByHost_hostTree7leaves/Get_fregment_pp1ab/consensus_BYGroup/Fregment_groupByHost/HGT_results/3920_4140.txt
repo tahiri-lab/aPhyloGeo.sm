@@ -1,0 +1,55 @@
+==================================================================================
+| Program : HGT Detection 3.4 - March, 2012                                      |
+| Authors   : Alix Boc, Alpha Boubabcar Diallo and Vladimir Makarenkov           |
+|             (Universite du Quebec a Montreal)                                  |
+| This program computes a unique scenario of horizontal gene transfers (HGT) for |
+| the given pair of species and gene phylogenetic trees.                         |
+==================================================================================
+
+Species tree :
+((((ON640726.1_Miniopterus_magnater:0.17550292708713022272,AB085735.1_Miniopterus_fuliginosus:0.00000512005242292814):3.06098915895999379444,HM134917.1_Rhinolophus_sinicus:0.18456695204486514572):0.00000512005242292814,KP972690.1_Rhinolophus_affinis:0.21024186281304985124):0.06125396666909751348,(ON012504.1_Rhinolophus_pusillus:0.14896389622904990246,KX261916.1_Rhinolophus_macrotis:0.09625349711767931804):0.06700359527907520651,MZ936290.1_Rhinolophus_blasii:0.20771664794680622101):0.0;
+
+Gene Tree :
+(HM134917.1_Rhinolophus_sinicus:0.000001,ON012504.1_Rhinolophus_pusillus:0.004528,(((MZ936290.1_Rhinolophus_blasii:0.013695,(ON640726.1_Miniopterus_magnater:0.103316,AB085735.1_Miniopterus_fuliginosus:0.088051):0.547010):0.000001,KP972690.1_Rhinolophus_affinis:0.000001):0.000001,KX261916.1_Rhinolophus_macrotis:0.004582):0.000001):0.0;
+
+
+=============================================
+= Criteria values before the computation 
+=============================================
+Robinson and Foulds distance (RF) = 6
+Least-squares coefficient(LS)     = 0.000
+Bipartition dissimilarity         = 4.0
+
+
+Bootstrap values were computed with 1 gene trees
+
+
+================================================================
+| Iteration #1 : 1 HGT was found
+================================================================
+|
+| HGT 1 / 1  Regular (bootstrap value = 100.0% inverse = 100.0%) 
+| From subtree (ON012504.1_Rhinolophus_pusillus) to subtree (HM134917.1_Rhinolophus_sinicus)
+| RF = 2 , LS = 0.000 , BD = 1.0
+| rRF = 4 , rLS = 0.000 , rBD = 3.5
+| 
+================================================================
+| After this iteration the criteria values are as follows :
+| RF = 2 , LS = 0.000 , BD = 1.0
+================================================================
+
+================================================================
+| Iteration #2 : 1 HGT was found
+================================================================
+|
+| HGT 1 / 1  Regular (bootstrap value = 100.0% inverse = 100.0%) 
+| From subtree (KP972690.1_Rhinolophus_affinis) to subtree (HM134917.1_Rhinolophus_sinicus, KX261916.1_Rhinolophus_macrotis, ON012504.1_Rhinolophus_pusillus)
+| RF = 0 , LS = 0.000 , BD = 0.0
+| rRF = 0 , rLS = 0.000 , rBD = 0.0
+| 
+================================================================
+| After this iteration the criteria values are as follows :
+| RF = 0 , LS = 0.000 , BD = 0.0
+================================================================
+
+Total number of HGTs : 2 

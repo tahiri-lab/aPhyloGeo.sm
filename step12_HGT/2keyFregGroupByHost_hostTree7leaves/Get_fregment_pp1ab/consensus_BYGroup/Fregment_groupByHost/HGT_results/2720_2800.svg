@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="912" height="723" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g style="stroke:black;fill:lightgreen" transform="translate(30,30)">
+<line x1="259" y1="622" x2="259" y2="567" style="stroke:blue; stroke-width:1"/>
+<line x1="259" y1="567" x2="381" y2="567" style="stroke:blue; stroke-width:1"/>
+<line x1="259" y1="622" x2="259" y2="677" style="stroke:blue; stroke-width:1"/>
+<line x1="259" y1="677" x2="381" y2="677" style="stroke:blue; stroke-width:1"/>
+<line x1="259" y1="353" x2="259" y2="457" style="stroke:blue; stroke-width:1"/>
+<line x1="259" y1="457" x2="381" y2="457" style="stroke:blue; stroke-width:1"/>
+<line x1="381" y1="250" x2="381" y2="346" style="stroke:blue; stroke-width:1"/>
+<line x1="381" y1="346" x2="503" y2="346" style="stroke:blue; stroke-width:1"/>
+<line x1="624" y1="71" x2="624" y2="16" style="stroke:blue; stroke-width:1"/>
+<line x1="624" y1="16" x2="746" y2="16" style="stroke:blue; stroke-width:1"/>
+<line x1="624" y1="71" x2="624" y2="126" style="stroke:blue; stroke-width:1"/>
+<line x1="624" y1="126" x2="746" y2="126" style="stroke:blue; stroke-width:1"/>
+<line x1="503" y1="154" x2="503" y2="236" style="stroke:blue; stroke-width:1"/>
+<line x1="503" y1="236" x2="624" y2="236" style="stroke:blue; stroke-width:1"/>
+<line x1="138" y1="488" x2="138" y2="622" style="stroke:blue; stroke-width:1"/>
+<line x1="138" y1="622" x2="259" y2="622" style="stroke:blue; stroke-width:1"/>
+<line x1="138" y1="488" x2="138" y2="353" style="stroke:blue; stroke-width:1"/>
+<line x1="138" y1="353" x2="259" y2="353" style="stroke:blue; stroke-width:1"/>
+<line x1="259" y1="353" x2="259" y2="250" style="stroke:blue; stroke-width:1"/>
+<line x1="259" y1="250" x2="381" y2="250" style="stroke:blue; stroke-width:1"/>
+<line x1="503" y1="154" x2="503" y2="71" style="stroke:blue; stroke-width:1"/>
+<line x1="503" y1="71" x2="624" y2="71" style="stroke:blue; stroke-width:1"/>
+<line x1="381" y1="250" x2="381" y2="154" style="stroke:blue; stroke-width:1"/>
+<line x1="381" y1="154" x2="503" y2="154" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="488" x2="16" y2="488" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="488" x2="138" y2="488" style="stroke:blue; stroke-width:1"/>
+<text x="20" y="485" font-weight = "10" font-family="verdana" fill="black" font-size="18">Root</text>
+<text x="385" y="684" font-weight = "10" font-family="verdana" fill="black" font-size="18">AB085735.1_Miniopterus_fuliginosus</text>
+<text x="385" y="574" font-weight = "10" font-family="verdana" fill="black" font-size="18">ON640726.1_Miniopterus_magnater</text>
+<text x="385" y="464" font-weight = "10" font-family="verdana" fill="black" font-size="18">HM134917.1_Rhinolophus_sinicus</text>
+<text x="507" y="353" font-weight = "10" font-family="verdana" fill="black" font-size="18">KP972690.1_Rhinolophus_affinis</text>
+<text x="628" y="243" font-weight = "10" font-family="verdana" fill="black" font-size="18">MZ936290.1_Rhinolophus_blasii</text>
+<text x="750" y="133" font-weight = "10" font-family="verdana" fill="black" font-size="18">KX261916.1_Rhinolophus_macrotis</text>
+<text x="750" y="23" font-weight = "10" font-family="verdana" fill="black" font-size="18">ON012504.1_Rhinolophus_pusillus</text>
+<line x1="441.83333333333" y1="346.5" x2="323.87302216334" y2="453.31063792241" style="stroke:red; stroke-width:1;stroke-dasharray: 5, 5"/>
+<line x1="320.51699341909" y1="449.60428242574" x2="327.2290509076" y2="457.01699341909" style="stroke:red; stroke-width:1"/>
+<line x1="320.51699341909" y1="449.60428242574" x2="320.16666666667" y2="456.66666666667" style="stroke:red; stroke-width:1"/>
+<line x1="320.16666666667" y1="456.66666666667" x2="327.2290509076" y2="457.01699341909" style="stroke:red; stroke-width:1"/>
+<text x="381" y="401.58333333333" font-weight = "10" font-family="verdana" fill="red" font-size="18">2(100%)</text>
+<line x1="685.16666666667" y1="126.16666666667" x2="445.53968883001" y2="343.14397125575" style="stroke:red; stroke-width:1;stroke-dasharray: 5, 5"/>
+<line x1="442.18366008576" y1="339.43761575907" x2="448.89571757426" y2="346.85032675243" style="stroke:red; stroke-width:1"/>
+<line x1="442.18366008576" y1="339.43761575907" x2="441.83333333333" y2="346.5" style="stroke:red; stroke-width:1"/>
+<line x1="441.83333333333" y1="346.5" x2="448.89571757426" y2="346.85032675243" style="stroke:red; stroke-width:1"/>
+<text x="563.5" y="236.33333333333" font-weight = "10" font-family="verdana" fill="red" font-size="18">3(100%)</text>
+<line x1="320.16666666667" y1="456.66666666667" x2="681.97721886622" y2="19.850639262279" style="stroke:red; stroke-width:1;stroke-dasharray: 5, 5"/>
+<line x1="685.8278581285" y1="23.040087062729" x2="678.12657960394" y2="16.661191461829" style="stroke:red; stroke-width:1"/>
+<line x1="685.8278581285" y1="23.040087062729" x2="685.16666666667" y2="16" style="stroke:red; stroke-width:1"/>
+<line x1="685.16666666667" y1="16" x2="678.12657960394" y2="16.661191461829" style="stroke:red; stroke-width:1"/>
+<text x="502.66666666667" y="236.33333333333" font-weight = "10" font-family="verdana" fill="red" font-size="18">1(100%)</text>
+</g></svg>
