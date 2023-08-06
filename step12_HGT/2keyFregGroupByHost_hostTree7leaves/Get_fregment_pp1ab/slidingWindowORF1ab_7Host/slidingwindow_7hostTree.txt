@@ -1,0 +1,1332 @@
+===================================================================================
+| Partial HGT-DETECTION V.1.2 (June, 2013) by Alix Boc and Vladimir Makarenkov |
+===================================================================================
+Species Tree filename   = speciesTree.new
+Gene Sequences filename = sequences.phy
+Sliding windows size    = 100
+Step size               = 10
+Number of replicates    = 100
+Minimum Bootstrap       = 40
+Tree reconstruction     = PhyML
+Sequence Type           = AA
+Number of consecutive windows necessary to validate a transfer = 3
+
+
+Partial HGT detected with bootstrap support higher than 40% : 
+================================================================
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 86.1%
+Interval  : 1 : 101
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 97.0%
+Interval  : 1 : 101
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 82.2%
+Interval  : 11 : 111
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 91.1%
+Interval  : 11 : 111
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 79.2%
+Interval  : 21 : 121
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 80.2%
+Interval  : 21 : 121
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 58.4%
+Interval  : 31 : 131
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 83.2%
+Interval  : 31 : 131
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 68.3%
+Interval  : 41 : 141
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 70.3%
+Interval  : 41 : 141
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 63.4%
+Interval  : 51 : 151
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 62.4%
+Interval  : 51 : 151
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 56.4%
+Interval  : 61 : 161
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 51.5%
+Interval  : 61 : 161
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 58.4%
+Interval  : 71 : 171
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 62.4%
+Interval  : 71 : 171
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 55.4%
+Interval  : 81 : 181
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 52.5%
+Interval  : 81 : 181
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 59.4%
+Interval  : 91 : 191
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 68.3%
+Interval  : 91 : 191
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 40.6%
+Interval  : 141 : 241
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 43.6%
+Interval  : 151 : 251
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 49.5%
+Interval  : 161 : 261
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 49.5%
+Interval  : 161 : 261
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 69.3%
+Interval  : 171 : 271
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 62.4%
+Interval  : 171 : 271
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 61.4%
+Interval  : 181 : 281
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 41.6%
+Interval  : 191 : 291
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 43.6%
+Interval  : 201 : 301
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 45.5%
+Interval  : 211 : 311
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 51.5%
+Interval  : 221 : 321
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 44.6%
+Interval  : 231 : 331
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 42.6%
+Interval  : 241 : 341
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 65.3%
+Interval  : 251 : 351
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 50.5%
+Interval  : 261 : 361
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 41.6%
+Interval  : 341 : 441
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 44.6%
+Interval  : 381 : 481
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 61.4%
+Interval  : 391 : 491
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 76.2%
+Interval  : 391 : 491
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 80.2%
+Interval  : 401 : 501
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 76.2%
+Interval  : 411 : 511
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 55.4%
+Interval  : 421 : 521
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 59.4%
+Interval  : 421 : 521
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 61.4%
+Interval  : 431 : 531
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 64.4%
+Interval  : 431 : 531
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 52.5%
+Interval  : 491 : 591
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 40.6%
+Interval  : 501 : 601
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 60.4%
+Interval  : 511 : 611
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 53.5%
+Interval  : 511 : 611
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 83.2%
+Interval  : 521 : 621
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 83.2%
+Interval  : 521 : 621
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 86.1%
+Interval  : 531 : 631
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 77.2%
+Interval  : 531 : 631
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 87.1%
+Interval  : 541 : 641
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 87.1%
+Interval  : 541 : 641
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 69.3%
+Interval  : 551 : 651
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 61.4%
+Interval  : 551 : 651
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 44.6%
+Interval  : 561 : 661
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 41.6%
+Interval  : 571 : 671
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 63.4%
+Interval  : 581 : 681
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 60.4%
+Interval  : 581 : 681
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 44.6%
+Interval  : 591 : 691
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 48.5%
+Interval  : 591 : 691
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 61.4%
+Interval  : 611 : 711
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 63.4%
+Interval  : 621 : 721
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 55.4%
+Interval  : 631 : 731
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 46.5%
+Interval  : 641 : 741
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 45.5%
+Interval  : 651 : 751
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 48.5%
+Interval  : 651 : 751
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 41.6%
+Interval  : 661 : 761
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 58.4%
+Interval  : 661 : 761
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 52.5%
+Interval  : 671 : 771
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 48.5%
+Interval  : 691 : 791
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 51.5%
+Interval  : 691 : 791
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 45.5%
+Interval  : 701 : 801
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 51.5%
+Interval  : 701 : 801
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 48.5%
+Interval  : 711 : 811
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 51.5%
+Interval  : 711 : 811
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 46.5%
+Interval  : 721 : 821
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 46.5%
+Interval  : 721 : 821
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 50.5%
+Interval  : 741 : 841
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 59.4%
+Interval  : 741 : 841
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 42.6%
+Interval  : 771 : 871
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 40.6%
+Interval  : 781 : 881
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 42.6%
+Interval  : 811 : 911
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 41.6%
+Interval  : 821 : 921
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 70.3%
+Interval  : 831 : 931
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 62.4%
+Interval  : 831 : 931
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 85.1%
+Interval  : 841 : 941
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 84.2%
+Interval  : 851 : 951
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 79.2%
+Interval  : 861 : 961
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 47.5%
+Interval  : 871 : 971
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 47.5%
+Interval  : 881 : 981
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 52.5%
+Interval  : 901 : 1001
+
+Transfer  : MZ936290.1_Rhinolophus_blasii->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 41.6%
+Interval  : 931 : 1031
+
+Transfer  : MZ936290.1_Rhinolophus_blasii->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 46.5%
+Interval  : 941 : 1041
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 43.6%
+Interval  : 961 : 1061
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 45.5%
+Interval  : 961 : 1061
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 66.3%
+Interval  : 971 : 1071
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 78.2%
+Interval  : 971 : 1071
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 62.4%
+Interval  : 981 : 1081
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 71.3%
+Interval  : 981 : 1081
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 59.4%
+Interval  : 991 : 1091
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 69.3%
+Interval  : 991 : 1091
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 44.6%
+Interval  : 1001 : 1101
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 48.5%
+Interval  : 1001 : 1101
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 40.6%
+Interval  : 1031 : 1131
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 40.6%
+Interval  : 1041 : 1141
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 43.6%
+Interval  : 1041 : 1141
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 52.5%
+Interval  : 1051 : 1151
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 41.6%
+Interval  : 1061 : 1161
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis,MZ936290.1_Rhinolophus_blasii->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 48.5%
+Interval  : 1071 : 1171
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis,MZ936290.1_Rhinolophus_blasii->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 48.5%
+Interval  : 1091 : 1191
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 61.4%
+Interval  : 1101 : 1201
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 55.4%
+Interval  : 1111 : 1211
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 52.5%
+Interval  : 1121 : 1221
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 46.5%
+Interval  : 1151 : 1251
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 69.3%
+Interval  : 1151 : 1251
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 49.5%
+Interval  : 1161 : 1261
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 74.3%
+Interval  : 1161 : 1261
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 62.4%
+Interval  : 1171 : 1271
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 61.4%
+Interval  : 1181 : 1281
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 87.1%
+Interval  : 1181 : 1281
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 62.4%
+Interval  : 1191 : 1291
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 90.1%
+Interval  : 1191 : 1291
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 61.4%
+Interval  : 1201 : 1301
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 88.1%
+Interval  : 1201 : 1301
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 43.6%
+Interval  : 1211 : 1311
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 62.4%
+Interval  : 1211 : 1311
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 45.5%
+Interval  : 1221 : 1321
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 40.6%
+Interval  : 1251 : 1351
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 46.5%
+Interval  : 1291 : 1391
+
+Transfer  : MZ936290.1_Rhinolophus_blasii->KP972690.1_Rhinolophus_affinis
+Bootstrap : 46.5%
+Interval  : 1301 : 1401
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 51.5%
+Interval  : 1431 : 1531
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 85.1%
+Interval  : 1441 : 1541
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 55.4%
+Interval  : 1441 : 1541
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 84.2%
+Interval  : 1451 : 1551
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 46.5%
+Interval  : 1451 : 1551
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 72.3%
+Interval  : 1461 : 1561
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 77.2%
+Interval  : 1471 : 1571
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 77.2%
+Interval  : 1481 : 1581
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 75.2%
+Interval  : 1491 : 1591
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 73.3%
+Interval  : 1501 : 1601
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 71.3%
+Interval  : 1511 : 1611
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 76.2%
+Interval  : 1521 : 1621
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 53.5%
+Interval  : 1531 : 1631
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 44.6%
+Interval  : 1541 : 1641
+
+Transfer  : MZ936290.1_Rhinolophus_blasii->KP972690.1_Rhinolophus_affinis
+Bootstrap : 40.6%
+Interval  : 1541 : 1641
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 46.5%
+Interval  : 1551 : 1651
+
+Transfer  : MZ936290.1_Rhinolophus_blasii->KP972690.1_Rhinolophus_affinis
+Bootstrap : 46.5%
+Interval  : 1551 : 1651
+
+Transfer  : KP972690.1_Rhinolophus_affinis->MZ936290.1_Rhinolophus_blasii
+Bootstrap : 80.2%
+Interval  : 1561 : 1661
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->KP972690.1_Rhinolophus_affinis,MZ936290.1_Rhinolophus_blasii
+Bootstrap : 47.5%
+Interval  : 1561 : 1661
+
+Transfer  : KP972690.1_Rhinolophus_affinis->MZ936290.1_Rhinolophus_blasii
+Bootstrap : 83.2%
+Interval  : 1571 : 1671
+
+Transfer  : KP972690.1_Rhinolophus_affinis->MZ936290.1_Rhinolophus_blasii
+Bootstrap : 82.2%
+Interval  : 1581 : 1681
+
+Transfer  : KP972690.1_Rhinolophus_affinis->MZ936290.1_Rhinolophus_blasii
+Bootstrap : 55.4%
+Interval  : 1591 : 1691
+
+Transfer  : KP972690.1_Rhinolophus_affinis->MZ936290.1_Rhinolophus_blasii
+Bootstrap : 49.5%
+Interval  : 1601 : 1701
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 56.4%
+Interval  : 1611 : 1711
+
+Transfer  : MZ936290.1_Rhinolophus_blasii->KP972690.1_Rhinolophus_affinis
+Bootstrap : 52.5%
+Interval  : 1611 : 1711
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 71.3%
+Interval  : 1621 : 1721
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 45.5%
+Interval  : 1621 : 1721
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 78.2%
+Interval  : 1631 : 1731
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 68.3%
+Interval  : 1641 : 1741
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 74.3%
+Interval  : 1651 : 1751
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 53.5%
+Interval  : 1651 : 1751
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 76.2%
+Interval  : 1661 : 1761
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 75.2%
+Interval  : 1671 : 1771
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 53.5%
+Interval  : 1671 : 1771
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 70.3%
+Interval  : 1681 : 1781
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 48.5%
+Interval  : 1681 : 1781
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 74.3%
+Interval  : 1691 : 1791
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 62.4%
+Interval  : 1691 : 1791
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 73.3%
+Interval  : 1701 : 1801
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 67.3%
+Interval  : 1701 : 1801
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 75.2%
+Interval  : 1711 : 1811
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 68.3%
+Interval  : 1711 : 1811
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 56.4%
+Interval  : 1721 : 1821
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 55.4%
+Interval  : 1721 : 1821
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 69.3%
+Interval  : 1731 : 1831
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 70.3%
+Interval  : 1741 : 1841
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 60.4%
+Interval  : 1741 : 1841
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 73.3%
+Interval  : 1751 : 1851
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 54.5%
+Interval  : 1751 : 1851
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 61.4%
+Interval  : 1761 : 1861
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 52.5%
+Interval  : 1761 : 1861
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 73.3%
+Interval  : 1771 : 1871
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 57.4%
+Interval  : 1781 : 1881
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 66.3%
+Interval  : 1791 : 1891
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 45.5%
+Interval  : 1801 : 1901
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 44.6%
+Interval  : 1811 : 1911
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 80.2%
+Interval  : 1931 : 2031
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 54.5%
+Interval  : 1951 : 2051
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 44.6%
+Interval  : 1961 : 2061
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 61.4%
+Interval  : 1971 : 2071
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 54.5%
+Interval  : 1981 : 2081
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 51.5%
+Interval  : 2011 : 2111
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 48.5%
+Interval  : 2021 : 2121
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 44.6%
+Interval  : 2031 : 2131
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 45.5%
+Interval  : 2041 : 2141
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 50.5%
+Interval  : 2051 : 2151
+
+Transfer  : MZ936290.1_Rhinolophus_blasii->HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus
+Bootstrap : 46.5%
+Interval  : 2051 : 2151
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 48.5%
+Interval  : 2061 : 2161
+
+Transfer  : MZ936290.1_Rhinolophus_blasii->HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus
+Bootstrap : 40.6%
+Interval  : 2061 : 2161
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 44.6%
+Interval  : 2071 : 2171
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 49.5%
+Interval  : 2241 : 2341
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 59.4%
+Interval  : 2251 : 2351
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 49.5%
+Interval  : 2261 : 2361
+
+Transfer  : KP972690.1_Rhinolophus_affinis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 44.6%
+Interval  : 2281 : 2381
+
+Transfer  : KP972690.1_Rhinolophus_affinis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 43.6%
+Interval  : 2331 : 2431
+
+Transfer  : KP972690.1_Rhinolophus_affinis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 47.5%
+Interval  : 2341 : 2441
+
+Transfer  : KP972690.1_Rhinolophus_affinis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 50.5%
+Interval  : 2351 : 2451
+
+Transfer  : KP972690.1_Rhinolophus_affinis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 43.6%
+Interval  : 2371 : 2471
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 42.6%
+Interval  : 2391 : 2491
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 47.5%
+Interval  : 2401 : 2501
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 44.6%
+Interval  : 2411 : 2511
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 67.3%
+Interval  : 2421 : 2521
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 71.3%
+Interval  : 2431 : 2531
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 65.3%
+Interval  : 2441 : 2541
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 70.3%
+Interval  : 2451 : 2551
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 72.3%
+Interval  : 2461 : 2561
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 47.5%
+Interval  : 2641 : 2741
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 44.6%
+Interval  : 2651 : 2751
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 44.6%
+Interval  : 2661 : 2761
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 43.6%
+Interval  : 2711 : 2811
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 44.6%
+Interval  : 2731 : 2831
+
+Transfer  : KP972690.1_Rhinolophus_affinis,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 41.6%
+Interval  : 2911 : 3011
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis,MZ936290.1_Rhinolophus_blasii->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 51.5%
+Interval  : 3021 : 3121
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 42.6%
+Interval  : 3101 : 3201
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 45.5%
+Interval  : 3141 : 3241
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 43.6%
+Interval  : 3151 : 3251
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 53.5%
+Interval  : 3171 : 3271
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 44.6%
+Interval  : 3181 : 3281
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 65.3%
+Interval  : 3191 : 3291
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,MZ936290.1_Rhinolophus_blasii->HM134917.1_Rhinolophus_sinicus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 48.5%
+Interval  : 3191 : 3291
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 51.5%
+Interval  : 4241 : 4341
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 52.5%
+Interval  : 4331 : 4431
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 58.4%
+Interval  : 4351 : 4451
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 53.5%
+Interval  : 4361 : 4461
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 60.4%
+Interval  : 4371 : 4471
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 55.4%
+Interval  : 4381 : 4481
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 78.2%
+Interval  : 4391 : 4491
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 78.2%
+Interval  : 4401 : 4501
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 85.1%
+Interval  : 4411 : 4511
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 77.2%
+Interval  : 4421 : 4521
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 85.1%
+Interval  : 4431 : 4531
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 68.3%
+Interval  : 4441 : 4541
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 55.4%
+Interval  : 4451 : 4551
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 67.3%
+Interval  : 4461 : 4561
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 73.3%
+Interval  : 4471 : 4571
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 55.4%
+Interval  : 4491 : 4591
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 52.5%
+Interval  : 4511 : 4611
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 54.5%
+Interval  : 4521 : 4621
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 44.6%
+Interval  : 4531 : 4631
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 48.5%
+Interval  : 4651 : 4751
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 55.4%
+Interval  : 4661 : 4761
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 42.6%
+Interval  : 4671 : 4771
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 61.4%
+Interval  : 4711 : 4811
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->KP972690.1_Rhinolophus_affinis
+Bootstrap : 52.5%
+Interval  : 4711 : 4811
+
+Transfer  : KP972690.1_Rhinolophus_affinis,ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 43.6%
+Interval  : 4711 : 4811
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 58.4%
+Interval  : 4721 : 4821
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 59.4%
+Interval  : 4731 : 4831
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 68.3%
+Interval  : 4741 : 4841
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 60.4%
+Interval  : 4751 : 4851
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 78.2%
+Interval  : 4791 : 4891
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 45.5%
+Interval  : 4791 : 4891
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,KP972690.1_Rhinolophus_affinis,KX261916.1_Rhinolophus_macrotis->ON012504.1_Rhinolophus_pusillus
+Bootstrap : 41.6%
+Interval  : 4791 : 4891
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 70.3%
+Interval  : 4801 : 4901
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 62.4%
+Interval  : 4811 : 4911
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 43.6%
+Interval  : 4811 : 4911
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 68.3%
+Interval  : 4821 : 4921
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 77.2%
+Interval  : 4831 : 4931
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 57.4%
+Interval  : 4841 : 4941
+
+Transfer  : KP972690.1_Rhinolophus_affinis,ON012504.1_Rhinolophus_pusillus,MZ936290.1_Rhinolophus_blasii->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 45.5%
+Interval  : 4851 : 4951
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 62.4%
+Interval  : 4881 : 4981
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,MZ936290.1_Rhinolophus_blasii->HM134917.1_Rhinolophus_sinicus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 54.5%
+Interval  : 4881 : 4981
+
+Transfer  : MZ936290.1_Rhinolophus_blasii->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 43.6%
+Interval  : 4891 : 4991
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 70.3%
+Interval  : 4911 : 5011
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 73.3%
+Interval  : 4921 : 5021
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 79.2%
+Interval  : 4931 : 5031
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 85.1%
+Interval  : 4941 : 5041
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 82.2%
+Interval  : 4951 : 5051
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 71.3%
+Interval  : 4961 : 5061
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 79.2%
+Interval  : 4971 : 5071
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 55.4%
+Interval  : 4981 : 5081
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 66.3%
+Interval  : 5001 : 5101
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 62.4%
+Interval  : 5001 : 5101
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 52.5%
+Interval  : 5011 : 5111
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 58.4%
+Interval  : 5011 : 5111
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 53.5%
+Interval  : 5021 : 5121
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 56.4%
+Interval  : 5021 : 5121
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 70.3%
+Interval  : 5031 : 5131
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 70.3%
+Interval  : 5031 : 5131
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 40.6%
+Interval  : 5041 : 5141
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 45.5%
+Interval  : 5041 : 5141
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 49.5%
+Interval  : 5051 : 5151
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 41.6%
+Interval  : 5051 : 5151
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Bootstrap : 55.4%
+Interval  : 5061 : 5161
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 46.5%
+Interval  : 5061 : 5161
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 43.6%
+Interval  : 5071 : 5171
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 54.5%
+Interval  : 5081 : 5181
+
+Transfer  : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 48.5%
+Interval  : 5121 : 5221
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 50.5%
+Interval  : 5131 : 5231
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 56.4%
+Interval  : 5141 : 5241
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 58.4%
+Interval  : 5151 : 5251
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 42.6%
+Interval  : 5161 : 5261
+
+Transfer  : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 61.4%
+Interval  : 5171 : 5271
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 65.3%
+Interval  : 5181 : 5281
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 56.4%
+Interval  : 5191 : 5291
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 70.3%
+Interval  : 5201 : 5301
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 60.4%
+Interval  : 5211 : 5311
+
+Transfer  : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Bootstrap : 40.6%
+Interval  : 5221 : 5321
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 44.6%
+Interval  : 5231 : 5331
+
+Transfer  : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Bootstrap : 40.6%
+Interval  : 5241 : 5341
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 62.4%
+Interval  : 5381 : 5481
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 52.5%
+Interval  : 5391 : 5491
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 62.4%
+Interval  : 5401 : 5501
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 58.4%
+Interval  : 5411 : 5511
+
+Transfer  : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Bootstrap : 50.5%
+Interval  : 5421 : 5521
+
+
+Overlapping partial HGT detected with bootstrap support higher than 40% and validated over 3 consecutive windows
+====================================================================================================================
+
+Transfer          : KP972690.1_Rhinolophus_affinis->HM134917.1_Rhinolophus_sinicus
+Average bootstrap : 46.0%
+Interval          : 2281-2471
+
+Transfer          : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Average bootstrap : 56.8%
+Interval          : 491-741
+
+Transfer          : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus
+Average bootstrap : 45.9%
+Interval          : 191-341
+
+Transfer          : HM134917.1_Rhinolophus_sinicus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Average bootstrap : 44.5%
+Interval          : 4791-4911
+
+Transfer          : HM134917.1_Rhinolophus_sinicus->ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis
+Average bootstrap : 58.9%
+Interval          : 1-191
+
+Transfer          : HM134917.1_Rhinolophus_sinicus,ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis->KP972690.1_Rhinolophus_affinis
+Average bootstrap : 61.0%
+Interval          : 1-271
+
+Transfer          : ON012504.1_Rhinolophus_pusillus->HM134917.1_Rhinolophus_sinicus
+Average bootstrap : 62.4%
+Interval          : 151-361
+
+Transfer          : ON012504.1_Rhinolophus_pusillus,KX261916.1_Rhinolophus_macrotis,MZ936290.1_Rhinolophus_blasii->HM134917.1_Rhinolophus_sinicus
+Average bootstrap : 49.5%
+Interval          : 1071-1191
+
+Transfer          : KX261916.1_Rhinolophus_macrotis->HM134917.1_Rhinolophus_sinicus
+Average bootstrap : 62.7%
+Interval          : 341-481
+
+Transfer          : HM134917.1_Rhinolophus_sinicus->KX261916.1_Rhinolophus_macrotis
+Average bootstrap : 58.9%
+Interval          : 3101-3291
+
+Transfer          : KP972690.1_Rhinolophus_affinis->MZ936290.1_Rhinolophus_blasii
+Average bootstrap : 70.1%
+Interval          : 1561-1701

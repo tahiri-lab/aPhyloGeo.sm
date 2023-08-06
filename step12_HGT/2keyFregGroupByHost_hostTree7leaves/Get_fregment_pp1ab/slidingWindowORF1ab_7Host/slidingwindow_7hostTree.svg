@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="826" height="888" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g style="stroke:black;fill:lightgreen" transform="translate(30,30)">
+<line x1="231" y1="765" x2="231" y2="704" style="stroke:blue; stroke-width:1"/>
+<line x1="231" y1="704" x2="330" y2="704" style="stroke:blue; stroke-width:1"/>
+<line x1="231" y1="781" x2="231" y2="842" style="stroke:blue; stroke-width:1"/>
+<line x1="231" y1="842" x2="330" y2="842" style="stroke:blue; stroke-width:1"/>
+<line x1="231" y1="446" x2="231" y2="567" style="stroke:blue; stroke-width:1"/>
+<line x1="231" y1="567" x2="330" y2="567" style="stroke:blue; stroke-width:1"/>
+<line x1="338" y1="317" x2="338" y2="429" style="stroke:blue; stroke-width:1"/>
+<line x1="338" y1="429" x2="437" y2="429" style="stroke:blue; stroke-width:1"/>
+<line x1="553" y1="77" x2="553" y2="16" style="stroke:blue; stroke-width:1"/>
+<line x1="553" y1="16" x2="652" y2="16" style="stroke:blue; stroke-width:1"/>
+<line x1="553" y1="93" x2="553" y2="154" style="stroke:blue; stroke-width:1"/>
+<line x1="553" y1="154" x2="652" y2="154" style="stroke:blue; stroke-width:1"/>
+<line x1="445" y1="196" x2="445" y2="291" style="stroke:blue; stroke-width:1"/>
+<line x1="445" y1="291" x2="545" y2="291" style="stroke:blue; stroke-width:1"/>
+<line x1="123" y1="613" x2="123" y2="773" style="stroke:blue; stroke-width:1"/>
+<line x1="123" y1="773" x2="223" y2="773" style="stroke:blue; stroke-width:1"/>
+<line x1="123" y1="597" x2="123" y2="438" style="stroke:blue; stroke-width:1"/>
+<line x1="123" y1="438" x2="223" y2="438" style="stroke:blue; stroke-width:1"/>
+<line x1="231" y1="430" x2="231" y2="309" style="stroke:blue; stroke-width:1"/>
+<line x1="231" y1="309" x2="330" y2="309" style="stroke:blue; stroke-width:1"/>
+<line x1="445" y1="180" x2="445" y2="85" style="stroke:blue; stroke-width:1"/>
+<line x1="445" y1="85" x2="545" y2="85" style="stroke:blue; stroke-width:1"/>
+<line x1="338" y1="301" x2="338" y2="188" style="stroke:blue; stroke-width:1"/>
+<line x1="338" y1="188" x2="437" y2="188" style="stroke:blue; stroke-width:1"/>
+<line x1="24" y1="605" x2="115" y2="605" style="stroke:blue; stroke-width:1"/>
+<text x="20" y="602" font-weight = "10" font-family="verdana" fill="black" font-size="18">Root</text>
+<text x="119" y="611" font-weight = "10" font-family="verdana" fill="black" font-size="16">14</text>
+<text x="226" y="779" font-weight = "10" font-family="verdana" fill="black" font-size="16">9</text>
+<text x="342" y="849" font-weight = "10" font-family="verdana" fill="black" font-size="18">AB085735.1_Miniopterus_fuliginosus</text>
+<text x="342" y="711" font-weight = "10" font-family="verdana" fill="black" font-size="18">ON640726.1_Miniopterus_magnater</text>
+<text x="226" y="444" font-weight = "10" font-family="verdana" fill="black" font-size="16">10</text>
+<text x="342" y="574" font-weight = "10" font-family="verdana" fill="black" font-size="18">HM134917.1_Rhinolophus_sinicus</text>
+<text x="333" y="315" font-weight = "10" font-family="verdana" fill="black" font-size="16">11</text>
+<text x="449" y="436" font-weight = "10" font-family="verdana" fill="black" font-size="18">KP972690.1_Rhinolophus_affinis</text>
+<text x="441" y="194" font-weight = "10" font-family="verdana" fill="black" font-size="16">13</text>
+<text x="557" y="298" font-weight = "10" font-family="verdana" fill="black" font-size="18">MZ936290.1_Rhinolophus_blasii</text>
+<text x="548" y="91" font-weight = "10" font-family="verdana" fill="black" font-size="16">12</text>
+<text x="664" y="161" font-weight = "10" font-family="verdana" fill="black" font-size="18">KX261916.1_Rhinolophus_macrotis</text>
+<text x="664" y="23" font-weight = "10" font-family="verdana" fill="black" font-size="18">ON012504.1_Rhinolophus_pusillus</text>
+<line x1="499" y1="84.833333333333" x2="286.36812909396" y2="562.09943487788" style="stroke:red; stroke-width:1;stroke-dasharray: 5, 5"/>
+<line x1="281.80089730517" y1="560.06463911725" x2="290.93536088275" y2="564.1342306385" style="stroke:red; stroke-width:1"/>
+<line x1="281.80089730517" y1="560.06463911725" x2="284.33333333333" y2="566.66666666667" style="stroke:red; stroke-width:1"/>
+<line x1="284.33333333333" y1="566.66666666667" x2="290.93536088275" y2="564.1342306385" style="stroke:red; stroke-width:1"/>
+<text x="391.66666666667" y="325.75" font-weight = "10" font-family="verdana" fill="red" font-size="18">56.8137931034483% [491 : 741]</text>
+<line x1="284.33333333333" y1="566.66666666667" x2="603.80943100673" y2="20.31623876144" style="stroke:red; stroke-width:1;stroke-dasharray: 5, 5"/>
+<line x1="608.12566976817" y1="22.840141088045" x2="599.49319224529" y2="17.792336434835" style="stroke:red; stroke-width:1"/>
+<line x1="608.12566976817" y1="22.840141088045" x2="606.33333333333" y2="16" style="stroke:red; stroke-width:1"/>
+<line x1="606.33333333333" y1="16" x2="599.49319224529" y2="17.792336434835" style="stroke:red; stroke-width:1"/>
+<text x="445.33333333333" y="291.33333333333" font-weight = "10" font-family="verdana" fill="red" font-size="18">45.8736842105263% [191 : 341]</text>
+<line x1="284.33333333333" y1="566.66666666667" x2="388.59233879368" y2="432.94315966318" style="stroke:red; stroke-width:1;stroke-dasharray: 5, 5"/>
+<line x1="392.53549845686" y1="436.01748753617" x2="384.64917913049" y2="429.86883179019" style="stroke:red; stroke-width:1"/>
+<line x1="392.53549845686" y1="436.01748753617" x2="391.66666666667" y2="429" style="stroke:red; stroke-width:1"/>
+<line x1="391.66666666667" y1="429" x2="384.64917913049" y2="429.86883179019" style="stroke:red; stroke-width:1"/>
+<text x="338" y="497.83333333333" font-weight = "10" font-family="verdana" fill="red" font-size="18">44.55% [4791 : 4911]</text>
+<line x1="284.33333333333" y1="566.66666666667" x2="496.96520423938" y2="89.400565122125" style="stroke:red; stroke-width:1;stroke-dasharray: 5, 5"/>
+<line x1="501.53243602817" y1="91.435360882749" x2="492.39797245058" y2="87.365769361501" style="stroke:red; stroke-width:1"/>
+<line x1="501.53243602817" y1="91.435360882749" x2="499" y2="84.833333333333" style="stroke:red; stroke-width:1"/>
+<line x1="499" y1="84.833333333333" x2="492.39797245058" y2="87.365769361501" style="stroke:red; stroke-width:1"/>
+<text x="391.66666666667" y="325.75" font-weight = "10" font-family="verdana" fill="red" font-size="18">58.8619047619048% [1 : 191]</text>
+<line x1="499" y1="84.833333333333" x2="393.15527744453" y2="424.22673717966" style="stroke:red; stroke-width:1;stroke-dasharray: 5, 5"/>
+<line x1="388.3820146242" y1="422.73812640179" x2="397.92854026487" y2="425.71534795753" style="stroke:red; stroke-width:1"/>
+<line x1="388.3820146242" y1="422.73812640179" x2="391.66666666667" y2="429" style="stroke:red; stroke-width:1"/>
+<line x1="391.66666666667" y1="429" x2="397.92854026487" y2="425.71534795753" style="stroke:red; stroke-width:1"/>
+<text x="445.33333333333" y="256.91666666667" font-weight = "10" font-family="verdana" fill="red" font-size="18">60.9846846846847% [1 : 271]</text>
+<line x1="606.33333333333" y1="16" x2="286.85723565994" y2="562.35042790523" style="stroke:red; stroke-width:1;stroke-dasharray: 5, 5"/>
+<line x1="282.5409968985" y1="559.82652557862" x2="291.17347442138" y2="564.87433023183" style="stroke:red; stroke-width:1"/>
+<line x1="282.5409968985" y1="559.82652557862" x2="284.33333333333" y2="566.66666666667" style="stroke:red; stroke-width:1"/>
+<line x1="284.33333333333" y1="566.66666666667" x2="291.17347442138" y2="564.87433023183" style="stroke:red; stroke-width:1"/>
+<text x="445.33333333333" y="291.33333333333" font-weight = "10" font-family="verdana" fill="red" font-size="18">62.4027027027027% [151 : 361]</text>
+<line x1="499" y1="84.833333333333" x2="286.36812909396" y2="562.09943487788" style="stroke:red; stroke-width:1;stroke-dasharray: 5, 5"/>
+<line x1="281.80089730517" y1="560.06463911725" x2="290.93536088275" y2="564.1342306385" style="stroke:red; stroke-width:1"/>
+<line x1="281.80089730517" y1="560.06463911725" x2="284.33333333333" y2="566.66666666667" style="stroke:red; stroke-width:1"/>
+<line x1="284.33333333333" y1="566.66666666667" x2="290.93536088275" y2="564.1342306385" style="stroke:red; stroke-width:1"/>
+<text x="391.66666666667" y="325.75" font-weight = "10" font-family="verdana" fill="red" font-size="18">49.5% [1071 : 1191]</text>
+<line x1="606.33333333333" y1="153.66666666667" x2="287.40766120632" y2="562.72350700348" style="stroke:red; stroke-width:1;stroke-dasharray: 5, 5"/>
+<line x1="283.46450154314" y1="559.64917913049" x2="291.35082086951" y2="565.79783487647" style="stroke:red; stroke-width:1"/>
+<line x1="283.46450154314" y1="559.64917913049" x2="284.33333333333" y2="566.66666666667" style="stroke:red; stroke-width:1"/>
+<line x1="284.33333333333" y1="566.66666666667" x2="291.35082086951" y2="565.79783487647" style="stroke:red; stroke-width:1"/>
+<text x="445.33333333333" y="360.16666666667" font-weight = "10" font-family="verdana" fill="red" font-size="18">62.6892857142857% [341 : 481]</text>
+<line x1="284.33333333333" y1="566.66666666667" x2="603.25900546034" y2="157.60982632985" style="stroke:red; stroke-width:1;stroke-dasharray: 5, 5"/>
+<line x1="607.20216512353" y1="160.68415420284" x2="599.31584579716" y2="154.53549845686" style="stroke:red; stroke-width:1"/>
+<line x1="607.20216512353" y1="160.68415420284" x2="606.33333333333" y2="153.66666666667" style="stroke:red; stroke-width:1"/>
+<line x1="606.33333333333" y1="153.66666666667" x2="599.31584579716" y2="154.53549845686" style="stroke:red; stroke-width:1"/>
+<text x="445.33333333333" y="360.16666666667" font-weight = "10" font-family="verdana" fill="red" font-size="18">58.9368421052631% [3101 : 3291]</text>
+<line x1="391.66666666667" y1="429" x2="495.92567212701" y2="295.27649299652" style="stroke:red; stroke-width:1;stroke-dasharray: 5, 5"/>
+<line x1="499.86883179019" y1="298.35082086951" x2="491.98251246383" y2="292.20216512353" style="stroke:red; stroke-width:1"/>
+<line x1="499.86883179019" y1="298.35082086951" x2="499" y2="291.33333333333" style="stroke:red; stroke-width:1"/>
+<line x1="499" y1="291.33333333333" x2="491.98251246383" y2="292.20216512353" style="stroke:red; stroke-width:1"/>
+<text x="445.33333333333" y="360.16666666667" font-weight = "10" font-family="verdana" fill="red" font-size="18">70.1% [1561 : 1701]</text>
+<line x1="391.66666666667" y1="429" x2="287.40766120632" y2="562.72350700348" style="stroke:red; stroke-width:1;stroke-dasharray: 5, 5"/>
+<line x1="283.46450154314" y1="559.64917913049" x2="291.35082086951" y2="565.79783487647" style="stroke:red; stroke-width:1"/>
+<line x1="283.46450154314" y1="559.64917913049" x2="284.33333333333" y2="566.66666666667" style="stroke:red; stroke-width:1"/>
+<line x1="284.33333333333" y1="566.66666666667" x2="291.35082086951" y2="565.79783487647" style="stroke:red; stroke-width:1"/>
+<text x="338" y="497.83333333333" font-weight = "10" font-family="verdana" fill="red" font-size="18">45.96% [2281 : 2471]</text>
+</g></svg>
