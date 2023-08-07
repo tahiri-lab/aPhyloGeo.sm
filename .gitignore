@@ -5,3 +5,7 @@
 /step10_pipeline/host_alignment
 test*
 try*
+/step12_HGT_test
+/step9_similarity/SimPlot++/groupByHost_test
+/step9_similarity/SimPlot++/groupByCluster
+/step9_similarity/SimPlot++/PHI_groupByHost
