@@ -10,7 +10,10 @@ from itertools import groupby
 
 configfile: "config/config.yaml"
 
-#----------------------------------------------------
+# =====================================================================
+# |Prepare the folder for storing the outputs and the initial csv file |
+# =====================================================================
+
 if not os.path.exists("results/RAxML"):
     os.makedirs("results/RAxML")
 
@@ -21,7 +24,9 @@ if not os.path.exists("results/output.csv"):
         writer_object.writerow(columns_name)
         f_object.close()
 #-------------------------------
-
+# ====================================================
+# |   global variable to use                          |
+# ====================================================
 # global variable to use
 
 alignment_output = config['params']['seq_file']
