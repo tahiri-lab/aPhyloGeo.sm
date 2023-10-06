@@ -4,6 +4,13 @@
 <p align="justify">Bats, with their virus tolerance, social behaviors, and mobility, are reservoirs for emerging viruses, including coronaviruses (CoVs) known for genetic flexibility. Studying the cophylogenetic link between bats and CoVs provides vital insights into transmission dynamics, host adaptation, and the foundation for disease emergence and spread. In this study, we investigate the cophylogenetic patterns of 69 host-virus connections.
 Prior research has yielded valuable insights into phenomena such as host switching, cospeciation, and other dynamics concerning the interaction between CoVs and bats. Nonetheless, a distinct gap exists in the current literature concerning a comparative cophylogenetic analysis focused on elucidating the contributions of sequence fragments to the coevolution between hosts and viruses.</p>
 
+## :open_file_folder: Dataset
+
+The [dataset]() includes sequences from 69 distinct CoV genotypes, which have their origins in 17 different bat species. These genetic sequences have
+been obtained from GenBank and encompass the complete genome, polyprotein 1ab (ORF1ab), spike sequences of the CoVs, and the cytb gene sequences from the bat
+specimens.
+The 17 bat hosts include individuals in the "*Aselliscus stoliczkanus, Chaerephon plicatus, Hipposideros pratti, Miniopterus fuliginosus, Miniopterus magnate, Miniopterus pusillus, Myotis ricketti, Pipistrellus abramus, Rhinolophus affinis, Rhinolophus blasii, Rhinolophus ferrumequinum, Rhinolophus macrotis, Rhinolophus pearsoni, Rhinolophus pusillus, Rhinolophus sinicus, Tylonycteris pachypus*", and "*Vespertilio superans*". For molecular characterization, cytochrome b (cytb) gene sequences from all sampled bats were sourced from GenBank. This mitochondrial gene has proven instrumental in achieving species-level resolution for mammalian phylogenies within the Order.
+
 ## :pushpin: Results
 <p align="justify">Among the 69 host-virus links examined, 47 showed significant cophylogeny based on ParaFit and PACo analyses, affirming strong associations. Focusing on two pivotal proteins, ORF1ab and spike, we conduct a comparative analysis of host and coronavirus phylogenies. 
 For ORF1ab, specific window ranges in the multiple sequence alignment (positions 520-680, 770-870, 2930-3070, and 4910-5080) exhibit the lowest Robinson and Foulds RF distance (i.e. 84.62%), emphasizing their heigher contribution in the cophylogenetic association. Similarly, within the spike region, distinct window ranges (positions 0-140, 60-180, 100-410, 360-550, and 630-730) display the lowest RF distance at 88.46%.
