@@ -6,7 +6,7 @@ Prior research has yielded valuable insights into phenomena such as host switchi
 
 ## :open_file_folder: Dataset
 
-The [dataset]() includes sequences from 69 distinct CoV genotypes, which have their origins in 17 different bat species. These genetic sequences have
+The [dataset](https://github.com/tahiri-lab/aPhyloGeo.sm/blob/main/SUPPLEMENTARY%20TABLE.pdf) includes sequences from 69 distinct CoV genotypes, which have their origins in 17 different bat species. These genetic sequences have
 been obtained from GenBank and encompass the complete genome, polyprotein 1ab (ORF1ab), spike sequences of the CoVs, and the cytb gene sequences from the bat
 specimens.
 The 17 bat hosts include individuals in the "*Aselliscus stoliczkanus, Chaerephon plicatus, Hipposideros pratti, Miniopterus fuliginosus, Miniopterus magnate, Miniopterus pusillus, Myotis ricketti, Pipistrellus abramus, Rhinolophus affinis, Rhinolophus blasii, Rhinolophus ferrumequinum, Rhinolophus macrotis, Rhinolophus pearsoni, Rhinolophus pusillus, Rhinolophus sinicus, Tylonycteris pachypus*", and "*Vespertilio superans*". For molecular characterization, cytochrome b (cytb) gene sequences from all sampled bats were sourced from GenBank. This mitochondrial gene has proven instrumental in achieving species-level resolution for mammalian phylogenies within the Order.
