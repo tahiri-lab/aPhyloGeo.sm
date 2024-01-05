@@ -4,6 +4,11 @@
 <p align="justify">Bats, with their virus tolerance, social behaviors, and mobility, are reservoirs for emerging viruses, including coronaviruses (CoVs) known for genetic flexibility. Studying the cophylogenetic link between bats and CoVs provides vital insights into transmission dynamics, host adaptation, and the foundation for disease emergence and spread. In this study, we investigate the cophylogenetic patterns of 69 host-virus connections.
 Prior research has yielded valuable insights into phenomena such as host switching, cospeciation, and other dynamics concerning the interaction between CoVs and bats. Nonetheless, a distinct gap exists in the current literature concerning a comparative cophylogenetic analysis focused on elucidating the contributions of sequence fragments to the coevolution between hosts and viruses.</p>
 
+
+**Reference:** [W. Li and N. Tahiri (2023), Host-Virus Cophylogeny Trajectories: Investigating Molecular Relationships between Coronaviruses and Bat Hosts.
+(submitted)](https://www.researchsquare.com/article/rs-3362308/v1)
+
+
 ## :open_file_folder: Dataset
 <p align="justify">
 The [dataset](https://github.com/tahiri-lab/aPhyloGeo.sm/blob/main/SUPPLEMENTARY%20TABLE.pdf) includes sequences from 69 distinct CoV genotypes, which have their origins in 17 different bat species. These genetic sequences have
