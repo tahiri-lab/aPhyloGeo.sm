@@ -1,0 +1,230 @@
+\documentclass[9pt]{article}
+\usepackage{lscape}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+
+
+
+\begin{document}
+
+
+\textsc{Host-Virus Cophylogeny Trajectories: Investigating Molecular Relationships between Coronaviruses and Bat Hosts\\}
+
+% Authors, for the paper (add full first names)
+\begin{center}
+    Wanlin Li and Nadia Tahiri \\
+\end{center}
+
+\begin{center}
+Department of Computer Science, University of Sherbrooke, 2500 Bd University, Sherbrooke, Quebec, Canada \\
+Correspondence: Nadia.Tahiri@USherbrooke.ca\\
+\end{center}
+
+The dataset includes sequences from 69 distinct CoV genotypes, which have their origins in 17 different bat species. These genetic sequences have been obtained from GenBank and encompass the complete genome, polyprotein 1ab (ORF1ab), spike sequences of the CoVs, and the cytb gene sequences from the bat specimens.
+
+The 17 bat hosts include individuals in the \emph{Aselliscus stoliczkanus}, \emph{Chaerephon plicatus}, \emph{Hipposideros pratti}, \emph{Miniopterus fuliginosus}, \emph{Miniopterus magnate}, \emph{Miniopterus pusillus}, \emph{Myotis ricketti}, \emph{Pipistrellus abramus}, \emph{Rhinolophus affinis}, \emph{Rhinolophus blasii}, \emph{Rhinolophus ferrumequinum}, \emph{Rhinolophus macrotis}, \emph{Rhinolophus pearsoni}, \emph{Rhinolophus pusillus}, \emph{Rhinolophus sinicus}, \emph{Tylonycteris pachypus}, and \emph{Vespertilio superans}. For molecular characterization, cytochrome b (cytb) gene sequences from all sampled bats were sourced from GenBank. This mitochondrial gene has proven instrumental in achieving species-level resolution for mammalian phylogenies within the Order \cite{agnarsson2011time, bradley2001test, kocher1989dynamics}.
+
+\begin{landscape}
+%\begin{longtable}{l l l l l l}
+\begin{longtable}{p{2cm} p{3cm} p{2.7cm} p{5.7cm} p{2cm} p{2cm}}
+\caption{Coronaviruses and bats sequences used for cophylogenetic analyses}
+\label{supTab1} \\
+\hline
+\textbf{Virus complete genome} & \textbf{Virus ORF1ab} & \textbf{Virus spike} & \textbf{Host} & \textbf{Host cytb} & \textbf{Reference} \\
+\hline
+\endfirsthead
+\multicolumn{6}{p{18cm}}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+\hline
+\textbf{Virus complete genome} & \textbf{Virus ORF1ab} & \textbf{Virus spike} & \textbf{Host} & \textbf{Host cytb} & \textbf{Reference} \\
+\hline
+\endhead
+\hline
+\multicolumn{6}{p{18cm}}{{Continued on next page}} \\
+\endfoot
+\hline \hline
+\endlastfoot
+KY417142&ATO98106&ATO98108&Aselliscus stoliczkanus&DQ888677& \cite{hu2017discovery, li2007echolocation}\\
+JX993988&AGC74171(1a); AGC74177(1b)&AGC74176&\textit{Chaerephon plicatus}&ON640662& \cite{yang2013novel,wu2022comprehensive}\\
+KF636752&AIL94214&AIL94216&\textit{Hipposideros pratti}&OP894116& \cite{wu2016orf8} \\
+KJ473795&AIA62199&AIA62200&\textit{Miniopterus fuliginosus}&AB085735& \cite{du2016genetic,sakai2003molecular} \\
+KJ473796&AIA62205&AIA62206&\textit{Miniopterus fuliginosus}&AB085735& \cite{du2016genetic,sakai2003molecular} \\
+KJ473797&AIA62211&AIA62212&\textit{Miniopterus fuliginosus}&AB085735& \cite{du2016genetic,sakai2003molecular}\\
+KJ473798&AIA62219&AIA62220&\textit{Miniopterus fuliginosus}&AB085735& \cite{du2016genetic,sakai2003molecular}\\
+KJ473799&AIA62226&AIA62227&\textit{Miniopterus fuliginosus}&AB085735& \cite{du2016genetic,sakai2003molecular}\\
+KJ473800&AIA62233&AIA62234&\textit{Miniopterus fuliginosus}&AB085735& \cite{du2016genetic,sakai2003molecular}\\
+EU420138 &ACA52163&ACA52164&\textit{Miniopterus magnater} &ON640726& \cite{wu2022comprehensive, chu2008genomic} \\
+EU420137 &ACA52156&ACA52157&\textit{Miniopterus pusillus} &MN366288& \cite{chu2008genomic}  \\
+EU420139 &ACA52170&ACA52171&\textit{Miniopterus pusillus} &MN366288& \cite{chu2008genomic} \\
+KJ473806&AIA62245&AIA62246&\textit{Myotis ricketti}&AB106608& \cite{wu2016deciphering, kawai2003status} \\
+KJ473820&AIA62342&AIA62343&\textit{Pipistrellus abramus}&AB085739& \cite{wu2016orf8, sakai2003molecular} \\
+EF065509 &ABN10874&ABN10875&\textit{Pipistrellus abramus} &AB085739& \cite{sakai2003molecular,woo2007comparative} \\
+KF569996&AHX37556(1a); AHX37557(1b)&AHX37558&\textit{Rhinolophus affinis}&KP972690& \cite{woo2007comparative} \\
+MK211376&QDF43824&QDF43825&\textit{Rhinolophus affinis}&KP972690& \cite{woo2007comparative, he2014identification} \\
+MK211377&QDF43829&QDF43830&\textit{Rhinolophus affinis}&KP972690& \cite{woo2007comparative, he2014identification} \\
+MN996532&QHR63299&QHR63300&\textit{Rhinolophus affinis}&KP972690& \cite{woo2007comparative, zhou2020pneumonia} \\
+GU190215&ADK66840&ADK66841&\textit{Rhinolophus blasii}&MZ936290& \cite{curran2022new, drexler2010genomic} \\
+NC014470&YP003858583&YP003858584&\textit{Rhinolophus blasii}&MZ936290& \cite{curran2022new,drexler2010genomic}\\
+KJ473807&AIA62251&AIA62252&\textit{Rhinolophus ferrumequinum}&AB085731& \cite{sakai2003molecular, wu2016deciphering} \\
+KJ473808&AIA62258&AIA62259&\textit{Rhinolophus ferrumequinum}&AB085731& \cite{sakai2003molecular, wu2016deciphering} \\
+KJ473811&AIA62276&AIA62277&\textit{Rhinolophus ferrumequinum}&AB085731& \cite{sakai2003molecular, wu2016deciphering} \\
+KJ473812&AIA62289&AIA62290&\textit{Rhinolophus ferrumequinum}&AB085731& \cite{sakai2003molecular, wu2016deciphering} \\
+KJ473813&AIA62299&AIA62300&\textit{Rhinolophus ferrumequinum}&AB085731& \cite{sakai2003molecular, wu2016deciphering} \\
+DQ412043&ABD75330(1a); ABD75331(1b)&ABD75332&\textit{Rhinolophus macrotis}&KX261916& \cite{sun2016complex} \\
+DQ648857&ABG47068&ABG47069&\textit{Rhinolophus macrotis}&KX261916& \cite{sun2016complex}\\
+DQ071615&AAZ67050(1a); AAZ67051(1b)&AAZ67052&\textit{Rhinolophus pearsoni}&JX502551& \cite{li2005bats}\\
+JX993987&AGC74164(1a); AGC74170(1b)&AGC74165&\textit{Rhinolophus pusillus}&ON012504& \cite{yang2013novel, wang2022coronaviruses} \\
+KU973692&ARO76381(1a)&ARO76382&\textit{Rhinolophus pusillus}&ON012504& \cite{yang2013novel, wang2022coronaviruses}\\
+DQ022305&AAY88865&AAY88866&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe}\\
+DQ084199&AAZ41328&AAZ41329&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe}\\
+DQ084200&AAZ41339&AAZ41340&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe}\\
+FJ588686&ACU31044&ACU31032&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe, yuan2010intraspecies}\\
+GQ153539&ADE34721&ADE34722&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe, yuan2010intraspecies}\\
+GQ153540&ADE34732&ADE34733&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe, yuan2010intraspecies}\\
+GQ153541&ADE34743&ADE34744&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe, yuan2010intraspecies}\\
+GQ153542&ADE34754&ADE34755&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe, yuan2010intraspecies}\\
+GQ153543&ADE34765&ADE34766&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe, yuan2010intraspecies}\\
+GQ153544&ADE34778&ADE34779&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe, yuan2010intraspecies}\\
+GQ153545&ADE34789&ADE34790&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe, yuan2010intraspecies}\\
+GQ153546&ADE34800&ADE34801&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe, yuan2010intraspecies}\\
+GQ153547&ADE34811&ADE34812&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe, yuan2010intraspecies}\\
+GQ153548&ADE34822&ADE34823&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe,lau2010ecoepidemiology}\\
+KC881005&AGZ48805&AGZ48806&\textit{Rhinolophus sinicus}&HM134917& \cite{ge2013isolation, lau2005severe}\\
+KC881006&KC881006&AGZ48818&\textit{Rhinolophus sinicus}&HM134917& \cite{ge2013isolation, lau2005severe}\\
+KF367457&AGZ48830&AGZ48831&\textit{Rhinolophus sinicus}&HM134917& \cite{ge2013isolation, lau2005severe}\\
+KJ473814&AIA62309&AIA62310&\textit{Rhinolophus sinicus}&HM134917& \cite{wu2016orf8, lau2005severe}\\
+KJ473815&AIA62319&AIA62320&\textit{Rhinolophus sinicus}&HM134917& \cite{wu2016orf8, lau2005severe}\\
+KJ473816&AIA62329&AIA62330&\textit{Rhinolophus sinicus}&HM134917& \cite{wu2016orf8, lau2005severe}\\
+KT444582&ALK02468&ALK02457&\textit{Rhinolophus sinicus}&HM134917& \cite{yang2016isolation, lau2005severe}\\
+KY417143&ATO98118&ATO98120&\textit{Rhinolophus sinicus}&HM134917& \cite{hu2017discovery, lau2005severe}\\
+KY417144&ATO98130&ATO98132&\textit{Rhinolophus sinicus}&HM134917& \cite{hu2017discovery, lau2005severe}\\
+KY417146&ATO98155&ATO98157&\textit{Rhinolophus sinicus}&HM134917& \cite{hu2017discovery, lau2005severe}\\
+KY417147&ATO98167&ATO98169&\textit{Rhinolophus sinicus}&HM134917& \cite{hu2017discovery, lau2005severe}\\
+KY417148&ATO98179&ATO98181&\textit{Rhinolophus sinicus}&HM134917& \cite{hu2017discovery, lau2005severe}\\
+KY417149&ATO98191&ATO98193&\textit{Rhinolophus sinicus}&HM134917& \cite{hu2017discovery, lau2005severe}\\
+KY417150&ATO98203&ATO98205&\textit{Rhinolophus sinicus}&HM134917& \cite{hu2017discovery, lau2005severe}\\
+KY417151&ATO98216&ATO98218&\textit{Rhinolophus sinicus}&HM134917& \cite{hu2017discovery, lau2005severe}\\
+KY417152&ATO98229&ATO98231&\textit{Rhinolophus sinicus}&HM134917& \cite{hu2017discovery, lau2005severe}\\
+KY770858&ARI44798&ARI44799&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe}\\
+KY770859&ARI44803&ARI44804&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe}\\
+MG772933&AVP78030&AVP78031&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe}\\
+MG772934&AVP78041&AVP78042&\textit{Rhinolophus sinicus}&HM134917& \cite{lau2005severe}\\
+EF203065 &ABQ57215&ABQ57216&\textit{Rhinolophus sinicus} &HM134917& \cite{lau2005severe}\\
+KJ473822&AIA62351&AIA62352&\textit{Tylonycteris pachypus}&ON640722& \cite{wu2016deciphering}\\
+EF065505&ABN10838&ABN10839&\textit{Tylonycteris pachypus} &ON640722& \cite{woo2007comparative}\\
+KJ473821&AHY61336&AHY61337&\textit{Vespertilio superans}&AB085738& \cite{wu2016orf8, sakai2003molecular}\\
+\hline
+\end{longtable}
+\end{landscape}
+
+
+% Please provide either the correct journal abbreviation (e.g. according to the “List of Title Word Abbreviations” http://www.issn.org/services/online-services/access-to-the-ltwa/) or the full name of the journal.
+% Citations and References in Supplementary files are permitted provided that they also appear in the reference list here. 
+
+%=====================================
+% References, variant A: external bibliography
+%=====================================
+%\bibliography{references}
+
+%=====================================
+% References, variant B: internal bibliography
+%=====================================
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\printendnotes[custom] % Un-comment to print a list of endnotes
+
+% Please provide either the correct journal abbreviation (e.g. according to the “List of Title Word Abbreviations” http://www.issn.org/services/online-services/access-to-the-ltwa/) or the full name of the journal.
+% Citations and References in Supplementary files are permitted provided that they also appear in the reference list here. 
+
+%=====================================
+% References, variant A: external bibliography
+%=====================================
+% \bibliography{reference_MDPI_viruses_WL_NT_2024}
+
+\begin{thebibliography}{999}
+\bibitem{agnarsson2011time}Agnarsson, I., Zambrana-Torrelio, C., Flores-Saldana, N. \& May-Collado, L. A time-calibrated species-level phylogeny of bats (Chiroptera, Mammalia). {\em PLoS Currents}. \textbf{3} (2011)
+
+\bibitem{bradley2001test}Bradley, R. \& Baker, R. A test of the genetic species concept: cytochrome-b sequences and mammals. {\em Journal Of Mammalogy}. \textbf{82}, 960-973 (2001)
+
+\bibitem{kocher1989dynamics}Kocher, T., Thomas, W., Meyer, A., Edwards, S., Pääbo, S., Villablanca, F. \& Wilson, A. Dynamics of mitochondrial DNA evolution in animals: amplification and sequencing with conserved primers.. {\em Proceedings Of The National Academy Of Sciences}. \textbf{86}, 6196-6200 (1989)
+
+\bibitem{hu2017discovery}Hu, B., Zeng, L., Yang, X., Ge, X., Zhang, W., Li, B., Xie, J., Shen, X., Zhang, Y., Wang, N. \& Others Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus. {\em PLoS Pathogens}. \textbf{13}, e1006698 (2017)
+
+\bibitem{li2007echolocation}Li, G., Liang, B., Wang, Y., Zhao, H., Helgen, K., Lin, L., Jones, G. \& Zhang, S. Echolocation calls, diet, and phylogenetic relationships of Stoliczka's trident bat, Aselliscus stoliczkanus (Hipposideridae). {\em Journal Of Mammalogy}. \textbf{88}, 736-744 (2007)
+
+\bibitem{yang2013novel}Yang, L., Wu, Z., Ren, X., Yang, F., He, G., Zhang, J., Dong, J., Sun, L., Zhu, Y., Du, J. \& Others Novel SARS-like betacoronaviruses in bats, China, 2011. {\em Emerging Infectious Diseases}. \textbf{19}, 989 (2013)
+
+\bibitem{wu2022comprehensive}Wu, Z., Han, Y., Wang, Y., Liu, B., Zhao, L., Zhang, J., Su, H., Zhao, W., Liu, L., Bai, S. \& Others A comprehensive survey of bat sarbecoviruses across China in relation to the origins of SARS-CoV and SARS-CoV-2. {\em National Science Review}. pp. nwac213 (2022)
+
+\bibitem{wu2016orf8}Wu, Z., Yang, L., Ren, X., Zhang, J., Yang, F., Zhang, S. \& Jin, Q. ORF8-related genetic evidence for Chinese horseshoe bats as the source of human severe acute respiratory syndrome coronavirus. {\em The Journal Of Infectious Diseases}. \textbf{213}, 579-583 (2016)
+
+\bibitem{du2016genetic}Du, J., Yang, L., Ren, X., Zhang, J., Dong, J., Sun, L., Zhu, Y., Yang, F., Zhang, S., Wu, Z. \& Others Genetic diversity of coronaviruses in Miniopterus fuliginosus bats. {\em Science China Life Sciences}. \textbf{59} pp. 604-614 (2016)
+
+\bibitem{sakai2003molecular}Sakai, T., Kikkawa, Y., Tsuchiya, K., Harada, M., Kanoe, M., Yoshiyuki, M. \& Yonekawa, H. Molecular phylogeny of Japanese Rhinolophidae based on variations in the complete sequence of the mitochondrial cytochrome b gene. {\em Genes \& Genetic Systems}. \textbf{78}, 179-189 (2003)
+
+\bibitem{chu2008genomic}Chu, D., Peiris, J., Chen, H., Guan, Y. \& Poon, L. Genomic characterizations of bat coronaviruses (1A, 1B and HKU8) and evidence for co-infections in Miniopterus bats. {\em Journal Of General Virology}. \textbf{89}, 1282-1287 (2008)
+
+\bibitem{wu2016deciphering}Wu, Z., Yang, L., Ren, X., He, G., Zhang, J., Yang, J., Qian, Z., Dong, J., Sun, L., Zhu, Y. \& Others Deciphering the bat virome catalog to better understand the ecological diversity of bat viruses and the bat origin of emerging infectious diseases. {\em The ISME Journal}. \textbf{10}, 609-620 (2016)
+
+\bibitem{kawai2003status}Kawai, K., Nikaido, M., Harada, M., Matsumura, S., Lin, L., Wu, Y., Hasegawa, M. \& Okada, N. The status of the Japanese and East Asian bats of the genus Myotis (Vespertilionidae) based on mitochondrial sequences. {\em Molecular Phylogenetics And Evolution}. \textbf{28}, 297-307 (2003)
+
+\bibitem{woo2007comparative}Woo, P., Wang, M., Lau, S., Xu, H., Poon, R., Guo, R., Wong, B., Gao, K., Tsoi, H., Huang, Y. \& Others Comparative analysis of twelve genomes of three novel group 2c and group 2d coronaviruses reveals unique group and subgroup features. {\em Journal Of Virology}. \textbf{81}, 1574-1585 (2007)
+
+\bibitem{he2014identification}He, B., Zhang, Y., Xu, L., Yang, W., Yang, F., Feng, Y., Xia, L., Zhou, J., Zhen, W., Feng, Y. \& Others Identification of diverse alphacoronaviruses and genomic characterization of a novel severe acute respiratory syndrome-like coronavirus from bats in China. {\em Journal Of Virology}. \textbf{88}, 7070-7082 (2014)
+
+
+
+\bibitem{zhou2020pneumonia}Zhou, P., Yang, X., Wang, X., Hu, B., Zhang, L., Zhang, W., Si, H., Zhu, Y., Li, B., Huang, C. \& Others A pneumonia outbreak associated with a new coronavirus of probable bat origin. {\em Nature}. \textbf{579}, 270-273 (2020)
+
+
+\bibitem{curran2022new}Curran, M., Kopp, M., Ruedi, M. \& Bayliss, J. A new species of horseshoe bat (Chiroptera: Rhinolophidae) from Mount Namuli, Mozambique. {\em Acta Chiropterologica}. \textbf{24}, 19-40 (2022)
+
+\bibitem{drexler2010genomic}Drexler, J., Gloza-Rausch, F., Glende, J., Corman, V., Muth, D., Goettsche, M., Seebens, A., Niedrig, M., Pfefferle, S., Yordanov, S. \& Others Genomic characterization of severe acute respiratory syndrome-related coronavirus in European bats and classification of coronaviruses based on partial RNA-dependent RNA polymerase gene sequences. {\em Journal Of Virology}. \textbf{84}, 11336-11349 (2010)
+
+\bibitem{sun2016complex}Sun, K., Kimball, R., Liu, T., Wei, X., Jin, L., Jiang, T., Lin, A. \& Feng, J. The complex evolutionary history of big-eared horseshoe bats (Rhinolophus macrotis complex): insights from genetic, morphological and acoustic data. {\em Scientific Reports}. \textbf{6}, 35417 (2016)
+
+\bibitem{li2005bats}Li, W., Shi, Z., Yu, M., Ren, W., Smith, C., Epstein, J., Wang, H., Crameri, G., Hu, Z., Zhang, H. \& Others Bats are natural reservoirs of SARS-like coronaviruses. {\em Science}. \textbf{310}, 676-679 (2005)
+
+\bibitem{wang2022coronaviruses}Wang, W., Tian, J., Chen, X., Hu, R., Lin, X., Pei, Y., Lv, J., Zheng, J., Dai, F., Song, Z. \& Others Coronaviruses in wild animals sampled in and around Wuhan at the beginning of COVID-19 emergence. {\em Virus Evolution}. \textbf{8}, veac046 (2022)
+
+\bibitem{lau2005severe}Lau, S., Woo, P., Li, K., Huang, Y., Tsoi, H., Wong, B., Wong, S., Leung, S., Chan, K. \& Yuen, K. Severe acute respiratory syndrome coronavirus-like virus in Chinese horseshoe bats. {\em Proceedings Of The National Academy Of Sciences}. \textbf{102}, 14040-14045 (2005)
+
+\bibitem{yuan2010intraspecies}Yuan, J., Hon, C., Li, Y., Wang, D., Xu, G., Zhang, H., Zhou, P., Poon, L., Lam, T., Leung, F. \& Others Intraspecies diversity of SARS-like coronaviruses in Rhinolophus sinicus and its implications for the origin of SARS coronaviruses in humans. {\em Journal Of General Virology}. \textbf{91}, 1058-1062 (2010)
+
+\bibitem{lau2010ecoepidemiology}Lau, S., Li, K., Huang, Y., Shek, C., Tse, H., Wang, M., Choi, G., Xu, H., Lam, C., Guo, R. \& Others Ecoepidemiology and complete genome comparison of different strains of severe acute respiratory syndrome-related Rhinolophus bat coronavirus in China reveal bats as a reservoir for acute, self-limiting infection that allows recombination events. {\em Journal Of Virology}. \textbf{84}, 2808-2819 (2010)
+
+\bibitem{ge2013isolation}Ge, X., Li, J., Yang, X., Chmura, A., Zhu, G., Epstein, J., Mazet, J., Hu, B., Zhang, W., Peng, C. \& Others Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor. {\em Nature}. \textbf{503}, 535-538 (2013)
+
+\bibitem{yang2016isolation}Yang, X., Hu, B., Wang, B., Wang, M., Zhang, Q., Zhang, W., Wu, L., Ge, X., Zhang, Y., Daszak, P. \& Others Isolation and characterization of a novel bat coronavirus closely related to the direct progenitor of severe acute respiratory syndrome coronavirus. {\em Journal Of Virology}. \textbf{90}, 3253-3256 (2016)
+
+
+\end{thebibliography}
+
+%=====================================
+% References, variant B: internal bibliography
+%=====================================
+
+
+% If authors have biography, please use the format below
+%\section*{Short Biography of Authors}
+%\bio
+%{\raisebox{-0.35cm}{\includegraphics[width=3.5cm,height=5.3cm,clip,keepaspectratio]{Definitions/author1.pdf}}}
+%{\textbf{Firstname Lastname} Biography of first author}
+%
+%\bio
+%{\raisebox{-0.35cm}{\includegraphics[width=3.5cm,height=5.3cm,clip,keepaspectratio]{Definitions/author2.jpg}}}
+%{\textbf{Firstname Lastname} Biography of second author}
+
+% For the MDPI journals use author-date citation, please follow the formatting guidelines on http://www.mdpi.com/authors/references
+% To cite two works by the same author: \citeauthor{ref-journal-1a} (\citeyear{ref-journal-1a}, \citeyear{ref-journal-1b}). This produces: Whittaker (1967, 1975)
+% To cite two works by the same author with specific pages: \citeauthor{ref-journal-3a} (\citeyear{ref-journal-3a}, p. 328; \citeyear{ref-journal-3b}, p.475). This produces: Wong (1999, p. 328; 2000, p. 475)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% for journal Sci
+%\reviewreports{\\
+%Reviewer 1 comments and authors’ response\\
+%Reviewer 2 comments and authors’ response\\
+%Reviewer 3 comments and authors’ response
+%}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
